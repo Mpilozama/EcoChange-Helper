@@ -5,17 +5,19 @@
 </head>
 <body>
     <h1>Climate AI Helper</h1>
+    <p>Enter your lifestyle habits to calculate your carbon footprint.</p>
 
     <form method="POST" action="/calculate">
-        <label>Transport:</label>
-        <input type="text" name="transport"><br>
+        <label>Transport (e.g., car, bus, walking):</label><br>
+        <input type="text" name="transport"><br><br>
 
-        <label>Diet:</label>
-        <input type="text" name="diet"><br>
+        <label>Diet (e.g., meat-heavy, vegetarian, vegan):</label><br>
+        <input type="text" name="diet"><br><br>
 
-        <label>Electricity (kWh/month):</label>
-        <input type="number" name="electricity"><br>
+        <label>Electricity usage (kWh per month):</label><br>
+        <input type="number" name="electricity"><br><br>
 
-        <button type="submit">Calculate</button>
+        <button type="submit">Calculate Footprint</button>
     </form>
 </body>
+</html>
