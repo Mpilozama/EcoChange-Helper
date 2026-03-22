@@ -2,22 +2,27 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home():
-    return render_template('index.html')
-
-@app.route('/calculate', methods=['POST'])
-def calculate():
-    transport = request.form['transport']
-    diet = request.form['diet']
-    electricity = request.form['electricity']
-
-    return f"""
-    <h2>Your Input:</h2>
-    <p>Transport: {transport}</p>
-    <p>Diet: {diet}</p>
-    <p>Electricity: {electricity} kWh</p>
-    """
+    result = None
+    if request.method == 'POST':
+        # Get data from the form
+        city = request.form.get('city')
+        diet = request.form.get('diet') # e.g., "meat", "vegan"
+        
+        # Simple Logic (Your "AI" Engine)
+        if "london" in city.lower():
+            risk = "Increased flooding and heatwaves."
+        else:
+            risk = "General shifts in seasonal rainfall and rising temps."
+            
+        result = {
+            "city": city,
+            "risk": risk,
+            "tips": ["Use public transport", "Reduce meat intake", "Switch to LED bulbs"]
+        }
+        
+    return render_template('index.html', result=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
