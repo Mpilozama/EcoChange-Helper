@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Your Result | EcoChange</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: var(--primary-green);">Results for {{ result_city }}</h1>
+        
+        <div class="result-box" style="padding: 20px; border: 1px solid #374151; border-radius: 10px; margin-bottom: 20px;">
+            <p>Your Estimated Monthly Footprint:</p>
+            <h2 style="font-size: 3rem; margin: 10px 0;">{{ result_score }} <span style="font-size: 1rem;">kg CO2</span></h2>
+        </div>
+
+        <div class="info-section">
+            <h3 style="color: #f87171;">⚠️ Local Climate Risk:</h3>
+            <p>{{ result_risk }}</p>
+        </div>
+
+        <hr style="border: 0.5px solid #374151; margin: 20px 0;">
+
+        <a href="/" style="color: var(--primary-green); text-decoration: none; font-size: 0.9rem;">← Back to Home</a>
+    </div>
+</body>
+</html>
