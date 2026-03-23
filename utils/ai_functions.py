@@ -12,7 +12,7 @@ def calculate_footprint(data):
     transport_type = data.get('transport_mode', 'walking')
     distance = float(data.get('distance', 0))
     
-    factors = {
+    factors = { 
         "car": 0.17,
         "bus": 0.03,
         "train": 0.02,
