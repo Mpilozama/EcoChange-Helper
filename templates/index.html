@@ -1,77 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Climate AI Helper</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>EcoChange Helper</title>
 </head>
-<body class="bg-gray-900 text-white font-sans">
-    <div class="max-w-2xl mx-auto py-10 px-4">
-        <h1 class="text-4xl font-bold text-green-400 mb-6 text-center">EcoChange Helper 🌍</h1>
-        
-        <form method="POST" class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-gray-700 space-y-4">
-            <div>
-                <label class="block mb-1 text-sm text-gray-400 font-medium">Your City</label>
-                <input type="text" name="city" required class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-green-500 outline-none" placeholder="e.g. Johannesburg">
-            </div>
+<body>
+    <div class="container">
+        <h1>EcoChange 🌍</h1>
+        <p>See your impact in 60 seconds.</p>
 
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <label class="block mb-1 text-sm text-gray-400 font-medium">Monthly Electricity (kWh)</label>
-                    <input type="number" name="kwh" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-green-500 outline-none" placeholder="e.g. 350">
-                </div>
-                <div>
-                    <label class="block mb-1 text-sm text-gray-400 font-medium">Monthly Commute (km)</label>
-                    <input type="number" name="distance" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-green-500 outline-none" placeholder="e.g. 100">
-                </div>
-            </div>
-
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <label class="block mb-1 text-sm text-gray-400 font-medium">Primary Transport</label>
-                    <select name="transport_mode" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-green-500 outline-none">
-                        <option value="walking">Walking/Cycling</option>
-                        <option value="bus">Public Bus</option>
-                        <option value="train">Train</option>
-                        <option value="car">Petrol Car</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block mb-1 text-sm text-gray-400 font-medium">Dietary Habit</label>
-                    <select name="diet" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-green-500 outline-none">
-                        <option value="vegan">Vegan</option>
-                        <option value="vegetarian">Vegetarian</option>
-                        <option value="omnivore">Omnivore</option>
-                        <option value="meat_heavy">Meat Heavy</option>
-                    </select>
-                </div>
-            </div>
+        <form action="/calculate" method="POST">
             
-            <button type="submit" class="w-full bg-green-600 hover:bg-green-500 text-white font-bold py-4 rounded-lg transition duration-300 shadow-lg uppercase tracking-wider">
-                Analyze My Impact
-            </button>
+            <label>What city do you live in?</label>
+            <input type="text" name="city" placeholder="e.g. Soweto" required>
+
+            <label>How do you usually travel?</label>
+            <select name="transport">
+                <option value="car">Private Car</option>
+                <option value="bus">Taxi/Bus</option>
+                <option value="walking">Walking/Cycling</option>
+            </select>
+
+            <button type="submit" class="btn-submit">Analyze My Impact</button>
         </form>
-
-        {% if result %}
-        <div class="mt-8 p-8 bg-green-900/20 border-2 border-green-500 rounded-xl animate-pulse">
-            <h2 class="text-3xl font-bold mb-4">Results for {{ result.city }}</h2>
-            <div class="mb-6">
-                <p class="text-sm text-gray-400 uppercase">Estimated Footprint</p>
-                <p class="text-5xl font-black text-green-400">{{ result.total_co2 }} <span class="text-xl">kg CO2/mo</span></p>
-            </div>
-            <p class="mb-6 text-lg"><span class="font-bold text-red-400">Local Alert:</span> {{ result.risk }}</p>
-            
-            <div class="bg-gray-800/50 p-4 rounded-lg">
-                <h3 class="font-bold text-lg mb-3 text-green-300">AI Recommendation Path:</h3>
-                <ul class="space-y-2">
-                    {% for tip in result.tips %}
-                    <li class="flex items-center">
-                        <span class="mr-2">✅</span> {{ tip }}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        {% endif %}
     </div>
 </body>
 </html>
