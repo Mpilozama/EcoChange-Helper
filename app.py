@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from utils.ai_functions import calculate_footprint, get_climate_advice # Connect your logic
 
 app = Flask(__name__)
 
@@ -6,20 +7,25 @@ app = Flask(__name__)
 def home():
     result = None
     if request.method == 'POST':
-        # Get data from the form
-        city = request.form.get('city')
-        diet = request.form.get('diet') # e.g., "meat", "vegan"
+        # 1. Collect all data from the new form
+        user_data = {
+            "city": request.form.get('city'),
+            "kwh": request.form.get('kwh', 0),
+            "transport_mode": request.form.get('transport_mode'),
+            "distance": request.form.get('distance', 0),
+            "diet": request.form.get('diet')
+        }
         
-        # Simple Logic (Your "AI" Engine)
-        if "london" in city.lower():
-            risk = "Increased flooding and heatwaves."
-        else:
-            risk = "General shifts in seasonal rainfall and rising temps."
-            
+        # 2. Use your ai_functions
+        total_co2 = calculate_footprint(user_data)
+        risk_info = get_climate_advice(user_data["city"])
+        
+        # 3. Build the result object
         result = {
-            "city": city,
-            "risk": risk,
-            "tips": ["Use public transport", "Reduce meat intake", "Switch to LED bulbs"]
+            "city": user_data["city"],
+            "total_co2": total_co2,
+            "risk": risk_info,
+            "tips": ["Upgrade to LED bulbs", "Reduce meat intake", "Consider carpooling"]
         }
         
     return render_template('index.html', result=result)
