@@ -12,25 +12,28 @@ app = Flask(__name__)
 def index():
     # render_template looks inside the 'templates' folder for the HTML file
     return render_template('index.html')
-
-# This route handles the FORM data sent from the website
-@app.route('/calculate', methods=['POST'])
+@app.route('/calculate', methods=['GET', 'POST']) # Allow BOTH for testing
 def calculate():
-    # 1. 'request.form.get' pulls data from the HTML input 'name' attributes
-    user_city = request.form.get('city')
-    user_transport = request.form.get('transport')
+    print("--- DEBUG: The Calculate Route was Triggered! ---")
     
-    # 2. We pass that data into your logic functions
-    # (Assume 100km distance for now for the demo)
-    score = calculate_footprint({'transport_mode': user_transport, 'distance': 100})
-    risk = get_climate_advice(user_city)
+    if request.method == 'POST':
+        # Grab data from form
+        user_city = request.form.get('city')
+        user_transport = request.form.get('transport')
+        
+        print(f"--- DEBUG: Received City: {user_city}, Transport: {user_transport} ---")
 
-    # 3. We send the results back to 'footprint.html'
-    # We give the HTML variables: result_score, result_risk, and result_city
-    return render_template('footprint.html', 
-                           result_score=score, 
-                           result_risk=risk, 
-                           result_city=user_city)
+        # Logic
+        score = calculate_footprint({'transport_mode': user_transport, 'distance': 100})
+        risk = get_climate_advice(user_city)
+
+        return render_template('footprint.html', 
+                               result_score=score, 
+                               result_risk=risk, 
+                               result_city=user_city)
+    
+    # If someone accidentally goes to /calculate via GET, send them home
+    return "This route requires a form submission. Go back to the home page."
 
 # This starts the server
 if __name__ == '__main__':
