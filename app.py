@@ -3,7 +3,8 @@ from utils.ai_functions import (
     calculate_footprint,
     get_climate_advice,
     classify_impact,
-    get_personalized_tips
+    get_personalized_tips,
+    get_real_climate_data
 )
 
 app = Flask(__name__)
@@ -30,14 +31,18 @@ def calculate():
     # Classify impact level
     impact_level, impact_message = classify_impact(score)
 
+    risk_data = get_real_climate_data(user_city) 
+    
+
+    
+
     return render_template(
         'footprint.html',
         result_city=user_city,
         result_score=score,
-        result_risk=risk,
-        result_tips=tips,
-        impact_level=impact_level,
-        impact_message=impact_message
+        result_risk=risk_data['risk'], # Real data from API
+        result_insight=risk_data['insight'], # The "Why" behind the data
+        result_tips=tips
     )
 
 if __name__ == '__main__':
