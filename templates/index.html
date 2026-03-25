@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/style.css">
     <title>EcoChange Helper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
         <h1>EcoChange 🌍</h1>
-        <p>See your impact in 60 seconds.</p>
+        <p>Understand your environmental impact in 60 seconds.</p>
 
         <form action="/calculate" method="POST">
-            
             <label>What city do you live in?</label>
-            <input type="text" name="city" placeholder="e.g. Soweto" required>
+            <input type="text" name="city" placeholder="e.g. Johannesburg" required>
 
             <label>How do you usually travel?</label>
             <select name="transport">
@@ -26,4 +25,4 @@
         </form>
     </div>
 </body>
-</html>
+</html>   
