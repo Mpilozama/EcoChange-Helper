@@ -1,39 +1,44 @@
-# Import the Flask library to create a web server
 from flask import Flask, render_template, request
-# Import your custom logic from the utils folder
-from utils.ai_functions import calculate_footprint, get_climate_advice
+from utils.ai_functions import (
+    calculate_footprint,
+    get_climate_advice,
+    classify_impact,
+    get_personalized_tips
+)
 
-# Initialize the Flask application
 app = Flask(__name__)
 
-# DOCTRINE: The "@app.route" tells Flask which URL should trigger this function.
-# '/' is the homepage (root).
 @app.route('/')
 def index():
-    # render_template looks inside the 'templates' folder for the HTML file
     return render_template('index.html')
-
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
     user_city = request.form.get('city')
     user_transport = request.form.get('transport')
 
+    # Calculate carbon footprint
     score = calculate_footprint({
         'transport_mode': user_transport,
         'distance': 100
     })
 
-    risk, tips = get_climate_advice(user_city)
+    # Get climate risk + tips
+    risk = get_climate_advice(user_city)
+    tips = get_personalized_tips(user_transport)
+
+    # Classify impact level
+    impact_level, impact_message = classify_impact(score)
 
     return render_template(
         'footprint.html',
+        result_city=user_city,
         result_score=score,
         result_risk=risk,
-        result_city=user_city,
-        result_tips=tips
+        result_tips=tips,
+        impact_level=impact_level,
+        impact_message=impact_message
     )
 
-# This starts the server
 if __name__ == '__main__':
     app.run(debug=True)
