@@ -31,17 +31,15 @@ def calculate():
     # Classify impact level
     impact_level, impact_message = classify_impact(score)
 
-    risk_data = get_real_climate_data(user_city) 
-    
-
+    risk_title, risk_insight = get_real_climate_data(user_city)
     
 
     return render_template(
         'footprint.html',
         result_city=user_city,
         result_score=score,
-        result_risk=risk_data['risk'], # Real data from API
-        result_insight=risk_data['insight'], # The "Why" behind the data
+        result_risk=risk_title,    # Now it's a simple variable
+        result_insight=risk_insight, 
         result_tips=tips
     )
 
