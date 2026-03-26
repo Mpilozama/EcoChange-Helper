@@ -1,7 +1,15 @@
 import requests
-def calculate_footprint(data):
+def calculate_footprint(transport, diet, energy):
+    
+    transport_map = {"car": 2.3, "electric": 0.8, "public": 0.4, "bike": 0, "walk": 0}
+    diet_map = {"meat_heavy": 3.0, "balanced": 2.0, "vegetarian": 1.5, "vegan": 1.0}
+    energy_map = {"fossil": 2.5, "mixed": 1.5, "renewable": 0.5}
 
-    pass
+    total = (transport_map.get(transport, 0) + 
+                   diet_map.get(diet, 0) + 
+                   energy_map.get(energy, 0))
+    
+    return round(total, 2)
 
 def get_climate_data(city):
     search_url = f"https://geocoding-api.open-meteo.com/v1/search?name={city}&count=1"
