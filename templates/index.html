@@ -10,19 +10,39 @@
         <h1>EcoChange 🌍</h1>
         <p>Understand your environmental impact in 60 seconds.</p>
 
-        <form action="/calculate" method="POST">
-            <label>What city do you live in?</label>
-            <input type="text" name="city" placeholder="e.g. Johannesburg" required>
+        <form action="/calculate" method="POST">    
+        <label for="city">📍 What city do you live in?</label>
+        <input type="text" id="city" name="city" placeholder="e.g. Soweto or Johannesburg" required>
 
-            <label>How do you usually travel?</label>
-            <select name="transport">
-                <option value="car">Private Car</option>
-                <option value="bus">Taxi/Bus</option>
-                <option value="walking">Walking/Cycling</option>
+            <label for="transport">🚗 How do you usually travel?</label>
+            <select id="transport" name="transport">
+                <option value="car">Private Car (Petrol/Diesel)</option>
+                <option value="electric">Electric Vehicle</option>
+                <option value="public">Taxi / Bus / Train</option>
+                <option value="walking">Walking / Cycling</option>
             </select>
 
-            <button type="submit" class="btn-submit">Analyze My Impact</button>
+            <label for="diet">🥗 What is your primary diet?</label>
+            <select id="diet" name="diet">
+                <option value="meat_heavy">Meat-heavy (Daily meat)</option>
+                <option value="balanced">Balanced (Mixed diet)</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+            </select>
+
+            <label for="energy">⚡ What is your main energy source?</label>
+            <select id="energy" name="energy">
+                <option value="fossil">National Grid (Coal/Eskom)</option>
+                <option value="mixed">Mixed (Grid + Solar/Inverter)</option>
+                <option value="renewable">100% Renewable / Solar</option>
+            </select>
+
+            <label for="electricity">💡 Monthly Electricity Usage (kWh)</label>
+            <input type="number" id="electricity" name="electricity" placeholder="Check your prepaid meter or bill" min="0">
+
+            <button type="submit" class="btn-submit">Analyze My Impact →</button>
         </form>
+
     </div>
 </body>
 </html>   
