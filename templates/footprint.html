@@ -2,33 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <title>Your Result | EcoChange</title>
+    <title>Your Reality Check</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-<body>
+<body class="results-page">
     <div class="container">
-        <h1 style="color: var(--primary-green);">Results for {{ result_city }}</h1>
-        
-        <div class="result-box" style="padding: 20px; border: 1px solid #374151; border-radius: 10px; margin-bottom: 20px;">
-            <p>Your Estimated Monthly Footprint:</p>
-            <h2 style="font-size: 3rem; margin: 10px 0;">{{ result_score }} <span style="font-size: 1rem;">kg CO2</span></h2>
+        <header>
+            <h1>Climate Reality: {{ result_city }}</h1>
+            <p class="timestamp">Scan Date: March 2026</p>
+        </header>
+
+        <section class="score-card">
+            <h2>Personal Impact Score</h2>
+            <div class="big-number">{{ result_score }} kg</div>
+            <p>CO2 equivalent produced by your current daily choices.</p>
+        </section>
+
+        <hr>
+
+        <div class="truths-grid">
+            
+            <div class="truth-item health">
+                <h3>🏥 Health Damage</h3>
+                <p>{{ health_text }}</p>
+            </div>
+
+            <div class="truth-item future">
+                <h3>🕰️ 2030 Prediction</h3>
+                <p>{{ prediction_text }}</p>
+            </div>
+
+            <div class="truth-item ozone">
+                <h3>🧠 Hidden Cognitive Risk</h3>
+                <p>Ozone Level: {{ pm25 }} µg/m³</p>
+                <p>Levels above 60 can lead to decreased student productivity and respiratory fatigue.</p>
+            </div>
+
         </div>
 
-        <div class="info-section">
-            <h3 style="color: #f87171;">⚠️ Local Climate Risk:</h3>
-            <p>{{ result_risk }}</p>
-
-            <h3>💡 Suggested Actions</h3>
-            <ul>
-                {% for tip in result_tips %}
-                    <li>{{ tip }}</li>
-                {% endfor %}
-            </ul>
-                    </div>
-
-        <hr style="border: 0.5px solid #374151; margin: 20px 0;">
-
-        <a href="/" style="color: var(--primary-green); text-decoration: none; font-size: 0.9rem;">← Back to Home</a>
+        <a href="/" class="btn-retry">← Re-Scan Another City</a>
     </div>
 </body>
 </html>
