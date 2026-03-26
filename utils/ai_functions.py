@@ -1,6 +1,6 @@
 import requests
+
 def calculate_footprint(transport, diet, energy):
-    
     transport_map = {"car": 2.3, "electric": 0.8, "public": 0.4, "bike": 0, "walk": 0}
     diet_map = {"meat_heavy": 3.0, "balanced": 2.0, "vegetarian": 1.5, "vegan": 1.0}
     energy_map = {"fossil": 2.5, "mixed": 1.5, "renewable": 0.5}
@@ -25,10 +25,8 @@ def get_climate_data(city):
     aq_url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=pm2_5,ozone"
     aq_response = requests.get(aq_url).json()
 
-    # Dig into the JSON boxes to get the numbers
     pm25 = aq_response["current"]["pm2_5"]
     ozone = aq_response["current"]["ozone"]
-
 
     return {
         "city": city_name,
@@ -38,22 +36,14 @@ def get_climate_data(city):
         "ozone": ozone
     }
 
+def get_climate_advice(city_data, score):
+    # Health Damage Logic
+    pm25 = city_data['pm25']
+    if pm25 > 15:
+        return f"CRITICAL: {city_data['city']}'s air is {round(pm25/5, 1)}x over WHO limits. Your {score}kg footprint adds to this local crisis."
+    return "Your local air is currently stable, but every kg of CO2 matters for 2030."
 
-
-
-def get_climate_advice(city):
-
-    pass
-
-
-def classify_impact(score):
-    pass
-
-
-def get_personalized_tips(transport):
-    pass
-    
-
-
-def get_2030_prediction(score, city): 
-    pass
+def get_2030_prediction(score, city):
+ 
+    if score > 5:
+        return f"By 2030, this lifestyle in {city} could contribute to a 2°C local heat increase, hitting lower-income areas hardest."

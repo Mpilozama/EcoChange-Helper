@@ -2,9 +2,8 @@ from flask import Flask, render_template, request
 from utils.ai_functions import (
     calculate_footprint,
     get_climate_advice,
-    classify_impact,
-    get_personalized_tips,
-    get_real_climate_data
+    get_2030_prediction,
+    get_climate_data
 )
 
 app = Flask(__name__)
@@ -15,32 +14,30 @@ def index():
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
+    # 1. Get User Input from Form
     user_city = request.form.get('city')
     user_transport = request.form.get('transport')
+    user_diet = request.form.get('diet')
+    user_energy = request.form.get('energy') # Make sure this is in your HTML!
 
-    # Calculate carbon footprint
-    score = calculate_footprint({
-        'transport_mode': user_transport,
-        'distance': 100
-    })
-
-    # Get climate risk + tips
-    risk = get_climate_advice(user_city)
-    tips = get_personalized_tips(user_transport)
-
-    # Classify impact level
-    impact_level, impact_message = classify_impact(score)
-
-    risk_title, risk_insight = get_real_climate_data(user_city)
+   
+    city_info = get_climate_data(user_city)
     
+    if not city_info:
+        return "City not found. Please go back and try a real location."
+
+    score = calculate_footprint(user_transport, user_diet, user_energy)
+
+    health_advice = get_climate_advice(city_info, score)
+    prediction = get_2030_prediction(score, user_city)
 
     return render_template(
         'footprint.html',
-        result_city=user_city,
+        result_city=city_info['city'],
         result_score=score,
-        result_risk=risk_title,    # Now it's a simple variable
-        result_insight=risk_insight, 
-        result_tips=tips
+        health_text=health_advice,
+        prediction_text=prediction,
+        pm25=city_info['pm25']
     )
 
 if __name__ == '__main__':
