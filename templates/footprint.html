@@ -23,17 +23,24 @@
         <div class="truths-grid">
             
             <div class="truth-item health">
-                <h3>🏥 Health Damage</h3>
+                <h3>Health Damage</h3>
                 <p>{{ health_text }}</p>
             </div>
 
+            <div class="truth-item inequality">
+                <h3>The Inequality Gap</h3>
+                <p>Your Air: {{ pm25 }} µg/m³</p>
+                <p>Wealthy Neighbor: {{ neighbor_pm25 }} µg/m³</p>
+                <p>This is the "Invisible Damage" we ignore.</p>
+            </div>
+
             <div class="truth-item future">
-                <h3>🕰️ 2030 Prediction</h3>
+                <h3>2030 Prediction</h3>
                 <p>{{ prediction_text }}</p>
             </div>
 
             <div class="truth-item ozone">
-                <h3>🧠 Hidden Cognitive Risk</h3>
+                <h3>Hidden Cognitive Risk</h3>
                 <p>Ozone Level: {{ pm25 }} µg/m³</p>
                 <p>Levels above 60 can lead to decreased student productivity and respiratory fatigue.</p>
             </div>
