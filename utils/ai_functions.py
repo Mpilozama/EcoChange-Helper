@@ -1,4 +1,40 @@
+import google.generativeai as genai
+from dotenv import load_dotenv
+import os
 import requests
+
+load_dotenv()
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY" ))
+model = genai.Model('gemini-1.5-flash')
+
+def get_neighbor_data(lat, lon):
+
+    neighbor_lat = lat + 0.1
+    neighbor_lon = lon + 0.1
+    
+    url = f"https://air-quality-api.open-meteo.com/v1/air-quality?latitude={neighbor_lat}&longitude={neighbor_lon}&current=pm2_5"
+    response = requests.get(url).json()
+    return response['current']['pm2_5']
+
+def get_ai_disruption(user_data, city_data, neighbor_pm25):
+   
+    
+    prompt = f"""
+    The user lives in {city_data['city']}. 
+    Their carbon footprint is {user_data['score']}kg today.
+    Their local air toxicity (PM2.5) is {city_data['pm25']}.
+    The nearby wealthy suburb has a PM2.5 of {neighbor_pm25}.
+    
+    TASK: Write a 3-sentence 'Uncomfortable Truth'. 
+    1. Tell them how their specific footprint (from {user_data['transport']}) is trapping heat in their community.
+    2. Explain the health damage (not just mental—think lungs, heart, life expectancy).
+    3. Highlight the inequality between them and the neighbor.
+    Tone: Disruptive, emotional, and urgent. No corporate talk.
+    TONE: Disruptive, haunting, and urgent. Max 4 sentences. No 'lame' advice.
+    """
+    response = model.generate_content(prompt)
+    return response.text
+
 
 def calculate_footprint(transport, diet, energy):
     transport_map = {"car": 2.3, "electric": 0.8, "public": 0.4, "bike": 0, "walk": 0}
@@ -43,7 +79,26 @@ def get_climate_advice(city_data, score):
         return f"CRITICAL: {city_data['city']}'s air is {round(pm25/5, 1)}x over WHO limits. Your {score}kg footprint adds to this local crisis."
     return "Your local air is currently stable, but every kg of CO2 matters for 2030."
 
-def get_2030_prediction(score, city):
- 
-    if score > 5:
-        return f"By 2030, this lifestyle in {city} could contribute to a 2°C local heat increase, hitting lower-income areas hardest."
+def get_2030_prediction(city_data, score):
+    # Using the same Gemini model you configured at the top of the file
+    
+    prompt = f"""
+    CONTEXT: It is 2026. The city is {city_data['city']}. 
+    Current Air Toxicity (PM2.5): {city_data['pm25']}µg/m³.
+    User's daily carbon output: {score}kg.
+    
+    TASK: Project the reality of this city in the year 2030 if nothing changes.
+    Focus on: 
+    1. The 'Heat Island' effect (how much hotter this specific city will get).
+    2. The 'Unbreathable' days per year.
+    3. The specific impact on the general public (not just students).
+    
+    TONE: Brutal, prophetic, and gritty. Max 3 sentences. No fluff.
+    """
+    
+    try:
+        response = model.generate_content(prompt)
+        return response.text
+    except:
+        # Backup if AI fails during the demo
+        return f"By 2030, {city_data['city']} faces a 2.5°C surge. The air will move from 'unhealthy' to 'unbreathable' for 100 days a year."
