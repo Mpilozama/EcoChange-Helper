@@ -1,150 +1,56 @@
+/* DOCTRINE: Root variables make it easy to change colors globally later */
 :root {
-    --bg-color: #0d1117;
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --accent-color: #00d4ff; /* Electric Blue */
-    --warning-red: #ff4b2b;
-    --text-primary: #ffffff;
-    --text-secondary: #8b949e;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', -apple-system, sans-serif;
+    --primary-green: #10b981;
+    --dark-bg: #111827;
+    --card-bg: #1f2937;
+    --text-main: #f3f4f6;
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-primary);
-    line-height: 1.6;
-    overflow-x: hidden;
-    padding: 20px;
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+/* The container for your content */
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    background: var(--card-bg);
-    padding: 40px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    animation: fadeIn 0.8s ease-out;
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    background: linear-gradient(90deg, #fff, var(--accent-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-header p {
-    color: var(--text-secondary);
-    margin-bottom: 30px;
-}
-
-/* Form Styling */
-.input-group {
-    margin-bottom: 25px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: var(--accent-color);
-}
-
+/* Styling the inputs so they look modern */
 input, select {
     width: 100%;
-    padding: 12px 15px;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #30363d;
+    padding: 12px;
+    margin: 10px 0;
     border-radius: 8px;
+    border: 1px solid #374151;
+    background: #111827;
     color: white;
-    font-size: 1rem;
-    transition: all 0.3s ease;
 }
 
-input:focus, select:focus {
-    outline: none;
-    border-color: var(--accent-color);
-    box-shadow: 0 0 8px rgba(0, 212, 255, 0.3);
-}
-
-/* Button with hover animation */
-.btn-submit, .btn-retry {
+/* The 'Action' button */
+.btn-submit {
+    background-color: var(--primary-green);
+    color: white;
+    border: none;
     width: 100%;
     padding: 15px;
-    background: linear-gradient(45deg, var(--accent-color), #0080ff);
-    border: none;
     border-radius: 8px;
-    color: white;
     font-weight: bold;
-    font-size: 1.1rem;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
+    transition: 0.3s;
 }
 
 .btn-submit:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+    background-color: #059669; /* Darker green on hover */
 }
-
-/* Results Grid */
-.truths-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.truth-item {
-    background: rgba(255, 255, 255, 0.03);
-    padding: 20px;
-    border-radius: 12px;
-    border-left: 4px solid var(--accent-color);
-    transition: background 0.3s;
-}
-
-.truth-item:hover {
-    background: rgba(255, 255, 255, 0.07);
-}
-
-.truth-item.health { border-left-color: var(--warning-red); }
-.truth-item.future { border-left-color: #ffcc00; }
-
-.big-number {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--warning-red);
-    text-shadow: 0 0 10px rgba(255, 75, 43, 0.3);
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 30px 0;
-}
-
-/* Glossary Section */
-.glossary {
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.glossary h3 { color: #fff; margin-bottom: 10px; }
