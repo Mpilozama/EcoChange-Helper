@@ -1,56 +1,154 @@
-/* DOCTRINE: Root variables make it easy to change colors globally later */
+/* EcoChange Helper - styles for both pages (index + results) */
 :root {
     --primary-green: #10b981;
-    --dark-bg: #111827;
-    --card-bg: #1f2937;
+    --green-dark: #059669;
+    --haze: #f59e0b;          /* warning / smog colour for results */
+    --danger: #ef4444;
+    --dark-bg: #0f1520;
+    --card-bg: #1a2332;
+    --panel-bg: #131b28;
+    --border: #2b3648;
     --text-main: #f3f4f6;
+    --text-muted: #9aa6b8;
 }
 
+* { box-sizing: border-box; }
+
 body {
-    background-color: var(--dark-bg);
+    background:
+        radial-gradient(circle at 20% 0%, rgba(245,158,11,0.10), transparent 45%),
+        radial-gradient(circle at 90% 100%, rgba(16,185,129,0.10), transparent 40%),
+        var(--dark-bg);
     color: var(--text-main);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.55;
     margin: 0;
+    padding: 32px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
 }
 
-/* The container for your content */
 .container {
-    width: 90%;
-    max-width: 500px;
+    width: 92%;
+    max-width: 520px;
     background-color: var(--card-bg);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    padding: 32px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.45);
 }
 
-/* Styling the inputs so they look modern */
+h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: -0.02em; }
+h2 { margin: 0 0 8px; font-size: 1.1rem; color: var(--text-muted); font-weight: 600; }
+h3 { margin: 0 0 8px; font-size: 1.05rem; }
+p  { margin: 0 0 10px; }
+
+/* ---------- Home page ---------- */
+.glossary {
+    background: var(--panel-bg);
+    border-left: 3px solid var(--primary-green);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 20px 0 24px;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+}
+.glossary h3 { color: var(--text-main); }
+.glossary strong { color: var(--text-main); }
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
 input, select {
     width: 100%;
     padding: 12px;
-    margin: 10px 0;
+    margin: 8px 0 0;
     border-radius: 8px;
-    border: 1px solid #374151;
-    background: #111827;
-    color: white;
+    border: 1px solid var(--border);
+    background: var(--dark-bg);
+    color: var(--text-main);
+    font: inherit;
+}
+input:focus, select:focus, .btn-submit:focus-visible, .btn-retry:focus-visible {
+    outline: 2px solid var(--primary-green);
+    outline-offset: 2px;
 }
 
-/* The 'Action' button */
 .btn-submit {
+    margin-top: 24px;
     background-color: var(--primary-green);
-    color: white;
+    color: #04210f;
     border: none;
     width: 100%;
     padding: 15px;
     border-radius: 8px;
-    font-weight: bold;
+    font: inherit;
+    font-weight: 700;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background-color 0.2s;
+}
+.btn-submit:hover { background-color: var(--green-dark); color: white; }
+
+/* ---------- Results page ---------- */
+.results-page .container { max-width: 920px; }
+
+.timestamp { color: var(--text-muted); font-size: 0.85rem; }
+
+.score-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+.big-number {
+    font-size: 3.4rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--haze);
+    margin: 4px 0 8px;
+}
+.score-card p { color: var(--text-muted); margin: 0; }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+
+.truths-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
 }
 
-.btn-submit:hover {
-    background-color: #059669; /* Darker green on hover */
+.truth-item {
+    background: var(--panel-bg);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--border);
+    border-radius: 10px;
+    padding: 18px;
+}
+.truth-item p { color: var(--text-muted); font-size: 0.95rem; }
+.truth-item.health     { border-top-color: var(--danger); }
+.truth-item.inequality { border-top-color: var(--haze); }
+.truth-item.future     { border-top-color: #8b5cf6; }
+.truth-item.ozone      { border-top-color: var(--primary-green); }
+
+.btn-retry {
+    display: inline-block;
+    margin-top: 28px;
+    color: var(--primary-green);
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-retry:hover { text-decoration: underline; }
+
+@media (max-width: 700px) {
+    .container { padding: 22px; }
+    .truths-grid { grid-template-columns: 1fr; }
+    .big-number { font-size: 2.6rem; }
 }

@@ -2,53 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EcoChange Helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoChange: how clean is your air?</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>EcoChange 🌍</h1>
-        <p>Understand your environmental impact in 60 seconds.</p>
-        <section class="glossary">
-            <h3>Quick Guide</h3>
-            <p><strong>PM2.5:</strong> Tiny dust/smoke that enters your lungs. High levels = bad air.</p>
-            <p><strong>Ozone:</strong> Smog at ground level. It makes breathing feel heavy.</p>
-            <p><strong>2030 Prediction:</strong> Our AI’s estimate of how hot and toxic your city will be in 4 years.</p>
-        </section>
+<main class="page">
+    <header class="intro">
+        <h1>How clean is the air where you live?</h1>
+        <p class="lead">Tell us your city and a few daily habits. In about a minute you'll see today's air quality, what it means for your health, and a rough estimate of your carbon footprint.</p>
+    </header>
 
-        <form action="/calculate" method="POST">    
-        <label for="city">What city do you live in?</label>
-        <input type="text" id="city" name="city" placeholder="e.g. Soweto or Johannesburg" required>
+    {% if error %}
+    <p class="notice" role="alert">{{ error }}</p>
+    {% endif %}
 
-            <label for="transport">How do you usually travel?</label>
+    <form action="/calculate" method="POST" id="check-form" class="card">
+        <div class="field">
+            <label for="city">Your city or town</label>
+            <input type="text" id="city" name="city" placeholder="e.g. Soweto" required autofocus>
+            <p class="hint">Use the town name only, without the country.</p>
+        </div>
+
+        <div class="field">
+            <label for="transport">How do you usually get around?</label>
             <select id="transport" name="transport">
-                <option value="car">Private Car (Petrol/Diesel)</option>
-                <option value="electric">Electric Vehicle</option>
-                <option value="public">Taxi / Bus / Train</option>
-                <option value="walking">Walking / Cycling</option>
+                <option value="car">Petrol or diesel car</option>
+                <option value="electric">Electric car</option>
+                <option value="public">Taxi, bus or train</option>
+                <option value="walk">Walking or cycling</option>
             </select>
+        </div>
 
-            <label for="diet">What is your primary diet?</label>
+        <div class="field">
+            <label for="diet">What do you usually eat?</label>
             <select id="diet" name="diet">
-                <option value="meat_heavy">Meat-heavy (Daily meat)</option>
-                <option value="balanced">Balanced (Mixed diet)</option>
+                <option value="meat_heavy">Meat most days</option>
+                <option value="balanced" selected>A bit of everything</option>
                 <option value="vegetarian">Vegetarian</option>
                 <option value="vegan">Vegan</option>
             </select>
+        </div>
 
-            <label for="energy">What is your main energy source?</label>
+        <div class="field">
+            <label for="energy">Where does your home electricity come from?</label>
             <select id="energy" name="energy">
-                <option value="fossil">National Grid (Coal/Eskom)</option>
-                <option value="mixed">Mixed (Grid + Solar/Inverter)</option>
-                <option value="renewable">100% Renewable / Solar</option>
+                <option value="fossil">The national grid (mostly coal)</option>
+                <option value="mixed">Grid plus some solar</option>
+                <option value="renewable">Mostly solar or other renewables</option>
             </select>
+        </div>
 
-            <label for="electricity">Monthly Electricity Usage (kWh)</label>
-            <input type="number" id="electricity" name="electricity" placeholder="Check your prepaid meter or bill" min="0">
-
-            <button type="submit" class="btn-submit">Analyze My Impact →</button>
-        </form>
-
-    </div>
+        <button type="submit" class="btn-primary" id="submit-btn">Check my air</button>
+        <p class="hint center">Takes a few seconds. Nothing you enter is saved.</p>
+    </form>
+</main>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
-</html>   
+</html>
