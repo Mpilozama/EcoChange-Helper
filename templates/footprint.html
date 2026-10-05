@@ -2,52 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Reality Check</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Air quality in {{ result_city }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-<body class="results-page">
-    <div class="container">
-        <header>
-            <h1>Climate Reality: {{ result_city }}</h1>
-            <p class="timestamp">Scan Date: March 2026</p>
-        </header>
+<body>
+{# Simplified bands for PM2.5 (µg/m³), loosely based on WHO and US EPA guidance #}
+{% if pm25 <= 15 %}
+  {% set lvl = 'good' %}{% set lvl_label = 'Good' %}
+  {% set lvl_text = "Within the World Health Organization's daily guideline. Fine for most outdoor activity." %}
+{% elif pm25 <= 35 %}
+  {% set lvl = 'moderate' %}{% set lvl_label = 'Moderate' %}
+  {% set lvl_text = "Above the WHO daily guideline. Children, older adults and people with asthma may notice it." %}
+{% elif pm25 <= 55 %}
+  {% set lvl = 'unhealthy' %}{% set lvl_label = 'Unhealthy' %}
+  {% set lvl_text = "Well above the guideline. Consider shorter outdoor exercise, especially near busy roads." %}
+{% else %}
+  {% set lvl = 'severe' %}{% set lvl_label = 'Very unhealthy' %}
+  {% set lvl_text = "Far above the guideline. Limit time outside and keep windows closed if you can." %}
+{% endif %}
 
-        <section class="score-card">
-            <h2>Personal Impact Score</h2>
-            <div class="big-number">{{ result_score }} kg</div>
-            <p>CO2 equivalent produced by your current daily choices.</p>
-        </section>
+<main class="page">
+    <a href="/" class="back">&larr; Check another city</a>
 
-        <hr>
+    <section class="card hero hero-{{ lvl }}">
+        <p class="eyebrow-less">Air quality right now in {{ result_city }}</p>
+        <h1>{{ lvl_label }}</h1>
+        <p class="lead">{{ lvl_text }}</p>
+        <p class="stat">Fine dust level: <strong>{{ pm25 }}</strong> µg/m³ &middot; the WHO daily guideline is 15</p>
+    </section>
 
-        <div class="truths-grid">
-            
-            <div class="truth-item health">
-                <h3>Health Damage</h3>
-                <p>{{ health_text }}</p>
-            </div>
+    <details class="card explain">
+        <summary>What do these terms mean?</summary>
+        <p><strong>Fine dust (PM2.5)</strong> is tiny particles from smoke and exhaust, small enough to get deep into your lungs. It's the main number used to judge air quality.</p>
+        <p><strong>µg/m³</strong> is just the unit: micrograms of dust in each cubic metre of air.</p>
+        <p><strong>Ozone</strong> is smog near the ground. It can make breathing feel tight, especially on hot days.</p>
+    </details>
 
-            <div class="truth-item inequality">
-                <h3>The Inequality Gap</h3>
-                <p>Your Air: {{ pm25 }} µg/m³</p>
-                <p>Wealthy Neighbor: {{ neighbor_pm25 }} µg/m³</p>
-                <p>This is the "Invisible Damage" we ignore.</p>
-            </div>
-
-            <div class="truth-item future">
-                <h3>2030 Prediction</h3>
-                <p>{{ prediction_text }}</p>
-            </div>
-
-            <div class="truth-item ozone">
-                <h3>Hidden Cognitive Risk</h3>
-                <p>Ozone Level: {{ pm25 }} µg/m³</p>
-                <p>Levels above 60 can lead to decreased student productivity and respiratory fatigue.</p>
-            </div>
-
+    {% if neighbor_pm25 is defined and neighbor_pm25 is not none %}
+    <section class="card">
+        <h2>Compared with a place nearby</h2>
+        <div class="compare">
+            <div><span class="num">{{ pm25 }}</span><span class="cap">{{ result_city }}</span></div>
+            <div><span class="num">{{ neighbor_pm25 }}</span><span class="cap">An area about 15 km away</span></div>
         </div>
+        <p class="hint">Fine dust in µg/m³. Air can differ a lot between neighbourhoods, which is why where you live matters.</p>
+    </section>
+    {% endif %}
 
-        <a href="/" class="btn-retry">← Re-Scan Another City</a>
-    </div>
+    {% if ozone is defined and ozone is not none %}
+    <section class="card">
+        <h2>Ground-level ozone</h2>
+        <p><strong>{{ ozone }}</strong> µg/m³ now. {% if ozone <= 100 %}That's within the WHO guideline of 100 averaged over 8 hours.{% else %}That's above the WHO guideline of 100 averaged over 8 hours, so strenuous outdoor exercise may feel harder.{% endif %}</p>
+    </section>
+    {% endif %}
+
+    <section class="card">
+        <h2>Your carbon footprint</h2>
+        <p class="big">{{ result_score }} <span>kg of CO₂ per day</span></p>
+        <progress class="meter" value="{{ result_score }}" max="7.8" aria-label="Your score on a scale from 0.5 to 7.8">{{ result_score }}</progress>
+        <div class="meter-labels"><span>Lowest possible</span><span>Highest possible</span></div>
+        <p class="hint">A rough estimate from your three answers, not a precise measurement. The scale shows the range this quiz can produce.</p>
+    </section>
+
+    <section class="card ai">
+        <h2>What this air could mean for your health</h2>
+        <p>{{ health_text }}</p>
+    </section>
+
+    <section class="card ai">
+        <h2>{{ result_city }} in 2030 if nothing changes</h2>
+        <p>{{ prediction_text }}</p>
+    </section>
+
+    <p class="footnote">Air data from Open-Meteo. The two sections above are written by an AI (Gemini) and are dramatic estimates, not scientific forecasts.</p>
+</main>
 </body>
 </html>
