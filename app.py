@@ -1,57 +1,54 @@
-import requests
+from datetime import datetime
+
 from flask import Flask, render_template, request
-from utils.air import (find_city, get_air, get_air_many, classify,
-                       hourly_next_24, best_window, PLACES)
+
+from utils.ai_functions import (
+    calculate_footprint,
+    get_2030_prediction,
+    get_ai_disruption,
+    get_climate_data,
+    get_neighbor_data,
+)
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def home():
+def index():
     return render_template("index.html")
 
 
-@app.route("/check", methods=["POST"])
-def check():
-    name = request.form.get("city", "").strip()
-    if not name:
-        return render_template("index.html", error="Please type a city or town.")
-    try:
-        city = find_city(name)
-        if city is None:
-            return render_template("index.html",
-                error=f"We couldn't find “{name}”. Check the spelling or try a larger nearby town.")
-        data = get_air(city["lat"], city["lon"])
-    except requests.RequestException:
-        return render_template("index.html",
-            error="We couldn't reach the air quality service. Please try again in a moment.")
+@app.route("/calculate", methods=["POST"])
+def calculate():
+    user_city = (request.form.get("city") or "").strip()
+    user_transport = request.form.get("transport")
+    user_diet = request.form.get("diet")
+    user_energy = request.form.get("energy")
 
-    pm25 = data["current"]["pm2_5"]
-    if pm25 is None:
-        return render_template("index.html", error="No air data is available for that place right now.")
+    city_info = get_climate_data(user_city)
+    if not city_info:
+        return "City not found (or the air quality service is unreachable). Go back and try another location.", 404
 
-    key, level = classify(pm25)
-    hourly = hourly_next_24(data)
-    return render_template("result.html", city=city, pm25=pm25, key=key,
-                           level=level, hourly=hourly, best=best_window(hourly))
+    score = calculate_footprint(user_transport, user_diet, user_energy)
+    neighbor_pm25 = get_neighbor_data(city_info["lat"], city_info["lon"])
 
+    user_data = {"score": score, "transport": user_transport}
+    city_data = {"city": city_info["city"], "pm25": city_info["pm25"]}
 
-@app.route("/compare")
-def compare():
-    try:
-        areas = get_air_many(PLACES)
-    except requests.RequestException:
-        return render_template("compare.html", areas=[],
-            error="We couldn't reach the air quality service. Please try again in a moment.")
-    for a in areas:
-        a["key"] = classify(a["pm25"])[0]
-    areas.sort(key=lambda a: a["pm25"], reverse=True)   # worst first
-    return render_template("compare.html", areas=areas)
+    ai_verdict = get_ai_disruption(user_data, city_data, neighbor_pm25)
+    prediction_text = get_2030_prediction(city_info, score)
 
-
-@app.route("/about")
-def about():
-    return render_template("about.html")
+    return render_template(
+        "footprint.html",
+        result_city=city_info["city"],
+        result_score=score,
+        health_text=ai_verdict,
+        prediction_text=prediction_text,
+        pm25=city_info["pm25"],
+        ozone=city_info["ozone"],
+        neighbor_pm25=neighbor_pm25 if neighbor_pm25 is not None else "unavailable",
+        scan_date=datetime.now().strftime("%B %Y"),
+    )
 
 
 if __name__ == "__main__":

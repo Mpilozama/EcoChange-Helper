@@ -1,14 +1,62 @@
-{% extends "base.html" %}
-{% block title %}Is it a good day to be outside?{% endblock %}
-{% block content %}
-<section class="card landing">
-    <h1>Is it a good day to be outside?</h1>
-    <p class="lead">Type your city for plain-English air quality advice: exercise, kids, windows, and the best hours to go out.</p>
-    {% if error %}<p class="notice" role="alert">{{ error }}</p>{% endif %}
-    <form action="/check" method="POST" id="check-form" class="search">
-        <input type="text" name="city" placeholder="e.g. Soweto" aria-label="City or town" required autofocus>
-        <button type="submit" class="btn" id="submit-btn">Check my air</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoChange: how clean is your air?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<main class="page">
+    <header class="intro">
+        <h1>How clean is the air where you live?</h1>
+        <p class="lead">Tell us your city and a few daily habits. In about a minute you'll see today's air quality, what it means for your health, and a rough estimate of your carbon footprint.</p>
+    </header>
+
+    {% if error %}
+    <p class="notice" role="alert">{{ error }}</p>
+    {% endif %}
+
+    <form action="/calculate" method="POST" id="check-form" class="card">
+        <div class="field">
+            <label for="city">Your city or town</label>
+            <input type="text" id="city" name="city" placeholder="e.g. Soweto" required autofocus>
+            <p class="hint">Use the town name only, without the country.</p>
+        </div>
+
+        <div class="field">
+            <label for="transport">How do you usually get around?</label>
+            <select id="transport" name="transport">
+                <option value="car">Petrol or diesel car</option>
+                <option value="electric">Electric car</option>
+                <option value="public">Taxi, bus or train</option>
+                <option value="walk">Walking or cycling</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="diet">What do you usually eat?</label>
+            <select id="diet" name="diet">
+                <option value="meat_heavy">Meat most days</option>
+                <option value="balanced" selected>A bit of everything</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="energy">Where does your home electricity come from?</label>
+            <select id="energy" name="energy">
+                <option value="fossil">The national grid (mostly coal)</option>
+                <option value="mixed">Grid plus some solar</option>
+                <option value="renewable">Mostly solar or other renewables</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-primary" id="submit-btn">Check my air</button>
+        <p class="hint center">Takes a few seconds. Nothing you enter is saved.</p>
     </form>
-    <p class="hint">Free, no sign-up, nothing saved.</p>
-</section>
-{% endblock %}
+</main>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
