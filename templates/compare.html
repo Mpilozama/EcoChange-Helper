@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Compare areas{% endblock %}
+{% block content %}
+<section class="card">
+    <h1>Air across Johannesburg</h1>
+    <p class="lead">Fine dust (PM2.5) right now, worst first.</p>
+    {% if error %}<p class="notice" role="alert">{{ error }}</p>{% endif %}
+    {% if areas %}
+        {% set worst = areas[0] %}{% set best = areas[-1] %}
+        {% if best.pm25 > 0 %}
+        <p><strong>{{ worst.name }}</strong> has about <strong>{{ (worst.pm25 / best.pm25) | round(1) }}×</strong> the fine dust of <strong>{{ best.name }}</strong> right now.</p>
+        {% endif %}
+        {% for a in areas %}
+        <div class="row">
+            <span>{{ a.name }}</span>
+            <svg viewBox="0 0 100 6" role="img" aria-label="{{ a.name }}: {{ a.pm25 | round(1) }}">
+                <rect width="100" height="6" rx="3" fill="#e3ecef"/>
+                <rect class="bar-{{ a.key }}" width="{{ [a.pm25 / 60 * 100, 100] | min }}" height="6" rx="3"/>
+            </svg>
+            <span class="val">{{ a.pm25 | round(1) }}</span>
+        </div>
+        {% endfor %}
+        <p class="hint">µg/m³. WHO daily guideline is 15. Values are modelled and locations are approximate, so differences between nearby areas can be small. Soon this page will use stored history instead of one live reading.</p>
+    {% endif %}
+</section>
+{% endblock %}
