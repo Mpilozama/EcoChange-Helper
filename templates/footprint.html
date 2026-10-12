@@ -75,6 +75,23 @@
         <p>{{ prediction_text }}</p>
     </section>
 
+    {% if scenarios %}
+    <section class="futures">
+        <h2>Two futures for {{ result_city }} in {{ scenarios.year }}</h2>
+        <div class="futures-grid">
+            <div class="card future future-bad">
+                <h3>If nothing changes</h3>
+                <p>{{ scenarios.nothing }}</p>
+            </div>
+            <div class="card future future-good">
+                <h3>If action is taken</h3>
+                <p>{{ scenarios.action }}</p>
+            </div>
+        </div>
+        <p class="footnote">Written by AI from today's air readings. These are possible scenarios, not forecasts.</p>
+    </section>
+    {% endif %}
+
     <p class="footnote">Air data from Open-Meteo. The two sections above are written by an AI (Gemini) and are dramatic estimates, not scientific forecasts.</p>
 </main>
 </body>
