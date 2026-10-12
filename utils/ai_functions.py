@@ -1,4 +1,5 @@
 import os
+import json
 
 import requests
 from dotenv import load_dotenv
@@ -151,3 +152,51 @@ def get_2030_prediction(city_data, score):
             f"By 2030, {city_data['city']} faces a 2.5°C surge. "
             "The air will move from 'unhealthy' to 'unbreathable' for 100 days a year."
         )
+
+    
+ALLOWED_YEARS = [2030, 2035, 2040, 2050, 2075, 2100]
+
+def get_future_scenarios(city_data, score, neighbor_pm25, year):
+    # Clean the year so a weird value can't break the prompt
+    try:
+        year = int(year)
+    except (TypeError, ValueError):
+        year = 2030
+    if year not in ALLOWED_YEARS:
+        year = 2030
+
+    prompt = f"""
+    CONTEXT: It is 2026. City: {city_data['city']}.
+    Current PM2.5: {city_data['pm25']} µg/m³ (WHO daily guideline is 15).
+    Current ozone: {city_data.get('ozone')} µg/m³.
+    PM2.5 in an area about 15 km away: {neighbor_pm25} µg/m³.
+    The user's daily carbon output: {score} kg.
+
+    TASK: Describe two possible futures for this city in {year}.
+    Return ONLY JSON with exactly two keys:
+      "nothing": what life looks like if nothing changes
+      "action":  what life looks like if real action is taken
+    Rules: 3 sentences each. Gritty, urgent, no corporate talk.
+    Talk about heat, breathable days, lungs and hearts, and the gap between
+    neighbourhoods. Do not invent exact statistics; use words like
+    "could", "likely" and "risk". The "action" future must be realistic
+    (urban greening, cleaner transport, stricter emission controls in
+    neglected areas), not magic.
+    """
+
+    try:
+        client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY"))
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=prompt,
+            config={"response_mime_type": "application/json"},
+        )
+        data = json.loads(response.text)
+        return {"year": year, "nothing": data["nothing"], "action": data["action"]}
+    except Exception as e:
+        print(f"[gemini error] {e}")
+        return {
+            "year": year,
+            "nothing": f"By {year}, if nothing changes, the air in {city_data['city']} keeps hurting lungs and hearts, and the gap between neighbourhoods keeps growing.",
+            "action": f"By {year}, more trees, cleaner transport and stricter pollution rules could make {city_data['city']}'s air safer, starting in the neglected areas.",
+        }
