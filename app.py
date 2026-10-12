@@ -7,6 +7,7 @@ from utils.ai_functions import (
     get_2030_prediction,
     get_ai_disruption,
     get_climate_data,
+    get_future_scenarios,
     get_neighbor_data,
 )
 
@@ -24,6 +25,7 @@ def calculate():
     user_transport = request.form.get("transport")
     user_diet = request.form.get("diet")
     user_energy = request.form.get("energy")
+    user_year = request.form.get("year", "2030")
 
     city_info = get_climate_data(user_city)
     if not city_info:
@@ -31,6 +33,8 @@ def calculate():
 
     score = calculate_footprint(user_transport, user_diet, user_energy)
     neighbor_pm25 = get_neighbor_data(city_info["lat"], city_info["lon"])
+
+    scenarios = get_future_scenarios(city_info, score, neighbor_pm25, user_year)
 
     user_data = {"score": score, "transport": user_transport}
     city_data = {"city": city_info["city"], "pm25": city_info["pm25"]}
@@ -47,6 +51,7 @@ def calculate():
         pm25=city_info["pm25"],
         ozone=city_info["ozone"],
         neighbor_pm25=neighbor_pm25 if neighbor_pm25 is not None else "unavailable",
+        scenarios=scenarios,
         scan_date=datetime.now().strftime("%B %Y"),
     )
 
