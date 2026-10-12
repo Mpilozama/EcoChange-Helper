@@ -120,3 +120,16 @@ input:focus, select:focus, button:focus-visible, a:focus-visible, summary:focus-
     h1 { font-size: 1.75rem; }
     .compare { grid-template-columns: 1fr; }
 }
+
+/* ---------- Future scenarios ---------- */
+.futures h2 { margin: 28px 0 12px; }
+.futures-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.future { margin-bottom: 0; border-top: 6px solid var(--line); }
+.future-bad  { border-top-color: var(--severe); }
+.future-good { border-top-color: var(--good); }
+.future-bad h3  { color: var(--severe); }
+.future-good h3 { color: var(--good); }
+
+@media (max-width: 700px) {
+    .futures-grid { grid-template-columns: 1fr; }
+}
