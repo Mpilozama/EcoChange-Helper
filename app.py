@@ -11,6 +11,7 @@ from utils.ai_functions import (
     get_future_scenarios,
     get_neighbor_data,
 )
+from utils.stations import attach_station_readings, get_nearest_station
 
 app = Flask(__name__)
 
@@ -34,7 +35,8 @@ def calculate():
 
     score = calculate_footprint(user_transport, user_diet, user_energy)
     neighbor_pm25 = get_neighbor_data(city_info["lat"], city_info["lon"])
-    comparison = get_area_comparison(user_city)
+    comparison = attach_station_readings(get_area_comparison(user_city))
+    station = get_nearest_station(city_info["lat"], city_info["lon"])
 
     scenarios = get_future_scenarios(city_info, score, neighbor_pm25, user_year)
 
@@ -55,6 +57,7 @@ def calculate():
         neighbor_pm25=neighbor_pm25 if neighbor_pm25 is not None else "unavailable",
         scenarios=scenarios,
         comparison=comparison,
+        station=station,
         scan_date=datetime.now().strftime("%B %Y"),
     )
 
