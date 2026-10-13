@@ -85,6 +85,22 @@
     </section>
     {% endif %}
 
+    {% if station is defined %}
+    <section class="card">
+        <h2>Is the air here actually being measured?</h2>
+        {% if station %}
+            {% if station.coverage == 'none nearby' %}
+            <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}). Nobody is measuring the air in your area, so the numbers above are model estimates for people who aren't being counted.</p>
+            {% else %}
+            <p>The nearest ground monitor is <strong>{{ station.name }}</strong>, {{ station.distance_km }} km away.{% if station.coverage == 'wider area' %} That is in the wider area, not your neighbourhood.{% endif %}</p>
+            {% endif %}
+            <p class="badge">Data type: ground measurement (AQI {{ station.aqi_pm25 if station.aqi_pm25 is not none else 'n/a' }})</p>
+        {% else %}
+            <p>We couldn't check for ground monitors right now.</p>
+        {% endif %}
+    </section>
+    {% endif %}
+
     <section class="card">
         <h2>Your carbon footprint</h2>
         <p class="big">{{ result_score }} <span>kg of CO₂ per day</span></p>
@@ -121,6 +137,7 @@
     {% endif %}
 
     <p class="footnote">Air data from Open-Meteo. The two sections above are written by an AI (Gemini) and are dramatic estimates, not scientific forecasts.</p>
+    <p class="footnote">Ground-monitor data: World Air Quality Index Project (aqicn.org).</p>
 </main>
 </body>
 </html>
