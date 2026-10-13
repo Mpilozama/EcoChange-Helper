@@ -200,3 +200,45 @@ def get_future_scenarios(city_data, score, neighbor_pm25, year):
             "nothing": f"By {year}, if nothing changes, the air in {city_data['city']} keeps hurting lungs and hearts, and the gap between neighbourhoods keeps growing.",
             "action": f"By {year}, more trees, cleaner transport and stricter pollution rules could make {city_data['city']}'s air safer, starting in the neglected areas.",
         }
+
+
+DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "locations.json")
+
+
+def _load_pairs():
+    try:
+        with open(DATA_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def _get_model_pm25(lat, lon):
+    try:
+        aq = requests.get(
+            AIR_URL,
+            params={"latitude": lat, "longitude": lon, "current": "pm2_5"},
+            timeout=TIMEOUT,
+        ).json()
+        return aq["current"]["pm2_5"]
+    except (requests.RequestException, KeyError, ValueError):
+        return None
+
+
+def get_area_comparison(city):
+    """If the city is in our table of paired areas, return both areas with readings.
+    Every reading is labelled with its source type so the page can be honest about it."""
+    key = (city or "").strip().lower()
+    for pair in _load_pairs():
+        if key in pair["aliases"]:
+            areas = []
+            for area in pair["areas"]:
+                areas.append({
+                    **area,
+                    "pm25": _get_model_pm25(area["lat"], area["lon"]),
+                    "source_type": "model",
+                })
+            values = [a["pm25"] for a in areas]
+            same_value = None not in values and len(set(values)) == 1
+            return {"id": pair["id"], "areas": areas, "same_value": same_value}
+    return None
