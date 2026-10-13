@@ -39,7 +39,26 @@
         <p><strong>Ozone</strong> is smog near the ground. It can make breathing feel tight, especially on hot days.</p>
     </details>
 
-    {% if neighbor_pm25 is defined and neighbor_pm25 is not none %}
+    {% if comparison %}
+    <section class="card">
+        <h2>The inequality gap: {{ comparison.areas[0].name }} vs {{ comparison.areas[1].name }}</h2>
+        <div class="compare">
+            {% for a in comparison.areas %}
+            <div>
+                <span class="num">{{ a.pm25 if a.pm25 is not none else 'n/a' }}</span>
+                <span class="cap">{{ a.name }} ({{ a.context }})</span>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="badge">Data type: model estimate, not a ground measurement</p>
+        {% if comparison.same_value %}
+        <p class="callout">Both places show the same number because this model's grid is far too coarse to tell them apart. That is the problem: the air people breathe in each neighbourhood is not actually being measured here.</p>
+        {% endif %}
+        <p class="hint">Fine dust in µg/m³. Neighbourhood labels are from our location table; sources are being added.</p>
+    </section>
+    {% endif %}
+
+    {% if not comparison and neighbor_pm25 is defined and neighbor_pm25 is not none %}
     <section class="card">
         <h2>Compared with a place nearby</h2>
         <div class="compare">
