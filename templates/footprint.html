@@ -47,12 +47,21 @@
             <div>
                 <span class="num">{{ a.pm25 if a.pm25 is not none else 'n/a' }}</span>
                 <span class="cap">{{ a.name }} ({{ a.context }})</span>
+                {% if a.station %}
+                <span class="cap">Nearest ground monitor: {{ a.station.name }}, {{ a.station.distance_km }} km away</span>
+                <span class="cap"><strong>Measured AQI (PM2.5): {{ a.station.aqi_pm25 if a.station.aqi_pm25 is not none else 'n/a' }}</strong></span>
+                {% else %}
+                <span class="cap">No ground-monitor data available</span>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
         <p class="badge">Data type: model estimate, not a ground measurement</p>
         {% if comparison.same_value %}
         <p class="callout">Both places show the same number because this model's grid is far too coarse to tell them apart. That is the problem: the air people breathe in each neighbourhood is not actually being measured here.</p>
+        {% endif %}
+        {% if comparison.same_station %}
+        <p class="callout">Both areas are served by the <strong>same</strong> ground monitor, so we can't actually tell them apart. Two neighbourhoods, one measurement.</p>
         {% endif %}
         <p class="hint">Fine dust in µg/m³. Neighbourhood labels are from our location table; sources are being added.</p>
     </section>
