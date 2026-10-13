@@ -14,6 +14,10 @@ TIMEOUT = 10
 NEAR_KM = 5
 FAR_KM = 15
 
+# Beyond this distance, a "nearest" station is not measuring the queried area
+# in any meaningful sense. The template uses this to suppress misleading readings.
+MAX_USEFUL_KM = 50
+
 
 def haversine_km(lat1, lon1, lat2, lon2):
     """Straight-line distance between two coordinates, in km."""
