@@ -6,6 +6,7 @@ from utils.ai_functions import (
     calculate_footprint,
     get_2030_prediction,
     get_ai_disruption,
+    get_area_comparison,
     get_climate_data,
     get_future_scenarios,
     get_neighbor_data,
@@ -33,6 +34,7 @@ def calculate():
 
     score = calculate_footprint(user_transport, user_diet, user_energy)
     neighbor_pm25 = get_neighbor_data(city_info["lat"], city_info["lon"])
+    comparison = get_area_comparison(user_city)
 
     scenarios = get_future_scenarios(city_info, score, neighbor_pm25, user_year)
 
@@ -52,6 +54,7 @@ def calculate():
         ozone=city_info["ozone"],
         neighbor_pm25=neighbor_pm25 if neighbor_pm25 is not None else "unavailable",
         scenarios=scenarios,
+        comparison=comparison,
         scan_date=datetime.now().strftime("%B %Y"),
     )
 
