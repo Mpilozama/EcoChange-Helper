@@ -2,90 +2,120 @@
   {
     "city": "Pretoria",
     "province": "Gauteng",
+    "lat": -25.74486,
+    "lon": 28.18783,
     "nearest_monitor": "University of Pretoria",
     "distance_km": 4.0
   },
   {
     "city": "Johannesburg",
     "province": "Gauteng",
+    "lat": -26.20227,
+    "lon": 28.04363,
     "nearest_monitor": "Sandton Health department",
     "distance_km": 11.8
   },
   {
     "city": "Rustenburg",
     "province": "North West",
+    "lat": -25.66756,
+    "lon": 27.24208,
     "nearest_monitor": "Phokeng Water Reservoir AQS",
     "distance_km": 13.6
   },
   {
     "city": "Cape Town",
     "province": "Western Cape",
+    "lat": -33.92584,
+    "lon": 18.42322,
     "nearest_monitor": "Keurboom Park",
     "distance_km": 24.9
   },
   {
     "city": "Mahikeng",
     "province": "North West",
+    "lat": -25.86522,
+    "lon": 25.64421,
     "nearest_monitor": "Phokeng Water Reservoir AQS",
     "distance_km": 154.3
   },
   {
     "city": "Durban",
     "province": "KwaZulu-Natal",
+    "lat": -29.8579,
+    "lon": 31.0292,
     "nearest_monitor": "Meerensee, KZN, ZA.",
     "distance_km": 159.8
   },
   {
     "city": "Pietermaritzburg",
     "province": "KwaZulu-Natal",
+    "lat": -29.61679,
+    "lon": 30.39278,
     "nearest_monitor": "Meerensee, KZN, ZA.",
     "distance_km": 190.9
   },
   {
     "city": "Polokwane",
     "province": "Limpopo",
+    "lat": -23.90449,
+    "lon": 29.46885,
     "nearest_monitor": "Hammanskraal",
     "distance_km": 203.1
   },
   {
     "city": "Mbombela",
     "province": "Mpumalanga",
+    "lat": -25.47512,
+    "lon": 30.96935,
     "nearest_monitor": "Devon municipal offices",
     "distance_km": 239.5
   },
   {
     "city": "Bloemfontein",
     "province": "Free State",
+    "lat": -29.12107,
+    "lon": 26.214,
     "nearest_monitor": "Sasolburg",
     "distance_km": 305.3
   },
   {
     "city": "George",
     "province": "Western Cape",
+    "lat": -33.963,
+    "lon": 22.46173,
     "nearest_monitor": "Keurboom Park",
     "distance_km": 347.7
   },
   {
     "city": "Kimberley",
     "province": "Northern Cape",
+    "lat": -28.73226,
+    "lon": 24.76232,
     "nearest_monitor": "Wedela Library",
     "distance_km": 360.2
   },
   {
     "city": "East London",
     "province": "Eastern Cape",
+    "lat": -33.01529,
+    "lon": 27.91162,
     "nearest_monitor": "Meerensee, KZN, ZA.",
     "distance_km": 618.7
   },
   {
     "city": "Gqeberha",
     "province": "Eastern Cape",
+    "lat": -33.96109,
+    "lon": 25.61494,
     "nearest_monitor": "Keurboom Park",
     "distance_km": 638.4
   },
   {
     "city": "Upington",
     "province": "Northern Cape",
+    "lat": -28.44776,
+    "lon": 21.25612,
     "nearest_monitor": "Wedela Library",
     "distance_km": 642.5
   }

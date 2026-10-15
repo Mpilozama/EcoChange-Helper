@@ -16,7 +16,12 @@ CITIES = [
 
 
 def geocode_za(name):
-    resp = requests.get(GEOCODE_URL, params={"name": name, "count": 10}, timeout=TIMEOUT).json()
+    try:
+        resp = requests.get(
+            GEOCODE_URL, params={"name": name, "count": 10}, timeout=TIMEOUT
+        ).json()
+    except (requests.RequestException, ValueError):
+        return None
     for r in resp.get("results") or []:
         if r.get("country_code") == "ZA":
             return r
@@ -38,6 +43,8 @@ def run():
         report.append({
             "city": name,
             "province": place.get("admin1"),
+            "lat": place["latitude"],
+            "lon": place["longitude"],
             "nearest_monitor": nearest[1],
             "distance_km": nearest[0],
         })
