@@ -108,7 +108,7 @@
             <p class="hint">That monitor is not in your immediate neighbourhood, so treat it as an indication of the wider area, not your street.</p>
             {% endif %}
         {% else %}
-            <p class="callout">The nearest AirQo monitor is <strong>{{ airqo_place.site.distance_km }} km</strong> away ({{ airqo_place.site.name }}{% if airqo_place.site.country %}, {{ airqo_place.site.country }}{% endif %}). Nobody on this network is measuring the air here, so the numbers above are model estimates for people who aren't being counted.</p>
+            <p class="callout">The nearest AirQo monitor is <strong>{{ airqo_place.site.distance_km }} km</strong> away ({{ airqo_place.site.name }}{% if airqo_place.site.country %}, {{ airqo_place.site.country }}{% endif %}). No monitor on the networks we check is measuring the air here, so the numbers above are model estimates for people who aren't being directly counted.</p>
         {% endif %}
     </section>
     {% endif %}
@@ -118,7 +118,7 @@
         <h2>Is the air here actually being measured?</h2>
         {% if station %}
             {% if station.distance_km > 50 %}
-            <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}) — far too far to represent your air. In effect, nobody is measuring this area, and the numbers above are model estimates for people who aren't being counted.</p>
+            <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}) — far too far to represent your air. No monitor on the networks we check is measuring the air in your area, so the numbers above are model estimates.</p>
             <p class="badge">Data type: model estimate only — no useful ground monitor in range</p>
             {% elif station.coverage == 'none nearby' %}
             <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}) — outside the 15 km range where a reading would represent your neighbourhood. Treat it as reference only.</p>
