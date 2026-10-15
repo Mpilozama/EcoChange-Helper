@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 WAQI_URL = "https://api.waqi.info/feed/geo:{lat};{lon}/"
+WAQI_BOUNDS_URL = "https://api.waqi.info/map/bounds/"
 TIMEOUT = 10
 
 # Distance bands (km) for describing monitoring coverage.
@@ -66,6 +67,46 @@ def get_nearest_station(lat, lon):
             "source": "World Air Quality Index Project (WAQI)",
             "source_type": "measured",
         }
+    except (requests.RequestException, KeyError, ValueError, TypeError):
+        return None
+
+
+def get_stations_nearby(lat, lon, radius_km=15):
+    """List ground monitors within radius_km, nearest first.
+    Returns None if the lookup failed, and [] if the lookup worked but found none.
+    That difference matters: 'no monitors' is a finding, 'lookup failed' is not.
+    Note: WAQI's bounds endpoint is not a complete inventory of every monitor
+    in a region — [] means 'WAQI's map returned none for this box', not
+    'no monitors exist here'. Treat both findings with appropriate caution."""
+    token = os.environ.get("WAQI_TOKEN")
+    if not token:
+        return None
+
+    dlat = radius_km / 111
+    dlon = radius_km / (111 * math.cos(math.radians(lat)))
+    latlng = f"{lat - dlat},{lon - dlon},{lat + dlat},{lon + dlon}"
+
+    try:
+        resp = requests.get(
+            WAQI_BOUNDS_URL,
+            params={"latlng": latlng, "token": token},
+            timeout=TIMEOUT,
+        ).json()
+        if resp.get("status") != "ok":
+            return None
+
+        stations = []
+        for s in resp.get("data", []):
+            distance = haversine_km(lat, lon, s["lat"], s["lon"])
+            if distance <= radius_km:
+                info = s.get("station") or {}
+                stations.append({
+                    "name": info.get("name"),
+                    "distance_km": distance,
+                    "aqi": s.get("aqi"),
+                    "last_update": info.get("time"),
+                })
+        return sorted(stations, key=lambda x: x["distance_km"])
     except (requests.RequestException, KeyError, ValueError, TypeError):
         return None
 
