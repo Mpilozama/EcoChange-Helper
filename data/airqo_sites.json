@@ -1,0 +1,2990 @@
+[
+  {
+    "id": "69419f4609357b00130ab4f7",
+    "name": "Malindi Stage Road",
+    "country": "Kenya",
+    "city": "Malindi",
+    "region": "Kilifi County",
+    "lat": -3.221393906095357,
+    "lon": 40.11521181230409
+  },
+  {
+    "id": "6941a183fe657a0013b41793",
+    "name": "Sabaki Junction Lamu Road",
+    "country": "Kenya",
+    "city": "Malindi",
+    "region": "Wilaya ya Kilifi",
+    "lat": -3.215598302557812,
+    "lon": 40.11285397701849
+  },
+  {
+    "id": "6941a4edfe657a0013b4187a",
+    "name": "Tsavo Road",
+    "country": "Kenya",
+    "city": "Malindi",
+    "region": "Kilifi County",
+    "lat": -3.2205335110191444,
+    "lon": 40.11373718862455
+  },
+  {
+    "id": "64ceb28f2d581c00135ccbd7",
+    "name": "University of Pretoria",
+    "country": "South Africa",
+    "city": "Pretoria",
+    "region": "Gauteng",
+    "lat": -25.755768711242784,
+    "lon": 28.22605261450924
+  },
+  {
+    "id": "659727fe88a3390012aca615",
+    "name": "South African Weather Station (SAWS)",
+    "country": "South Africa",
+    "city": "Centurion",
+    "region": "Gauteng",
+    "lat": -25.906411440846647,
+    "lon": 28.21068378875048
+  },
+  {
+    "id": "6936c465b00c580013d2b925",
+    "name": "Hammanskraal",
+    "country": "South Africa",
+    "city": "Marokolong",
+    "region": "Gauteng",
+    "lat": -25.380490831387757,
+    "lon": 28.28587513640069
+  },
+  {
+    "id": "6936c4d6b00c580013d2b9d7",
+    "name": "Germiston Clinic",
+    "country": "South Africa",
+    "city": "Germiston",
+    "region": "Gauteng",
+    "lat": -26.230743912114782,
+    "lon": 28.190075262984003
+  },
+  {
+    "id": "6936c554b3394000137e0f2c",
+    "name": "Sandton Health department",
+    "country": "South Africa",
+    "city": "Sandton",
+    "region": "Gauteng",
+    "lat": -26.09688963842776,
+    "lon": 28.061259806103568
+  },
+  {
+    "id": "6936c5b7b00c580013d2bb3e",
+    "name": "Copper college",
+    "country": "South Africa",
+    "city": "Eikenhof",
+    "region": "Gauteng",
+    "lat": -26.35699179658977,
+    "lon": 27.979630955688364
+  },
+  {
+    "id": "6936c641d045e2001208c857",
+    "name": "Glen Auston",
+    "country": "South Africa",
+    "city": "Midrand",
+    "region": "Gauteng",
+    "lat": -25.94073265345427,
+    "lon": 28.148406416912465
+  },
+  {
+    "id": "6936c6dad045e2001208c9e1",
+    "name": "Phefeni Senior Secondary School",
+    "country": "South Africa",
+    "city": "Soweto",
+    "region": "Gauteng",
+    "lat": -26.2389533198957,
+    "lon": 27.905852346193438
+  },
+  {
+    "id": "6936c71bb00c580013d2bde4",
+    "name": "Devon municipal offices",
+    "country": "South Africa",
+    "city": "Devon",
+    "region": "Gauteng",
+    "lat": -26.352505189096117,
+    "lon": 28.782295548610055
+  },
+  {
+    "id": "6936c74ab3394000137e11e0",
+    "name": "Waste Management depot",
+    "country": "South Africa",
+    "city": "Meyerton",
+    "region": "Gauteng",
+    "lat": -26.561032192726017,
+    "lon": 28.017172216737958
+  },
+  {
+    "id": "6936c768d045e2001208ca10",
+    "name": "Wedela Library",
+    "country": "South Africa",
+    "city": "Wedela",
+    "region": "Gauteng",
+    "lat": -26.466703335028747,
+    "lon": 27.374589878981723
+  },
+  {
+    "id": "6936c79ad045e2001208ca2b",
+    "name": "Waste Depot Landfield",
+    "country": "South Africa",
+    "city": "Krugersdorp",
+    "region": "Gauteng",
+    "lat": -26.122128472837048,
+    "lon": 27.793108951485802
+  },
+  {
+    "id": "6936ccf7b00c580013d2bf05",
+    "name": "Irene SAWS",
+    "country": "South Africa",
+    "city": "Centurion",
+    "region": "Gauteng",
+    "lat": -25.895260965105198,
+    "lon": 28.205908801960785
+  },
+  {
+    "id": "6936cd63d045e2001208cb11",
+    "name": "Vanderbijlpark NWU air quality station",
+    "country": "South Africa",
+    "city": "Vanderbijlpark",
+    "region": "Gauteng",
+    "lat": -26.72368274760707,
+    "lon": 27.879945756757575
+  },
+  {
+    "id": "6936f8d8b00c580013d2d277",
+    "name": "Simunye Mine",
+    "country": "South Africa",
+    "city": "Westonaria",
+    "region": "Gauteng",
+    "lat": -26.32018576918007,
+    "lon": 27.675932171268617
+  },
+  {
+    "id": "6a05a615072b0800126f0a6b",
+    "name": "PTA-NORTH",
+    "country": "South Africa",
+    "city": "Pretoria",
+    "region": "Gauteng",
+    "lat": -25.67999278251351,
+    "lon": 28.151392788455592
+  },
+  {
+    "id": "6a1e76e552b19b0014702b06",
+    "name": "Lion Pride 1 - Serengeti 782",
+    "country": "South Africa",
+    "city": null,
+    "region": "Gauteng",
+    "lat": -26.000333780829905,
+    "lon": 27.929364596156447
+  },
+  {
+    "id": "692d91165ed11e001493a22d",
+    "name": "Kafue Roundabout",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.428506521802278,
+    "lon": 28.2848146973392
+  },
+  {
+    "id": "694cd7c07e12b300132c5e9c",
+    "name": "3rd Street, Ibex Hill",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.40593839813846,
+    "lon": 28.40948401721159
+  },
+  {
+    "id": "69b4431bbaedda001356f64f",
+    "name": "Kabwe RoundAbout, Lusaka, Zambia",
+    "country": "Zambia",
+    "city": "Kasheta",
+    "region": "Central Province",
+    "lat": -15.246819930108712,
+    "lon": 28.16218490079005
+  },
+  {
+    "id": "6a044c2c60190e0013b8ec9a",
+    "name": "Soweto Market. Lusaka Zambia",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.425542570855859,
+    "lon": 28.27362007436458
+  },
+  {
+    "id": "6a04579c60190e0013b8f4c6",
+    "name": "UTH, Baines Road, Lusaka, Zambia.",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.428652345373266,
+    "lon": 28.317992749474943
+  },
+  {
+    "id": "6a05ade60bea770012b6468e",
+    "name": "Siavonga",
+    "country": "Zambia",
+    "city": "Siavonga",
+    "region": "Southern Province",
+    "lat": -16.544992413114258,
+    "lon": 28.710525342891227
+  },
+  {
+    "id": "6a05ae2bd34d3000133bb261",
+    "name": "Siavonga Harbour 2",
+    "country": "Zambia",
+    "city": "Siavonga",
+    "region": "Southern Province",
+    "lat": -16.54095880947885,
+    "lon": 28.703433000779594
+  },
+  {
+    "id": "6a3a348a0425180013ff5598",
+    "name": "Bauleni Market",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.449729113273905,
+    "lon": 28.378600368612272
+  },
+  {
+    "id": "6a3a35a60425180013ff55c6",
+    "name": "Kanyama residential area",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.425357740211105,
+    "lon": 28.252070948650985
+  },
+  {
+    "id": "6a3a3a955d5cdb00133f64c3",
+    "name": "Levy Mwanawasa Medical University",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.392158682873779,
+    "lon": 28.349322984781168
+  },
+  {
+    "id": "6a3a3b9f0425180013ff5a76",
+    "name": "Chunga Dumpsite",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.352595022106897,
+    "lon": 28.27381241317556
+  },
+  {
+    "id": "6a757c19c5a5da00133ab3d7",
+    "name": "Roma Commercial Park, Lusaka Zambia",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.3576693570466,
+    "lon": 28.31755131213444
+  },
+  {
+    "id": "6a79b6140185400014381382",
+    "name": "Light Industrial Area (along Mungwi road)",
+    "country": "Zambia",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "lat": -15.383614588769897,
+    "lon": 28.233961396836563
+  },
+  {
+    "id": "65a2591513fef900133ba42d",
+    "name": "Younde university, Yaound\u00e9 Centre Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.85619945787568,
+    "lon": 11.508138156903543
+  },
+  {
+    "id": "65c8c0ab6d17de0013511b15",
+    "name": "Ekounou March\u00e9 Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "R\u00e9gion du Centre",
+    "lat": 3.8415384697330937,
+    "lon": 11.540657030700434
+  },
+  {
+    "id": "65c8c17a24a9370013feac2a",
+    "name": "Carrefour Nkolbisson Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.876513611475436,
+    "lon": 11.448578361929009
+  },
+  {
+    "id": "65c8c22824a9370013feac39",
+    "name": "Rond Point Express Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.8399057141050137,
+    "lon": 11.482347139066809
+  },
+  {
+    "id": "65c8c28f6d17de0013511b34",
+    "name": "Carrefour Mvan Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.826943758029635,
+    "lon": 11.512991563892854
+  },
+  {
+    "id": "65c8c2e524a9370013feac49",
+    "name": "Esplanade Stade Omnisport Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "R\u00e9gion du Centre",
+    "lat": 3.882806552795989,
+    "lon": 11.541235348655187
+  },
+  {
+    "id": "65c8c557b3d86f0012b2e32b",
+    "name": "\u00c9cole Publique Bastos Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.9001277622556825,
+    "lon": 11.509221686893307
+  },
+  {
+    "id": "66b0cb4ce7a9c6001382284b",
+    "name": "Olemb\u00e9 Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.954997629073136,
+    "lon": 11.53798116367147
+  },
+  {
+    "id": "66b0cbeb02eed40013a80d6a",
+    "name": "Mendong Yaound\u00e9, Cameroun",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.8372392506481003,
+    "lon": 11.472472980782298
+  },
+  {
+    "id": "6a4cdb972a98980013d9a9ee",
+    "name": "Yaounde Reference monitor(FMBS)",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "Centre Region",
+    "lat": 3.862682263656356,
+    "lon": 11.50001197475619
+  },
+  {
+    "id": "6a74347cc5a5da001339fc19",
+    "name": "Yaounde Reference monitor(FMBS) Collocation site.",
+    "country": "Cameroon",
+    "city": "Yaound\u00e9",
+    "region": "R\u00e9gion du Centre",
+    "lat": 3.867128669574598,
+    "lon": 11.489013927627672
+  },
+  {
+    "id": "673c919cb0bc9700138f2266",
+    "name": "McCarthy Square, Banjul",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.45837961980375,
+    "lon": -16.671889295469242
+  },
+  {
+    "id": "673c926614a7d80012e19eec",
+    "name": "Kanifing",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.465631078191358,
+    "lon": -16.676921325605797
+  },
+  {
+    "id": "673c92cdb0bc9700138f227b",
+    "name": "Westfield Junction",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.458968587511702,
+    "lon": -16.679187309203417
+  },
+  {
+    "id": "673c935114a7d80012e1a30e",
+    "name": "Bakoteh Landfill Site",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": null,
+    "lat": 13.439422795713662,
+    "lon": -16.701291064716514
+  },
+  {
+    "id": "673c93feb0bc9700138f269f",
+    "name": "Karamies Health",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.44820721971287,
+    "lon": -16.70310369172154
+  },
+  {
+    "id": "673c954514a7d80012e1a31d",
+    "name": "Brikama Nema",
+    "country": "The Gambia",
+    "city": "Brikama",
+    "region": "Brikama",
+    "lat": 13.28136925406432,
+    "lon": -16.649396039632276
+  },
+  {
+    "id": "673c95e7b0bc9700138f26ba",
+    "name": "Brikama Nyambai",
+    "country": "The Gambia",
+    "city": "Brikama",
+    "region": "Brikama",
+    "lat": 13.285224875377446,
+    "lon": -16.6558815088987
+  },
+  {
+    "id": "673c966b14a7d80012e1a332",
+    "name": "Kartong Bird Observatory",
+    "country": "The Gambia",
+    "city": "Kartong",
+    "region": "Brikama",
+    "lat": 13.0964910990568,
+    "lon": -16.763244273947258
+  },
+  {
+    "id": "673c96ee14a7d80012e1a33e",
+    "name": "Brusubi",
+    "country": "The Gambia",
+    "city": "Brusubi Phase 2",
+    "region": "Brikama",
+    "lat": 13.398106639432388,
+    "lon": -16.720036314568034
+  },
+  {
+    "id": "673c977daad8c70013bce396",
+    "name": "Taf City",
+    "country": "The Gambia",
+    "city": "Siffoe",
+    "region": "Brikama",
+    "lat": 13.182994073346036,
+    "lon": -16.710629981687127
+  },
+  {
+    "id": "673c97e814a7d80012e1a34b",
+    "name": "Gunjur Batoh Sateh",
+    "country": "The Gambia",
+    "city": "Sandally",
+    "region": "Brikama",
+    "lat": 13.206070965179396,
+    "lon": -16.735635243320658
+  },
+  {
+    "id": "673c985daad8c70013bce3a4",
+    "name": "Farafenni",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.465746777906043,
+    "lon": -16.674249473695262
+  },
+  {
+    "id": "673c98c714a7d80012e1a355",
+    "name": "Brikama Ba",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.463517507174672,
+    "lon": -16.67943087328113
+  },
+  {
+    "id": "673c992f14a7d80012e1a365",
+    "name": "Basse",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.465517688160666,
+    "lon": -16.6771581710326
+  },
+  {
+    "id": "673c99b614a7d80012e1a36f",
+    "name": "Soma, Lower River Region",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.457820917645245,
+    "lon": -16.672660880279597
+  },
+  {
+    "id": "67a019fa15587f0013bfed37",
+    "name": "NEA Head Quarters",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.458173602004967,
+    "lon": -16.668667250841917
+  },
+  {
+    "id": "67a01a8715587f0013bfed4b",
+    "name": "Brufut Madiba Mall",
+    "country": "The Gambia",
+    "city": "Brufut",
+    "region": "Brikama",
+    "lat": 13.392949728519124,
+    "lon": -16.75122832776316
+  },
+  {
+    "id": "67a01ac615587f0013bfed58",
+    "name": "Dalaba Estate TAF Africa Global",
+    "country": "The Gambia",
+    "city": "Sukuta",
+    "region": "Brikama",
+    "lat": 13.383283598632262,
+    "lon": -16.708219040293482
+  },
+  {
+    "id": "67a01af98975b80015f4bf70",
+    "name": "Fajikunda Health Center",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.412237481678218,
+    "lon": -16.67249051392046
+  },
+  {
+    "id": "67a01b268975b80015f4bf82",
+    "name": "Serekunda Health Center",
+    "country": "The Gambia",
+    "city": "Serrekunda",
+    "region": "Kanifing",
+    "lat": 13.443094245007288,
+    "lon": -16.67956222523218
+  },
+  {
+    "id": "60d058c8048305120d2d6176",
+    "name": "Mbarara Central",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6165845037426765,
+    "lon": 30.66283039644143
+  },
+  {
+    "id": "60d058c8048305120d2d617b",
+    "name": "Mbarara University, Mbarara",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.5994080762247505,
+    "lon": 30.60318671160048
+  },
+  {
+    "id": "681cb22d9a231c0013560398",
+    "name": "Mbarara Central Market",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.610596280599602,
+    "lon": 30.66613815727675
+  },
+  {
+    "id": "689b760e8f2b000013195fc0",
+    "name": "Rwebikona",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6199768000174241,
+    "lon": 30.647714511176886
+  },
+  {
+    "id": "689b7752502601001453973e",
+    "name": "Katukuru",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6720125585841352,
+    "lon": 30.58094765783145
+  },
+  {
+    "id": "689b77d18f2b000013196067",
+    "name": "Ruti Mbarara",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6292362342917189,
+    "lon": 30.61995896458649
+  },
+  {
+    "id": "689b78135e551f0013d448fd",
+    "name": "Nyamitanga",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6320556195867121,
+    "lon": 30.644629910711284
+  },
+  {
+    "id": "689b78405026010014539761",
+    "name": "Katete",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6299423636647734,
+    "lon": 30.673445681221324
+  },
+  {
+    "id": "689b78af8f2b000013196082",
+    "name": "Bishop Stuart University",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.5982786670401011,
+    "lon": 30.698883000885292
+  },
+  {
+    "id": "689b79108f2b000013196095",
+    "name": "Kakiika",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.5826217683200158,
+    "lon": 30.64792564840916
+  },
+  {
+    "id": "689b79535e551f0013d44928",
+    "name": "Kenkombe",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.5797275222873851,
+    "lon": 30.709389273979003
+  },
+  {
+    "id": "689b7a465026010014539e7a",
+    "name": "Biharwe",
+    "country": "Uganda",
+    "city": "Kibwera",
+    "region": "Western Region",
+    "lat": -0.521384080521994,
+    "lon": 30.73487162573499
+  },
+  {
+    "id": "689b7a808f2b00001319679f",
+    "name": "Nyabuhama",
+    "country": "Uganda",
+    "city": "Nyabuhama",
+    "region": "Western Region",
+    "lat": -0.49842618501673136,
+    "lon": 30.705528778636985
+  },
+  {
+    "id": "689b7ad85026010014539e93",
+    "name": "Kyarwabuganda",
+    "country": "Uganda",
+    "city": null,
+    "region": "Western Region",
+    "lat": -0.5365956902950346,
+    "lon": 30.643203679520937
+  },
+  {
+    "id": "689b7b335026010014539eaa",
+    "name": "Nyamityobora",
+    "country": "Uganda",
+    "city": "Mbarara",
+    "region": "Western Region",
+    "lat": -0.6014640033212082,
+    "lon": 30.66483561218039
+  },
+  {
+    "id": "60d058c8048305120d2d6145",
+    "name": "Civic Centre, Kampala Central",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31772520635097345,
+    "lon": 32.5925094863702
+  },
+  {
+    "id": "60d058c8048305120d2d6147",
+    "name": "Bugolobi, Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31197891331693944,
+    "lon": 32.62026261055944
+  },
+  {
+    "id": "60d058c8048305120d2d614f",
+    "name": "Rubaga, Kampala",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.29082242651018825,
+    "lon": 32.55369813694491
+  },
+  {
+    "id": "60d058c8048305120d2d6153",
+    "name": "Naguru II, Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3390687612825747,
+    "lon": 32.598046158164436
+  },
+  {
+    "id": "60d058c8048305120d2d6156",
+    "name": "Bukoto I, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3513535750936098,
+    "lon": 32.59547830743705
+  },
+  {
+    "id": "60d058c8048305120d2d615c",
+    "name": "Kalerwe, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.35192674104521077,
+    "lon": 32.57259447143688
+  },
+  {
+    "id": "60d058c8048305120d2d6162",
+    "name": "Butabika, Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31079194921066017,
+    "lon": 32.65478111318693
+  },
+  {
+    "id": "60d058c8048305120d2d6164",
+    "name": "Makerere University_01, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33555934021677564,
+    "lon": 32.57289055312216
+  },
+  {
+    "id": "60d058c8048305120d2d6167",
+    "name": "Nakasero II, Kampala",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3238264955683567,
+    "lon": 32.57185008277297
+  },
+  {
+    "id": "60d058c8048305120d2d6168",
+    "name": "Nakasero II, Kampala 66",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3200555907230094,
+    "lon": 32.571820900066484
+  },
+  {
+    "id": "60d058c8048305120d2d6169",
+    "name": "Mbuya II, Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32907575408240364,
+    "lon": 32.63479072483072
+  },
+  {
+    "id": "60d058c8048305120d2d6170",
+    "name": "Kyebando, Kampala",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.35614646790348226,
+    "lon": 32.58819726572173
+  },
+  {
+    "id": "60d058c8048305120d2d6172",
+    "name": "Ntinda, Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.35698941405926027,
+    "lon": 32.61388795520689
+  },
+  {
+    "id": "60d058c8048305120d2d6173",
+    "name": "Makerere University Weather Station 94",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3294955388850098,
+    "lon": 32.57061931348722
+  },
+  {
+    "id": "60d058c8048305120d2d617d",
+    "name": "Bahai, Kawempe",
+    "country": "Uganda",
+    "city": "Kyadondo",
+    "region": "Central Region",
+    "lat": 0.3684227794679015,
+    "lon": 32.58814717467362
+  },
+  {
+    "id": "60d058c8048305120d2d617f",
+    "name": "Mpererwe, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.384821363716015,
+    "lon": 32.578258385170756
+  },
+  {
+    "id": "61092a64ea763ff8bb8e3892",
+    "name": "Makerere, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32926380869850114,
+    "lon": 32.56696439517005
+  },
+  {
+    "id": "61092af2ea763ff8bb8e3893",
+    "name": "Lower Nsooba, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34889485876872167,
+    "lon": 32.57200243274864
+  },
+  {
+    "id": "61092bd2ea763ff8bb8e3894",
+    "name": "Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3549134975069468,
+    "lon": 32.559346055865284
+  },
+  {
+    "id": "61092c3fea763ff8bb8e3895",
+    "name": "Nakawa, KCCA Head Office",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33709529549469097,
+    "lon": 32.61028794761552
+  },
+  {
+    "id": "61093867ea763ff8bb8e3899",
+    "name": "Makindye, Lukuli Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.28461731873392593,
+    "lon": 32.58879616415945
+  },
+  {
+    "id": "620dd7ce72eb9200299fb8c1",
+    "name": "Makindye Kcca division offices",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.29488933080824825,
+    "lon": 32.57530657507825
+  },
+  {
+    "id": "623d83d693097e0020cc7324",
+    "name": "Kizungu, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.280357372235584,
+    "lon": 32.591916930589335
+  },
+  {
+    "id": "6244479fd676e8001fdc4e08",
+    "name": "St.Ponsiano primary school, makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.25946364896797197,
+    "lon": 32.60770399753554
+  },
+  {
+    "id": "624a91c9a7d118001dfacd8d",
+    "name": "wabigalo",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3102277224423601,
+    "lon": 32.604930416627774
+  },
+  {
+    "id": "624d2f9a994194001ddccbb6",
+    "name": "Kansanga Seed Secondary School",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.28613706281625856,
+    "lon": 32.599233677179896
+  },
+  {
+    "id": "62ae38211236b0001f61c162",
+    "name": "Muyenga tank hill, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2998427994901398,
+    "lon": 32.6076708759895
+  },
+  {
+    "id": "62b310512e0eca001e0aab11",
+    "name": "Kabalagala town, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30171218107803843,
+    "lon": 32.59778439794815
+  },
+  {
+    "id": "62cd2d8ff49973002b21583f",
+    "name": "Katwe 1, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2959788757479883,
+    "lon": 32.57946554294726
+  },
+  {
+    "id": "637391938022ee001e66a62b",
+    "name": "U.S. Department of State Uganda - Kampala",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.29835507627728625,
+    "lon": 32.58747008849735
+  },
+  {
+    "id": "60d2b75c7e9018a1a8d38c25",
+    "name": "Kampala Central",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3078289677195648,
+    "lon": 32.57820335762339
+  },
+  {
+    "id": "60d2b0807e9018a1a8d38c13",
+    "name": "Rubaga Div, Rubaga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3064701431696763,
+    "lon": 32.567725530761045
+  },
+  {
+    "id": "60d2b5fd7e9018a1a8d38c1d",
+    "name": "Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34940964425390547,
+    "lon": 32.56225412999052
+  },
+  {
+    "id": "60d2b48b7e9018a1a8d38c18",
+    "name": "Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3107616194453712,
+    "lon": 32.61039352041719
+  },
+  {
+    "id": "60d2b4b47e9018a1a8d38c19",
+    "name": "KampalaCentral",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30334288609285026,
+    "lon": 32.56559905105675
+  },
+  {
+    "id": "60d2b5107e9018a1a8d38c1a",
+    "name": "Kyebando, Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.361207432546337,
+    "lon": 32.577554404187644
+  },
+  {
+    "id": "60d2b7887e9018a1a8d38c26",
+    "name": "KampalaCentral",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32674223673042796,
+    "lon": 32.57118137845791
+  },
+  {
+    "id": "60d2b15a7e9018a1a8d38c16",
+    "name": "Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2675856200353305,
+    "lon": 32.62192177690862
+  },
+  {
+    "id": "60d2b0d77e9018a1a8d38c15",
+    "name": "KampalaCentral",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31312780788130173,
+    "lon": 32.582862483960945
+  },
+  {
+    "id": "60d2b45d7e9018a1a8d38c17",
+    "name": "Kawempe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3840079375752418,
+    "lon": 32.55307304945682
+  },
+  {
+    "id": "60d2b0a57e9018a1a8d38c14",
+    "name": "KampalaCentral",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32073302388445263,
+    "lon": 32.599974717798865
+  },
+  {
+    "id": "60d2b6997e9018a1a8d38c20",
+    "name": "KampalaCentral",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34210264742525437,
+    "lon": 32.591343257516115
+  },
+  {
+    "id": "60d2b0317e9018a1a8d38c11",
+    "name": "Rubaga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3451103651324654,
+    "lon": 32.54703961085007
+  },
+  {
+    "id": "60d2b0557e9018a1a8d38c12",
+    "name": "Rubaga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32515822600289795,
+    "lon": 32.55269712561963
+  },
+  {
+    "id": "60d2b5c57e9018a1a8d38c1c",
+    "name": "Rubaga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.28240811855216924,
+    "lon": 32.548707107306775
+  },
+  {
+    "id": "60d2b7027e9018a1a8d38c23",
+    "name": "Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.298488341363507,
+    "lon": 32.593217731242646
+  },
+  {
+    "id": "64a5755320511a001d1b4a3e",
+    "name": "Impala Ave",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.329728422000113,
+    "lon": 32.603487733542444
+  },
+  {
+    "id": "652e29ea1d93fc001bd8a69b",
+    "name": "Embassy of France, Lumumba avenue",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3180860133945968,
+    "lon": 32.573148989483556
+  },
+  {
+    "id": "66bf008f6591560013ca33c5",
+    "name": "Buganda Road P.S",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3203321816884191,
+    "lon": 32.578930898763055
+  },
+  {
+    "id": "66c85c307a06280013e1a1ee",
+    "name": "Nile avenue, Kampla, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3110130615876831,
+    "lon": 32.578852277856505
+  },
+  {
+    "id": "66cf1ccbada56600143fbbf3",
+    "name": "Kampala Metropolitan CPS",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31456006648444235,
+    "lon": 32.58257705125061
+  },
+  {
+    "id": "6720debeb30f490013469838",
+    "name": "Kawempe Division",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3565108277841486,
+    "lon": 32.563577944776846
+  },
+  {
+    "id": "6720e4f7f3f92c0012f3cca2",
+    "name": "Kawaala Health Centre",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34440387326287986,
+    "lon": 32.5567106052063
+  },
+  {
+    "id": "6720efde4177110013360328",
+    "name": "Komamboga Health Centre",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3944012673205986,
+    "lon": 32.582075363963
+  },
+  {
+    "id": "6720f1ad7b40c70012441280",
+    "name": "St.Paul Kyebando C/U Primary School",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3573714977417657,
+    "lon": 32.58777405673808
+  },
+  {
+    "id": "6720f29741771100133606e4",
+    "name": "Agricultural Resource Centre Kyanja",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.4061783186077443,
+    "lon": 32.59358580473417
+  },
+  {
+    "id": "6720f37341771100133606fc",
+    "name": "Kamwokya Primary School",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3450549933681826,
+    "lon": 32.5922690447118
+  },
+  {
+    "id": "6720f513c7f24000139463e9",
+    "name": "KCCA Hall,Parliamentary Avenue",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3180579975627436,
+    "lon": 32.59020568330497
+  },
+  {
+    "id": "6720f5e77b40c700124412b1",
+    "name": "Nakawa Division KCCA",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33124265006435744,
+    "lon": 32.60611115346599
+  },
+  {
+    "id": "6720f6cac7f24000139463fd",
+    "name": "KCCA Stadium Lugogo",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32547473385183107,
+    "lon": 32.60333624457529
+  },
+  {
+    "id": "6720f7fbc7f240001394641c",
+    "name": "Kiswa Health Centre",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.31914525575767644,
+    "lon": 32.621146173391224
+  },
+  {
+    "id": "6720f8fbc7f240001394643c",
+    "name": "KCCA Division Kisungu",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30654433672835574,
+    "lon": 32.61601420575555
+  },
+  {
+    "id": "6720fa03417711001336076e",
+    "name": "St Paul Demonstration School,Ggaba",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2636310365149203,
+    "lon": 32.622908505932784
+  },
+  {
+    "id": "6720faeb7b40c70012441305",
+    "name": "Kitebi Health Centre 3,Kabusu road",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2808592323014399,
+    "lon": 32.550101364472894
+  },
+  {
+    "id": "672b316753077700134d98ed",
+    "name": "KCCA Division Rubaga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30985822664861,
+    "lon": 32.562538123776406
+  },
+  {
+    "id": "672b33b353077700134d9991",
+    "name": "Kisenyi Health Centre 4 (KCCA)",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3068875793112438,
+    "lon": 32.56493831569115
+  },
+  {
+    "id": "672b3709e571fa0013cb3fe6",
+    "name": "Nakivubo Blue Primary School",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3116541325335258,
+    "lon": 32.57273613356279
+  },
+  {
+    "id": "672b38e953077700134d9f55",
+    "name": "Kololo Mabua Stores",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3359885823683226,
+    "lon": 32.59160907885614
+  },
+  {
+    "id": "672b3a5d53077700134d9fbf",
+    "name": "Kololo AirStrip",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33052429561342694,
+    "lon": 32.59365089052083
+  },
+  {
+    "id": "672b627a53077700134db74b",
+    "name": "kawempe moslem p/s",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.38351501017329714,
+    "lon": 32.55658799309068
+  },
+  {
+    "id": "6736f726c3c13a00138eac93",
+    "name": "Ministry Of Health 2",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3319298158220546,
+    "lon": 32.57340234203506
+  },
+  {
+    "id": "675edf3ff8d0a7001499a6f9",
+    "name": "Makerere Main Gate Area.",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3330258525742823,
+    "lon": 32.573422822188796
+  },
+  {
+    "id": "675ee2251d328d0013c135c3",
+    "name": "Bakuli, Kampala, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32429510009459284,
+    "lon": 32.56462277814545
+  },
+  {
+    "id": "675ee5f81d328d0013c13720",
+    "name": "Kabusu, Natete Road, Kampala, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30944240030826414,
+    "lon": 32.54991343829774
+  },
+  {
+    "id": "675ee84a1d328d0013c13b75",
+    "name": "Kamwokya, Kira Road, Kampala, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34060116229914494,
+    "lon": 32.581909672622785
+  },
+  {
+    "id": "675eeb9e1d328d0013c13b9f",
+    "name": "Kira Road Police, Kira road, Kampala Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34738476727422074,
+    "lon": 32.59389772119784
+  },
+  {
+    "id": "675eef8cf8d0a7001499ac3e",
+    "name": "Lugogo Bypass, Lugogo, Kampala, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3333818077354265,
+    "lon": 32.59948533473428
+  },
+  {
+    "id": "675ef2a91d328d0013c13bf3",
+    "name": "Ntinda Junction, Kampala Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.37155942056792035,
+    "lon": 32.624803424726544
+  },
+  {
+    "id": "675ef408f8d0a7001499ad39",
+    "name": "Namungona Primary school",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3301537030855413,
+    "lon": 32.54001215463861
+  },
+  {
+    "id": "67650fb81d96af0013affedd",
+    "name": "All Saints Church, Nakasero, Kampala, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3217141189545996,
+    "lon": 32.57790822240956
+  },
+  {
+    "id": "67652305975c9f0013e08797",
+    "name": "Water and Environment House, Luzira",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30550311871902863,
+    "lon": 32.64491082550499
+  },
+  {
+    "id": "68a735e5f303950013ad0cb2",
+    "name": "ACCACIA ACADEMY MUYENGA",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2966857194421403,
+    "lon": 32.60881182389847
+  },
+  {
+    "id": "68d657764d739f001352c12c",
+    "name": "Mbuya_Nadiope",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32241844091557753,
+    "lon": 32.634824120954306
+  },
+  {
+    "id": "68d658118162eb0013efffdc",
+    "name": "Bulange_Mengo",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3138005599119477,
+    "lon": 32.55963772616591
+  },
+  {
+    "id": "68d658738162eb0013effff8",
+    "name": "Rustic_Expeditions_Muyenga",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Mkoa wa Kati",
+    "lat": 0.2801943986678683,
+    "lon": 32.62005135050298
+  },
+  {
+    "id": "68d658de8162eb0013f0001e",
+    "name": "Kitintale_Ntensibe",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Mkoa wa Kati",
+    "lat": 0.3112850439864798,
+    "lon": 32.638178975759956
+  },
+  {
+    "id": "68d69d0f4b74ad0012a58685",
+    "name": "Kamwokya_OldKiira",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34774766338837937,
+    "lon": 32.58978774790762
+  },
+  {
+    "id": "694140834973ef0013d1a9b0",
+    "name": "Salama Road",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3309105582963568,
+    "lon": 32.56496843783659
+  },
+  {
+    "id": "69a4079028904b0013aedb6e",
+    "name": "Sir Apollo Kagwa Road",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34436379421605756,
+    "lon": 32.56733365527777
+  },
+  {
+    "id": "69a408532d3afe0013b30495",
+    "name": "Mpelerwe Trading Center",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3836772321765739,
+    "lon": 32.5731968043982
+  },
+  {
+    "id": "69a408eb2d3afe0013b3067f",
+    "name": "Kyebando",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.363259728966301,
+    "lon": 32.583407245616016
+  },
+  {
+    "id": "69a409d428904b0013aede11",
+    "name": "Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3346294338815296,
+    "lon": 32.60606347330803
+  },
+  {
+    "id": "69a40a6d2d3afe0013b30735",
+    "name": "Makerere University Weather Station",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33745233057306584,
+    "lon": 32.566494628060774
+  },
+  {
+    "id": "69e093aeb5011200142bac01",
+    "name": "Makerere University Business School(MUBS) Nakawa",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3317355165464153,
+    "lon": 32.61962201176988
+  },
+  {
+    "id": "69e0943b6a235a00126ab966",
+    "name": "Kyambogo University",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34525481895712007,
+    "lon": 32.63669456293252
+  },
+  {
+    "id": "69e0958db5011200142bac26",
+    "name": "Golf course Kampala. Site 2. playing ground",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Mkoa wa Kati",
+    "lat": 0.3298059551877997,
+    "lon": 32.588931832263015
+  },
+  {
+    "id": "69e09d8ab5011200142bae60",
+    "name": "Golf Course Kampala. Site 1. Training Area",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32786324066518724,
+    "lon": 32.5904971626418
+  },
+  {
+    "id": "69e09ffd4029d1001394d407",
+    "name": "KCCA Central division HQ",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.30652171130788675,
+    "lon": 32.569577952723165
+  },
+  {
+    "id": "69e0a3d26a235a00126abffa",
+    "name": "Buziga Islamic",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.257026560310488,
+    "lon": 32.622697414271926
+  },
+  {
+    "id": "6a6b3e6104bdef0013c3eaac",
+    "name": "AirQo LAB",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3306627493786239,
+    "lon": 32.57452545057242
+  },
+  {
+    "id": "6a6b3ebc14dfbc00135f40af",
+    "name": "AirQo LAB",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.33439589058134667,
+    "lon": 32.57427018666418
+  },
+  {
+    "id": "6a8ff016778c2a001322ee6a",
+    "name": "MOGAS UGANDA LIMITED,BANDA,KAMPALA",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.337898441734948,
+    "lon": 32.634646420130515
+  },
+  {
+    "id": "60d058c8048305120d2d6149",
+    "name": "Kireka, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.34332837321119886,
+    "lon": 32.64679272767608
+  },
+  {
+    "id": "60d058c8048305120d2d6157",
+    "name": "Seguku, Makindye-Ssabagabo",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.23247482253079876,
+    "lon": 32.56784842284883
+  },
+  {
+    "id": "60d058c8048305120d2d615a",
+    "name": "Busabala, Wakiso",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.21854907713977004,
+    "lon": 32.62207804971557
+  },
+  {
+    "id": "60d058c8048305120d2d615b",
+    "name": "Mutundwe, Makindye Ssabagabo",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.2722122884034481,
+    "lon": 32.561922072752665
+  },
+  {
+    "id": "60d058c8048305120d2d6160",
+    "name": "Nansana east ward, Wakiso",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3779173324090488,
+    "lon": 32.53201317327105
+  },
+  {
+    "id": "60d058c8048305120d2d6161",
+    "name": "Kyaliwajala, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3841366007137053,
+    "lon": 32.64341868499228
+  },
+  {
+    "id": "60d058c8048305120d2d616c",
+    "name": "Kasenge, Wakiso",
+    "country": "Uganda",
+    "city": "Kyengera",
+    "region": "Central Region",
+    "lat": 0.2903096709678518,
+    "lon": 32.508632049308524
+  },
+  {
+    "id": "60d058c8048305120d2d616d",
+    "name": "Mbalwa, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3614801001590082,
+    "lon": 32.644796238618774
+  },
+  {
+    "id": "60d058c8048305120d2d616e",
+    "name": "Luwafu, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.27305058203475724,
+    "lon": 32.586283250890865
+  },
+  {
+    "id": "610a43c1909756001e235e93",
+    "name": "Nsasa, Kira Municipality",
+    "country": "Uganda",
+    "city": "Nsasa",
+    "region": "Central Region",
+    "lat": 0.42185025785143654,
+    "lon": 32.658971411271175
+  },
+  {
+    "id": "610c19143bddf1002a98e496",
+    "name": "Kitukutwe, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kira Town",
+    "region": "Central Region",
+    "lat": 0.44243432860913146,
+    "lon": 32.651135408805914
+  },
+  {
+    "id": "6110e93250f99f0029a06756",
+    "name": "Nsawo, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3921883017901854,
+    "lon": 32.677449577872544
+  },
+  {
+    "id": "6111499e8331d8001e38fef6",
+    "name": "Bbuto, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.39074323579386055,
+    "lon": 32.67727740874214
+  },
+  {
+    "id": "616fe4ce9657420029658b3e",
+    "name": "Buwate, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.4033654830160487,
+    "lon": 32.62431415265413
+  },
+  {
+    "id": "617002d2965742002965ab69",
+    "name": "Municipal Council, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.3996839403379356,
+    "lon": 32.637254215901756
+  },
+  {
+    "id": "61767c02537e8a001eb6001f",
+    "name": "Kirinya, Kira Municipality",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.32921829080754117,
+    "lon": 32.66547992832314
+  },
+  {
+    "id": "623d84340e8054001eaaaa13",
+    "name": "Ggaba, Makindye",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.256076452463715,
+    "lon": 32.64102419369914
+  },
+  {
+    "id": "64f829dac56746001a74cfd7",
+    "name": "Kawanda 2",
+    "country": "Uganda",
+    "city": "Namalere",
+    "region": "Central Region",
+    "lat": 0.4358364725823644,
+    "lon": 32.552116689403874
+  },
+  {
+    "id": "68c16e36600ab800132dd12c",
+    "name": "Bukasa Kira Municipality Wakiso",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.313290806792154,
+    "lon": 32.67707724216384
+  },
+  {
+    "id": "69e099554029d1001394cebb",
+    "name": "Kiteezi. Kampala",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.4137754465153595,
+    "lon": 32.57927144749493
+  },
+  {
+    "id": "69ef10511c06c00014ab6ed2",
+    "name": "Munyonyo Site 1",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.23168088162782285,
+    "lon": 32.6256335039645
+  },
+  {
+    "id": "69ef10e570239d001489848b",
+    "name": "Munyonyo Site 2",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.23388637282646862,
+    "lon": 32.62373413458869
+  },
+  {
+    "id": "6a8febbaf0c27d00131d0af3",
+    "name": "Lubowa-Kyeyagalire, Uganda",
+    "country": "Uganda",
+    "city": "Kampala",
+    "region": "Central Region",
+    "lat": 0.23710196666392194,
+    "lon": 32.560364109443704
+  },
+  {
+    "id": "60d058c8048305120d2d6139",
+    "name": "Rwengoma, Kabarole",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6580580900041412,
+    "lon": 30.272100871678315
+  },
+  {
+    "id": "617a7b9a537e8a001ebd5d91",
+    "name": "Booma, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6710766361156081,
+    "lon": 30.286478802874694
+  },
+  {
+    "id": "617aa974537e8a001ebd959f",
+    "name": "Mountains of the Moon University, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6829366815874767,
+    "lon": 30.24812027821128
+  },
+  {
+    "id": "617bc2162ea2ed001fc1ad20",
+    "name": "Mpanga, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6526362482666437,
+    "lon": 30.277629369729812
+  },
+  {
+    "id": "617bd2f22ea2ed001fc1bc1a",
+    "name": "Lorry Park, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6597239521210674,
+    "lon": 30.273792864105303
+  },
+  {
+    "id": "617bf948537e8a001ebfdf94",
+    "name": "Kinyamasika, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6257407990605407,
+    "lon": 30.27234741017141
+  },
+  {
+    "id": "617d3e862ea2ed001fc3eccc",
+    "name": "Kasusu, Fort Portal",
+    "country": "Uganda",
+    "city": "Fort Portal",
+    "region": "Western Region",
+    "lat": 0.6281149588327517,
+    "lon": 30.256476264354575
+  },
+  {
+    "id": "640dce6e1663d3001e408cef",
+    "name": "Nyakasura school Fortportal",
+    "country": "Uganda",
+    "city": "Nyakasura",
+    "region": "Western Region",
+    "lat": 0.6760036949391539,
+    "lon": 30.22157598701561
+  },
+  {
+    "id": "6666a60f8c664b0013bb6364",
+    "name": "Buhinga",
+    "country": "Uganda",
+    "city": "Fort",
+    "region": "Western Region",
+    "lat": 0.6591688224459633,
+    "lon": 30.27882198373683
+  },
+  {
+    "id": "637392727c737c001e785545",
+    "name": "U.S. Department of State Ethiopia - Addis Ababa",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "region": "Addis Ababa",
+    "lat": 9.007071093631989,
+    "lon": 38.819870427611285
+  },
+  {
+    "id": "640f19699b9c0d001e00a21c",
+    "name": "Addis Ababa Central",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "region": "Addis Ababa",
+    "lat": 9.054092914496854,
+    "lon": 38.76252940851359
+  },
+  {
+    "id": "6617e942170eeb0013d7fef4",
+    "name": "Arba Minch",
+    "country": "Ethiopia",
+    "city": "Arba Minch",
+    "region": "Southern Nations, Nationalities and Peoples",
+    "lat": 6.014269000038814,
+    "lon": 37.551475850693755
+  },
+  {
+    "id": "661d0be78ccf140013f784ad",
+    "name": "Addis Ababa EMI Black Lion",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "region": "Addis Ababa",
+    "lat": 9.023064685748512,
+    "lon": 38.74893227581577
+  },
+  {
+    "id": "661d5d18253efb00133d3a1d",
+    "name": "Arba Minch Bus station",
+    "country": "Ethiopia",
+    "city": "Arba Minch",
+    "region": "Southern Nations, Nationalities and Peoples",
+    "lat": 6.03571185225655,
+    "lon": 37.55975773775757
+  },
+  {
+    "id": "661e7573f8f86300138e3bfd",
+    "name": "Arba Minch Nech Sar square",
+    "country": "Ethiopia",
+    "city": "Arba Minch",
+    "region": "Southern Nations, Nationalities and Peoples",
+    "lat": 6.0257139516859075,
+    "lon": 37.54893118668591
+  },
+  {
+    "id": "6320897792b05d001e7dfe03",
+    "name": "Gulu Main Market",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.7695980659612935,
+    "lon": 32.30406132684201
+  },
+  {
+    "id": "6478960bc87a97001e107621",
+    "name": "Lapeta Health Centre 3",
+    "country": "Uganda",
+    "city": "Unyama",
+    "region": "Northern Region",
+    "lat": 2.8236812710242707,
+    "lon": 32.32923208743219
+  },
+  {
+    "id": "647896640c47b0001eba8ff2",
+    "name": "Mary Queen of Peace P/s Gulu",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.7912826626108047,
+    "lon": 32.362160944429334
+  },
+  {
+    "id": "647896dcc87a97001e1077b0",
+    "name": "Gulu university",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.7882171319244624,
+    "lon": 32.31061354964833
+  },
+  {
+    "id": "647a039f7c1d6d00290f49b1",
+    "name": "Kasubi Central Gulu",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.785805211453976,
+    "lon": 32.283527593190804
+  },
+  {
+    "id": "647a320f1024cb00295927f8",
+    "name": "Pece Gulu",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.7757551548353976,
+    "lon": 32.30515252856094
+  },
+  {
+    "id": "647a3342ffeeb4001e3161f9",
+    "name": "Layibi Gulu",
+    "country": "Uganda",
+    "city": "Gulu",
+    "region": "Northern Region",
+    "lat": 2.749484352483179,
+    "lon": 32.29442485096497
+  },
+  {
+    "id": "64ef31227771f10013f8b066",
+    "name": "Universit\u00e9 du Burundi, Campus Mutanga",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.3796006738970665,
+    "lon": 29.388204922125414
+  },
+  {
+    "id": "65549d7a0711ae0013927f9e",
+    "name": "Kanyosha 1, Bujumbura",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.4129982934139735,
+    "lon": 29.347855918439798
+  },
+  {
+    "id": "6554c8d1cd6a4300133fc841",
+    "name": "Universit\u00e9 du Burundi, Campus Kiriri, Bujumbura",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.388138420309498,
+    "lon": 29.394455667839182
+  },
+  {
+    "id": "6554c9d5e0cd970013695211",
+    "name": "Ngagara Q4, Bujumbura",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.350786079260092,
+    "lon": 29.376401164197862
+  },
+  {
+    "id": "65688bab06e4e400141db85b",
+    "name": "Gahahe, Bujumbura. Burundi",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.3303861694311245,
+    "lon": 29.393927767511926
+  },
+  {
+    "id": "657b17ec19638b0013c1b63b",
+    "name": "Nyabugete, Bujumbura, Burundi",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Rural",
+    "lat": -3.4585579508739763,
+    "lon": 29.352281655830936
+  },
+  {
+    "id": "65803bbf20f085001273b0b1",
+    "name": "Berco, Bujumbura, Burundi",
+    "country": "Burundi",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "lat": -3.3598560347523394,
+    "lon": 29.365956043388778
+  },
+  {
+    "id": "6373928b7c737c001e78554f",
+    "name": "U.S. Department of State Madagascar- Antananarivo",
+    "country": "Madagascar",
+    "city": "Antananarivo",
+    "region": "Analamanga",
+    "lat": -18.90924516923599,
+    "lon": 47.54218841685236
+  },
+  {
+    "id": "65550034cd6a4300133fcefc",
+    "name": "Marofototra, Madagascar",
+    "country": "Madagascar",
+    "city": "Maroantsetra",
+    "region": "Analanjirofo",
+    "lat": -15.436687114058527,
+    "lon": 49.74565084128166
+  },
+  {
+    "id": "62efdbc31cc344001e040cb6",
+    "name": "University of Douala Cameroon",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "R\u00e9gion du Littoral",
+    "lat": 4.061959203785813,
+    "lon": 9.699023202363287
+  },
+  {
+    "id": "64d7939a865fdf0013b2989d",
+    "name": "Makepe Douala, cameroon",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.086529944825495,
+    "lon": 9.751749775609028
+  },
+  {
+    "id": "64d7b7f67b8a52001305d0a0",
+    "name": "Littoral Region, Duoala, Cameroon",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "R\u00e9gion du Littoral",
+    "lat": 4.078946276743595,
+    "lon": 9.778541540600905
+  },
+  {
+    "id": "64e4c3be7cf32b00137dc5e4",
+    "name": "Douala 4 Council, Bonab\u00e9ri, Cameroon",
+    "country": "Cameroon",
+    "city": "Bonab\u00e9ri",
+    "region": "Littoral Region",
+    "lat": 4.070324137718285,
+    "lon": 9.68066089596153
+  },
+  {
+    "id": "6526b1a8d2e64a0019c9b660",
+    "name": "Council of Douala 1er",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.0539861705118785,
+    "lon": 9.69079861428344
+  },
+  {
+    "id": "652c5cc865ff9b00193124b7",
+    "name": "Japoma, R\u00e9gion du Littoral, Douala",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.015795007414908,
+    "lon": 9.82800059591655
+  },
+  {
+    "id": "65a625807d14200014756d12",
+    "name": "Bonanjo   Douala, Cameroun",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.037657913152789,
+    "lon": 9.684417431057383
+  },
+  {
+    "id": "65e02e7f8821180013636814",
+    "name": "Kotto, Douala Cameroon",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.0933991561332865,
+    "lon": 9.740852843956608
+  },
+  {
+    "id": "6a05ae68d34d3000133bb2bc",
+    "name": "COLLEGE NAL",
+    "country": "Cameroon",
+    "city": "Douala",
+    "region": "Littoral Region",
+    "lat": 4.052905862282918,
+    "lon": 9.770217947478136
+  },
+  {
+    "id": "65e06cbcc176570013d06cd7",
+    "name": "Tenga 1, Bujumbura, Burundi",
+    "country": "Burundi",
+    "city": "Tenga",
+    "region": "Bujumbura Rural",
+    "lat": -3.3116682262337145,
+    "lon": 29.42735848007325
+  },
+  {
+    "id": "636f69b295dc52002992ebb2",
+    "name": "U.S. Department of State Ghana - Accra",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.583556057016218,
+    "lon": -0.16728970810897126
+  },
+  {
+    "id": "64f9d051b9e98d001ac9e81c",
+    "name": "Tudu Ayalolo Bus Terminal",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.546817790385966,
+    "lon": -0.20285818723214605
+  },
+  {
+    "id": "64f9d112b9e98d001ac9e877",
+    "name": "Mamobi Market",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.593434760834574,
+    "lon": -0.19960306530532607
+  },
+  {
+    "id": "64f9d17ab9e98d001ac9e882",
+    "name": "Achimota Interchange",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.610815638704881,
+    "lon": -0.22537431175994466
+  },
+  {
+    "id": "64f9d1a9b9e98d001ac9e892",
+    "name": "Nima Gutter",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.5843376711521255,
+    "lon": -0.2052799120148318
+  },
+  {
+    "id": "64f9d21bb9e98d001ac9e8a9",
+    "name": "Ayalolo Cluster of Schools",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.544284300136564,
+    "lon": -0.2220514431660579
+  },
+  {
+    "id": "65b92d7c5ff7df0013dec7f7",
+    "name": "EPA Ghana, Accra",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.547092088103366,
+    "lon": -0.19945209918429155
+  },
+  {
+    "id": "65b96471e0ad52001218959e",
+    "name": "Old Fort Road, Accra, Greater Accra  Ghana",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.576086682962655,
+    "lon": -0.17469555862164102
+  },
+  {
+    "id": "6724b89c86b05500137ff578",
+    "name": "Chisco Transport Terminal",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.568973433421255,
+    "lon": -0.22287259206700422
+  },
+  {
+    "id": "6724b8d862ad0200135529c0",
+    "name": "Odwana Market",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.569237382520826,
+    "lon": -0.21790949799375725
+  },
+  {
+    "id": "6724b90e62ad020013552a0e",
+    "name": "Nungua SHS",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.603137027904878,
+    "lon": -0.08391198824548918
+  },
+  {
+    "id": "6724ba543c528b0012c74947",
+    "name": "Osu Presby Prep School",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.558178366313092,
+    "lon": -0.18225801845511302
+  },
+  {
+    "id": "6a0437f12409af00134b892c",
+    "name": "Afri-SET",
+    "country": "Ghana",
+    "city": "Accra",
+    "region": "Greater Accra Region",
+    "lat": 5.649398116194254,
+    "lon": -0.1865285706316928
+  },
+  {
+    "id": "63738f12977802001f1ead58",
+    "name": "U.S. Department of State Nigeria - Abuja",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "lat": 9.045926869292934,
+    "lon": 7.4787571263931385
+  },
+  {
+    "id": "64d7bc75ed04f200139b5ffa",
+    "name": "Ministry of Science and tech, Abuja, Nigeria",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "lat": 9.055975056583273,
+    "lon": 7.503440214036265
+  },
+  {
+    "id": "6a2fa2176f22f10014e96195",
+    "name": "FCTA Secretariat",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "lat": 9.046152777944043,
+    "lon": 7.497207921038714
+  },
+  {
+    "id": "64a2737f682da700297f9d5c",
+    "name": "Hospital Geral de Mavalane",
+    "country": "Mozambique",
+    "city": "Manhica",
+    "region": "Maputo City",
+    "lat": -25.404821710587985,
+    "lon": 32.80837142112342
+  },
+  {
+    "id": "6995bae18305b20013f27370",
+    "name": "Hospital Geral Jos\u00e9 Macamo, Malanga, Nlhamankulu, Maputo-City",
+    "country": "Mozambique",
+    "city": "Maputo",
+    "region": "Maputo",
+    "lat": -25.950329185137527,
+    "lon": 32.54806956825909
+  },
+  {
+    "id": "699ea3919ce7f600140bdace",
+    "name": "Centro de Sa\u00fade de Boane\tBairro 1\tBoane\tMaputo Province\tMozambique",
+    "country": "Mozambique",
+    "city": "Boane",
+    "region": "Maputo Province",
+    "lat": -26.049242410513,
+    "lon": 32.32058423889281
+  },
+  {
+    "id": "699ea4078bb3020014d201b5",
+    "name": "Hospital Provincial de Matola\tMatola C\tMatola\tMaputo Province\tMozambique",
+    "country": "Mozambique",
+    "city": "Matola",
+    "region": "Maputo Province",
+    "lat": -25.967069997626194,
+    "lon": 32.4336672014703
+  },
+  {
+    "id": "69b7cba76e3c1a00134e8a9a",
+    "name": "Manhi\u00e7a Health Reseach Center,Cambeve,Manhi\u00e7a,Maputo Province,Mozambique",
+    "country": "Mozambique",
+    "city": "Manhica",
+    "region": "Maputo Province",
+    "lat": -25.412325752758367,
+    "lon": 32.80297583993329
+  },
+  {
+    "id": "69c0006fc77f1500138cfd7b",
+    "name": "Centro de Sa\u00fade Xipamanine, Nlhamankulu, Maputo-City, Mozambique",
+    "country": "Mozambique",
+    "city": "Maputo",
+    "region": "Maputo",
+    "lat": -25.934361121324777,
+    "lon": 32.56389031549358
+  },
+  {
+    "id": "69c000e3773b970013013e21",
+    "name": "Centro de Sa\u00fade de Zimpeto, KaMubukwana, Maputo-City, Mozambique",
+    "country": "Mozambique",
+    "city": "Maputo",
+    "region": "Maputo",
+    "lat": -25.826795840429025,
+    "lon": 32.57638634373188
+  },
+  {
+    "id": "69d53a8a7833d900146930e0",
+    "name": "Hospital Geral de Mavalane\tMavalane A\tKaMavota (Distrito 4)\tMaputo-City\tMozambique",
+    "country": "Mozambique",
+    "city": "Maputo",
+    "region": "Maputo",
+    "lat": -25.93568215733473,
+    "lon": 32.58868116500124
+  },
+  {
+    "id": "69df7a3a7be3da0013414d2f",
+    "name": "Hospital Geral de Machava, Manduca, Machava, Maputo-Province, Mozambique",
+    "country": "Mozambique",
+    "city": "Matola",
+    "region": "Maputo Provincia",
+    "lat": -25.910321826525497,
+    "lon": 32.532500619126296
+  },
+  {
+    "id": "6a0ca195ce3d6b001305c54a",
+    "name": "Hospital Rural de Xinavane",
+    "country": "Mozambique",
+    "city": "Xinavane",
+    "region": "Maputo Province",
+    "lat": -25.051285566799194,
+    "lon": 32.80546631916505
+  },
+  {
+    "id": "6a0e0b976631570013a52d67",
+    "name": "Centro de Saude de Moamba",
+    "country": "Mozambique",
+    "city": "Moamba",
+    "region": "Maputo Province",
+    "lat": -25.596634888678214,
+    "lon": 32.240531857628675
+  },
+  {
+    "id": "640f18271663d3001e40bed7",
+    "name": "U.S. Department of State Rwanda - Kigali",
+    "country": "Rwanda",
+    "city": "Kigali",
+    "region": "Kigali City",
+    "lat": -1.9351380581871986,
+    "lon": 30.082311088269243
+  },
+  {
+    "id": "6936cbe1b00c580013d2beb8",
+    "name": "Phokeng Water Reservoir AQS",
+    "country": "South Africa",
+    "city": "Phokeng",
+    "region": "North West",
+    "lat": -25.577293462713115,
+    "lon": 27.151016325547324
+  },
+  {
+    "id": "6936cc14d045e2001208cacd",
+    "name": "Sasolburg",
+    "country": "South Africa",
+    "city": "Sasolburg",
+    "region": "Free State",
+    "lat": -26.78208101345895,
+    "lon": 27.841793928018845
+  },
+  {
+    "id": "6a05ba4e0c37890013723a95",
+    "name": "Meerensee, KZN, ZA.",
+    "country": "South Africa",
+    "city": "Richards Bay",
+    "region": "KwaZulu-Natal",
+    "lat": -28.76738593526526,
+    "lon": 32.10210534570532
+  },
+  {
+    "id": "6a05c0b10c37890013723f71",
+    "name": "Keurboom Park",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "region": "Western Cape",
+    "lat": -33.91401989395961,
+    "lon": 18.69322770339021
+  },
+  {
+    "id": "640f0b9e1663d3001e40bd00",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.4449733952706065,
+    "lon": 3.4067102078729032
+  },
+  {
+    "id": "64d0f71818831d0013c326c2",
+    "name": "UNILAG Central Research Laboratory Colocation Centre",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.5207030001875665,
+    "lon": 3.4012852264972753
+  },
+  {
+    "id": "64d3a92c47fc640013c6c284",
+    "name": "LASEPA Ikeja Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Ikeja",
+    "region": "Lagos",
+    "lat": 6.615860689411816,
+    "lon": 3.35718358282932
+  },
+  {
+    "id": "64d3aa7c0bde610013f03093",
+    "name": "NIMET, Oshodi, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.540545235742969,
+    "lon": 3.3478562802176914
+  },
+  {
+    "id": "64d3ab2af5fc5e00133e7984",
+    "name": "Lagos Port Complex, Apapa, Lagos Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.445780211925755,
+    "lon": 3.3810079092297367
+  },
+  {
+    "id": "64d3abace241c10012e56b24",
+    "name": "Mushin, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.524826756755342,
+    "lon": 3.359562945031878
+  },
+  {
+    "id": "64d3abf8f5fc5e00133e799b",
+    "name": "Agege, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Agege",
+    "region": "Lagos",
+    "lat": 6.6493233227434345,
+    "lon": 3.322735589589035
+  },
+  {
+    "id": "64d4836b77e011001332ed3f",
+    "name": "UNILAG main gate area, lagos Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.521475527478523,
+    "lon": 3.3878214159500284
+  },
+  {
+    "id": "64d7bb69ed04f200139b5fbd",
+    "name": "LSDPC housing estate, Ebute Meta, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.492783828493871,
+    "lon": 3.382690911700756
+  },
+  {
+    "id": "64db3e98149b3c001a52c89e",
+    "name": "Iba Town Rd, Ojo 102101, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.472779105358136,
+    "lon": 3.20543917073446
+  },
+  {
+    "id": "64dc967e9043f40013344b96",
+    "name": "LAMATA, Ikorodu Road, Ketu, Lagos",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.598794139545673,
+    "lon": 3.3822968575512746
+  },
+  {
+    "id": "652c59739beea7001a7548b4",
+    "name": "Makoko, Lagos Mainland",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.491013027140353,
+    "lon": 3.3920348029335794
+  },
+  {
+    "id": "652e8f12319d650019be0444",
+    "name": "Ikeja General Hospital Road, Ikeja, Lagos",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.5939346164809525,
+    "lon": 3.344866513115016
+  },
+  {
+    "id": "6531094353d72d00146591dd",
+    "name": "Shobayo Close, Araromi, Lagos",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.549081278826608,
+    "lon": 3.3913619609146086
+  },
+  {
+    "id": "6531a46a89b3300013914a36",
+    "name": "Akoka, lagos Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.536814858446163,
+    "lon": 3.400837821080726
+  },
+  {
+    "id": "6572c7f70c67750014f20c90",
+    "name": "Egbeda, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.590931103159537,
+    "lon": 3.292304061524999
+  },
+  {
+    "id": "6572c93f24e8bf0013024fa2",
+    "name": "Ikotun, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.5571576642927845,
+    "lon": 3.2498305155606464
+  },
+  {
+    "id": "6572c9c124e8bf0013024fb0",
+    "name": "Lagos Island Health Center, Egbe, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.562266616774278,
+    "lon": 3.2551639634786254
+  },
+  {
+    "id": "65836b30aae708001379b5f4",
+    "name": "Surulere, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.479053057307858,
+    "lon": 3.360304957686618
+  },
+  {
+    "id": "65836b9f363e1b00135acaf1",
+    "name": "Mende, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.564629318914223,
+    "lon": 3.366780391209019
+  },
+  {
+    "id": "65e20e25bb9dd50013a0227c",
+    "name": "Eti-Osa, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.423807980573676,
+    "lon": 3.4113276108435255
+  },
+  {
+    "id": "65f8523ed106b60013f75dc0",
+    "name": "Odogunyan lkorodu, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Ikorodu",
+    "region": "Lagos",
+    "lat": 6.675759739214701,
+    "lon": 3.5358259804699506
+  },
+  {
+    "id": "66012a4a87a9d9001390809b",
+    "name": "Moloney ST, Lagos Island, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.450311338632064,
+    "lon": 3.410186076110518
+  },
+  {
+    "id": "661bb5b57103020013ab8caf",
+    "name": "Saluwala, Lagos,  Nigeria",
+    "country": "Nigeria",
+    "city": "Saluwala",
+    "region": "Lagos",
+    "lat": 6.479774396857334,
+    "lon": 3.6091303482703125
+  },
+  {
+    "id": "662f837d019c3e0013c272f3",
+    "name": "Lekki, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Lekki",
+    "region": "Lagos",
+    "lat": 6.428689119030993,
+    "lon": 3.5388242423299126
+  },
+  {
+    "id": "6636868ea6202400136062bb",
+    "name": "General Hospital, Akodo, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Akodo",
+    "region": "Lagos",
+    "lat": 6.441565791201475,
+    "lon": 3.930746571280219
+  },
+  {
+    "id": "6644aebc00f52800135d07eb",
+    "name": "Badagry, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Badagry",
+    "region": "Lagos",
+    "lat": 6.4357932942903275,
+    "lon": 2.912501811520788
+  },
+  {
+    "id": "66ff00681adbee001354a02f",
+    "name": "Epe, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Epe",
+    "region": "Lagos",
+    "lat": 6.583519253797772,
+    "lon": 4.001062072765607
+  },
+  {
+    "id": "67482d732e19110013302308",
+    "name": "Ifako-ljaye, Lagos, Nigeria",
+    "country": "Nigeria",
+    "city": "Agege",
+    "region": "Lagos",
+    "lat": 6.677254222032221,
+    "lon": 3.2777002805306514
+  },
+  {
+    "id": "6943a25509357b00130b5fc6",
+    "name": "Ebute Jetty Ikorodu",
+    "country": "Nigeria",
+    "city": "Ikorodu",
+    "region": "Lagos",
+    "lat": 6.6044085588888946,
+    "lon": 3.482185700660921
+  },
+  {
+    "id": "6943a2ef09357b00130b600a",
+    "name": "Aruna Ikorodu",
+    "country": "Nigeria",
+    "city": "Ikorodu",
+    "region": "Lagos",
+    "lat": 6.619876444489917,
+    "lon": 3.4942388606079477
+  },
+  {
+    "id": "6943a3984973ef0013d271a6",
+    "name": "Majidun BRT Depot Ikorodu",
+    "country": "Nigeria",
+    "city": "Majidun Ilaje",
+    "region": "Lagos",
+    "lat": 6.6202777464713645,
+    "lon": 3.467255876723901
+  },
+  {
+    "id": "6943a3fb09357b00130b607a",
+    "name": "Ikosi Market",
+    "country": "Nigeria",
+    "city": "Ikeja",
+    "region": "Lagos",
+    "lat": 6.591529863675653,
+    "lon": 3.3845428595711833
+  },
+  {
+    "id": "6943a44b09357b00130b609f",
+    "name": "Ikeja Local Government",
+    "country": "Nigeria",
+    "city": "Ikeja",
+    "region": "Lagos",
+    "lat": 6.594153205369526,
+    "lon": 3.341784692029125
+  },
+  {
+    "id": "6943a49cfe657a0013b4c3bf",
+    "name": "Mushin Train Station",
+    "country": "Nigeria",
+    "city": "Ikeja",
+    "region": "Lagos",
+    "lat": 6.535851131008492,
+    "lon": 3.360618975931094
+  },
+  {
+    "id": "6943a54709357b00130b60cd",
+    "name": "Yaba Rail Station",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.510911171194159,
+    "lon": 3.3649996101708224
+  },
+  {
+    "id": "6943a58c09357b00130b60ea",
+    "name": "Oyingbo Bus Terminal",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.47663798659942,
+    "lon": 3.382476496061835
+  },
+  {
+    "id": "6943a6e909357b00130b6139",
+    "name": "Agric Ikorodu",
+    "country": "Nigeria",
+    "city": "Ikorodu",
+    "region": "Lagos",
+    "lat": 6.628365683221353,
+    "lon": 3.4860896634189285
+  },
+  {
+    "id": "6943a730fe657a0013b4c43d",
+    "name": "Moshalashio Link Bridge",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.517207849564746,
+    "lon": 3.3607686464432223
+  },
+  {
+    "id": "6a05b2ce0c37890013723358",
+    "name": "University of Lagos/Makoko",
+    "country": "Nigeria",
+    "city": "Iwaya",
+    "region": "Lagos",
+    "lat": 6.520341887314656,
+    "lon": 3.3821808312712944
+  },
+  {
+    "id": "6a05b6900c378900137236dd",
+    "name": "Osborne - Ikoyi",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.455467221489619,
+    "lon": 3.419507366532189
+  },
+  {
+    "id": "6a05b7c3d34d3000133bbbf5",
+    "name": "Oshodi Bus Terminal 3",
+    "country": "Nigeria",
+    "city": "Ikeja",
+    "region": "Lagos",
+    "lat": 6.560122970028017,
+    "lon": 3.3551549491276407
+  },
+  {
+    "id": "6a05b8100bea770012b64ea8",
+    "name": "Agege Redline Train Station",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.62225528891497,
+    "lon": 3.321545339067785
+  },
+  {
+    "id": "6a05b9a70c378900137238be",
+    "name": "Lawanson QBC",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.51652389293924,
+    "lon": 3.3496692362522515
+  },
+  {
+    "id": "6a05b9e8d34d3000133bbdb1",
+    "name": "LASWA - Five Cowries Terminal",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.44638330321277,
+    "lon": 3.429353364057244
+  },
+  {
+    "id": "6a05bf7a0c37890013723dc1",
+    "name": "LAMATA Place",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Lagos",
+    "lat": 6.589875690522998,
+    "lon": 3.3831278587045426
+  },
+  {
+    "id": "6964ba4cfeaddd0014c41a68",
+    "name": "Peter Odili Road",
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "region": "Rivers",
+    "lat": 4.8072621768165105,
+    "lon": 7.050863869732419
+  },
+  {
+    "id": "6964bc5bb5a37a00148521df",
+    "name": "Collins Owhondah Dr",
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "region": "Rivers",
+    "lat": 4.785746567658706,
+    "lon": 6.973829530046925
+  },
+  {
+    "id": "6964bcde703f610013b53250",
+    "name": "Rumuchita",
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "region": "Rivers",
+    "lat": 4.835391003705126,
+    "lon": 6.98464079193381
+  },
+  {
+    "id": "6970717a78ad850013bc5854",
+    "name": "UST road",
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "region": "Rivers",
+    "lat": 4.8097250051699145,
+    "lon": 6.986508537742382
+  },
+  {
+    "id": "697071d6cf256a0013a986ac",
+    "name": "Trans-Amadi Road",
+    "country": "Nigeria",
+    "city": "Port Harcourt",
+    "region": "Rivers",
+    "lat": 4.8059429019561986,
+    "lon": 7.005895407863654
+  },
+  {
+    "id": "69f33f42ec5f830013bd0fb4",
+    "name": "Byazhin Primary Health Care Center, Abuja",
+    "country": "Nigeria",
+    "city": "Kubwa",
+    "region": "Federal Capital Territory",
+    "lat": 9.174052633120406,
+    "lon": 7.330656006612922
+  },
+  {
+    "id": "69ff29c8bee4780013b28728",
+    "name": "Molete Primary Health Care Centre, Ibadan",
+    "country": "Nigeria",
+    "city": "Ibadan",
+    "region": "Oyo",
+    "lat": 7.360785614068736,
+    "lon": 3.891002001864129
+  },
+  {
+    "id": "6a05b7220c3789001372370b",
+    "name": "Arepo - Ogun State",
+    "country": "Nigeria",
+    "city": "Pakuro",
+    "region": "Ogun State",
+    "lat": 6.695967307719253,
+    "lon": 3.4297551669797484
+  },
+  {
+    "id": "640f18849b9c0d001e00a20b",
+    "name": "U.S. Department of State Congo- Kinshasa",
+    "country": "Democratic Republic of the Congo",
+    "city": "Kinshasa",
+    "region": "Kinshasa",
+    "lat": -4.302680763724815,
+    "lon": 15.317638201709238
+  }
+]
