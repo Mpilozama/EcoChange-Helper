@@ -9,6 +9,15 @@
 ## 🚩 The Problem: "Invisible Inequality"
 Climate change is often discussed as a global, distant threat, but its most immediate impact is local and unequal. Most people don't realize that due to poor urban planning and industrial placement, the air in a lower-income neighborhood can be significantly more toxic than in a wealthy suburb just a few kilometers away. This data is usually buried in complex government spreadsheets that the general public cannot access or understand.
 
+WAQI:
+  Soweto  → no monitor within 15 km (nearest: 29.8 km)
+  Sandton → no monitor within 15 km (nearest: 19.5 km)
+
+AirQo:
+  Soweto  → Phefeni Senior Secondary School, 5.3 km
+  Sandton → Sandton Health Department, 1.3 km
+
+
 ## 💡 The Solution
 EcoChange Helper is a diagnostic tool that translates raw environmental telemetry into a "Human Reality Check." By entering a city, users get an immediate report on their local air toxicity and a personalized carbon impact score. Instead of just showing numbers, the app uses **Generative AI** to explain the biological cost of that air and predicts a localized "2030 Brutal Truth" for that specific city.
 

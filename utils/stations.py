@@ -1,3 +1,4 @@
+import json
 import math
 import os
 
@@ -8,6 +9,7 @@ load_dotenv()
 
 WAQI_URL = "https://api.waqi.info/feed/geo:{lat};{lon}/"
 WAQI_BOUNDS_URL = "https://api.waqi.info/map/bounds/"
+AIRQO_BASE = "https://api.airqo.net/api/v2"
 TIMEOUT = 10
 
 # Distance bands (km) for describing monitoring coverage.
@@ -135,3 +137,46 @@ def attach_station_readings(comparison):
         None not in stations and stations[0]["name"] == stations[1]["name"]
     )
     return comparison
+
+
+def _airqo_number(field):
+    """AirQo may return pm2_5 as a plain number or as an object with a 'value'."""
+    if isinstance(field, dict):
+        field = field.get("value", field.get("calibratedValue"))
+    return float(field) if isinstance(field, (int, float)) else None
+
+
+def get_airqo_reading(site_id, debug=False):
+    """Latest PM2.5 (µg/m³) from an AirQo monitoring site, or None if unavailable.
+    Set debug=True to print the raw response, useful the first time.
+    Returns None if AIRQO_TOKEN is not set — this endpoint requires auth."""
+    token = os.environ.get("AIRQO_TOKEN")
+    if not token or not site_id:
+        return None
+    try:
+        resp = requests.get(
+            f"{AIRQO_BASE}/devices/measurements/sites/{site_id}/recent",
+            params={"token": token},
+            timeout=TIMEOUT,
+        )
+        data = resp.json()
+        if debug:
+            print("HTTP", resp.status_code)
+            print(json.dumps(data, indent=2)[:2500])
+        if not data.get("success"):
+            return None
+        measurements = data.get("measurements") or []
+        if not measurements:
+            return None
+
+        latest = max(measurements, key=lambda m: m.get("time") or "")
+        return {
+            "pm25": _airqo_number(latest.get("pm2_5")),
+            "time": latest.get("time"),
+            "hours_old": latest.get("timeDifferenceHours"),
+            "category": latest.get("aqi_category"),
+            "source": "AirQo",
+            "source_type": "measured",
+        }
+    except (requests.RequestException, ValueError, TypeError, AttributeError):
+        return None
