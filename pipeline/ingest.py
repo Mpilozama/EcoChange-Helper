@@ -3,21 +3,22 @@ import sqlite3
 from datetime import datetime, timezone
 
 from utils.ai_functions import _get_model_pm25, _load_pairs
-from utils.stations import get_nearest_station
+from utils.stations import _load_airqo_sites, get_airqo_reading, get_nearest_station
 
 DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "readings.db")
+INGEST_COUNTRIES = {"South Africa"}
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS readings (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     fetched_at TEXT NOT NULL,      -- when we collected it (UTC)
-    area_id TEXT NOT NULL,         -- which pair from locations.json
+    area_id TEXT NOT NULL,         -- which pair from locations.json, or 'airqo-network'
     area_name TEXT NOT NULL,
     lat REAL,
     lon REAL,
-    source TEXT NOT NULL,          -- 'open-meteo' or 'waqi'
+    source TEXT NOT NULL,          -- 'open-meteo', 'waqi', or 'airqo'
     source_type TEXT NOT NULL,     -- 'model' or 'measured'
-    metric TEXT NOT NULL,          -- 'pm25_ugm3' (model) or 'aqi_pm25' (WAQI)
+    metric TEXT NOT NULL,          -- 'pm25_ugm3' (model/AirQo) or 'aqi_pm25' (WAQI)
     value REAL,                    -- NULL means we could not get a value
     station_name TEXT,
     station_distance_km REAL,
@@ -51,6 +52,20 @@ def run():
                 st["distance_km"] if st else None,
                 st["time"] if st else None,
             ))
+
+    # 3. The whole South African AirQo network, not just our paired areas.
+    #    area_id is 'airqo-network' so these rows are distinguishable from
+    #    the paired-area AirQo rows we might add later.
+    for site in _load_airqo_sites():
+        if site.get("country") not in INGEST_COUNTRIES:
+            continue
+        aq = get_airqo_reading(site["id"])
+        rows.append((
+            now, "airqo-network", site["name"], site["lat"], site["lon"],
+            "airqo", "measured", "pm25_ugm3",
+            aq["pm25"] if aq else None,
+            site["name"], 0.0, aq["time"] if aq else None,
+        ))
 
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute(SCHEMA)
