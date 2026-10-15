@@ -47,23 +47,23 @@
             <div>
                 <span class="num">{{ a.pm25 if a.pm25 is not none else 'n/a' }}</span>
                 <span class="cap">{{ a.name }} ({{ a.context }})</span>
-                {% if a.station and a.station.distance_km <= 50 %}
+                {% if a.station and a.station.coverage != 'none nearby' %}
                 <span class="cap">Nearest ground monitor: {{ a.station.name }}, {{ a.station.distance_km }} km away</span>
-                <span class="cap"><strong>Measured AQI: {{ a.station.aqi_pm25 if a.station.aqi_pm25 is not none else 'n/a' }}</strong> <em>(an index, not µg/m³ — from a monitor that does not measure this neighbourhood)</em></span>
-                {% elif a.station %}
-                <span class="cap">No ground monitor nearby (nearest is {{ a.station.distance_km }} km away — too far to represent this area)</span>
+                <span class="cap"><strong>Measured AQI: {{ a.station.aqi_pm25 if a.station.aqi_pm25 is not none else 'n/a' }}</strong> <em>(an index, not µg/m³)</em></span>
+                {% elif a.station and a.station.distance_km <= 50 %}
+                <span class="cap"><strong>No ground monitor within 15 km.</strong></span>
+                <span class="cap">For reference only: {{ a.station.name }}, {{ a.station.distance_km }} km away, AQI {{ a.station.aqi_pm25 if a.station.aqi_pm25 is not none else 'n/a' }}</span>
                 {% else %}
-                <span class="cap">No ground-monitor data available</span>
+                <span class="cap"><strong>No ground monitor within 50 km.</strong></span>
                 {% endif %}
             </div>
             {% endfor %}
         </div>
-        {% set has_station = comparison.areas | selectattr('station') | list | length > 0 %}
-        {% set has_useful_station = comparison.areas | selectattr('station') | map(attribute='station') | selectattr('distance_km', 'le', 50) | list | length > 0 %}
+        {% set has_useful_station = comparison.areas | selectattr('station') | map(attribute='station') | selectattr('distance_km', 'le', 15) | list | length > 0 %}
         {% if has_useful_station %}
-        <p class="badge">Data type: mixed — model estimates (µg/m³) plus ground measurement (AQI) where a nearby monitor exists</p>
+        <p class="badge">Data type: mixed — model estimates (µg/m³) plus ground measurement (AQI) from a nearby monitor</p>
         {% else %}
-        <p class="badge">Data type: model estimate only — no ground monitor nearby either neighbourhood</p>
+        <p class="badge">Data type: model estimate only — no ground monitor within 15 km of either neighbourhood</p>
         {% endif %}
         {% if comparison.same_value %}
         <p class="callout">Both places show the same number because this model's grid is far too coarse to tell them apart. That is the problem: the air people breathe in each neighbourhood is not actually being measured here.</p>
@@ -101,8 +101,8 @@
             <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}) — far too far to represent your air. In effect, nobody is measuring this area, and the numbers above are model estimates for people who aren't being counted.</p>
             <p class="badge">Data type: model estimate only — no useful ground monitor in range</p>
             {% elif station.coverage == 'none nearby' %}
-            <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}). That is far enough that it may not represent your neighbourhood, so the numbers above lean on model estimates for people who aren't being directly counted.</p>
-            <p class="badge">Data type: mixed — ground measurement {{ station.distance_km }} km away (AQI {{ station.aqi_pm25 if station.aqi_pm25 is not none else 'n/a' }})</p>
+            <p class="callout">The nearest ground monitor is <strong>{{ station.distance_km }} km</strong> away ({{ station.name }}) — outside the 15 km range where a reading would represent your neighbourhood. Treat it as reference only.</p>
+            <p class="badge">Data type: mixed — reference ground measurement {{ station.distance_km }} km away (AQI {{ station.aqi_pm25 if station.aqi_pm25 is not none else 'n/a' }} — an index, not µg/m³)</p>
             {% else %}
             <p>The nearest ground monitor is <strong>{{ station.name }}</strong>, {{ station.distance_km }} km away.{% if station.coverage == 'wider area' %} That is in the wider area, not your immediate neighbourhood.{% endif %}</p>
             <p class="badge">Data type: ground measurement {{ station.distance_km }} km away (AQI {{ station.aqi_pm25 if station.aqi_pm25 is not none else 'n/a' }} — an index, not µg/m³)</p>
