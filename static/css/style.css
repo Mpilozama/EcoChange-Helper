@@ -151,3 +151,18 @@ input:focus, select:focus, button:focus-visible, a:focus-visible, summary:focus-
     padding: 12px 14px;
     margin-top: 12px;
 }
+
+/* ---------- Coverage page ---------- */
+#map {
+    height: 420px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin: 16px 0 6px;
+}
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 700; }
+.band-covered   { color: var(--good); font-weight: 700; }
+.band-distant   { color: var(--moderate); font-weight: 700; }
+.band-uncovered { color: var(--severe); font-weight: 700; }
