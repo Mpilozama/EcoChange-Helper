@@ -11,7 +11,11 @@ from utils.ai_functions import (
     get_future_scenarios,
     get_neighbor_data,
 )
-from utils.stations import attach_station_readings, get_nearest_station
+from utils.stations import (
+    attach_station_readings,
+    get_airqo_for_place,
+    get_nearest_station,
+)
 
 app = Flask(__name__)
 
@@ -37,6 +41,7 @@ def calculate():
     neighbor_pm25 = get_neighbor_data(city_info["lat"], city_info["lon"])
     comparison = attach_station_readings(get_area_comparison(user_city))
     station = get_nearest_station(city_info["lat"], city_info["lon"])
+    airqo_place = get_airqo_for_place(city_info["lat"], city_info["lon"])
 
     scenarios = get_future_scenarios(city_info, score, neighbor_pm25, user_year)
 
@@ -58,6 +63,7 @@ def calculate():
         scenarios=scenarios,
         comparison=comparison,
         station=station,
+        airqo_place=airqo_place,
         scan_date=datetime.now().strftime("%B %Y"),
     )
 
