@@ -1,0 +1,92 @@
+[
+  {
+    "city": "Pretoria",
+    "province": "Gauteng",
+    "nearest_monitor": "University of Pretoria",
+    "distance_km": 4.0
+  },
+  {
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "nearest_monitor": "Sandton Health department",
+    "distance_km": 11.8
+  },
+  {
+    "city": "Rustenburg",
+    "province": "North West",
+    "nearest_monitor": "Phokeng Water Reservoir AQS",
+    "distance_km": 13.6
+  },
+  {
+    "city": "Cape Town",
+    "province": "Western Cape",
+    "nearest_monitor": "Keurboom Park",
+    "distance_km": 24.9
+  },
+  {
+    "city": "Mahikeng",
+    "province": "North West",
+    "nearest_monitor": "Phokeng Water Reservoir AQS",
+    "distance_km": 154.3
+  },
+  {
+    "city": "Durban",
+    "province": "KwaZulu-Natal",
+    "nearest_monitor": "Meerensee, KZN, ZA.",
+    "distance_km": 159.8
+  },
+  {
+    "city": "Pietermaritzburg",
+    "province": "KwaZulu-Natal",
+    "nearest_monitor": "Meerensee, KZN, ZA.",
+    "distance_km": 190.9
+  },
+  {
+    "city": "Polokwane",
+    "province": "Limpopo",
+    "nearest_monitor": "Hammanskraal",
+    "distance_km": 203.1
+  },
+  {
+    "city": "Mbombela",
+    "province": "Mpumalanga",
+    "nearest_monitor": "Devon municipal offices",
+    "distance_km": 239.5
+  },
+  {
+    "city": "Bloemfontein",
+    "province": "Free State",
+    "nearest_monitor": "Sasolburg",
+    "distance_km": 305.3
+  },
+  {
+    "city": "George",
+    "province": "Western Cape",
+    "nearest_monitor": "Keurboom Park",
+    "distance_km": 347.7
+  },
+  {
+    "city": "Kimberley",
+    "province": "Northern Cape",
+    "nearest_monitor": "Wedela Library",
+    "distance_km": 360.2
+  },
+  {
+    "city": "East London",
+    "province": "Eastern Cape",
+    "nearest_monitor": "Meerensee, KZN, ZA.",
+    "distance_km": 618.7
+  },
+  {
+    "city": "Gqeberha",
+    "province": "Eastern Cape",
+    "nearest_monitor": "Keurboom Park",
+    "distance_km": 638.4
+  },
+  {
+    "city": "Upington",
+    "province": "Northern Cape",
+    "nearest_monitor": "Wedela Library",
+    "distance_km": 642.5
+  }
+]
