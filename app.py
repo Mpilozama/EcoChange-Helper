@@ -1,3 +1,5 @@
+import json
+import os
 from datetime import datetime
 
 from flask import Flask, render_template, request
@@ -18,6 +20,16 @@ from utils.stations import (
 )
 
 app = Flask(__name__)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_json(name):
+    try:
+        with open(os.path.join(BASE_DIR, "data", name), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
 
 
 @app.route("/")
@@ -65,6 +77,35 @@ def calculate():
         station=station,
         airqo_place=airqo_place,
         scan_date=datetime.now().strftime("%B %Y"),
+    )
+
+
+@app.route('/coverage')
+def coverage():
+    report = _load_json("za_coverage.json")
+    sites = [
+        {"name": s["name"], "lat": s["lat"], "lon": s["lon"]}
+        for s in _load_json("airqo_sites.json")
+        if s.get("country") == "South Africa"
+    ]
+
+    # Same distance bands the rest of the app uses
+    for r in report:
+        d = r.get("distance_km")
+        if d is not None and d <= 15:
+            r["band"] = "covered"
+        elif d is not None and d <= 50:
+            r["band"] = "distant"
+        else:
+            r["band"] = "uncovered"
+
+    uncovered_count = sum(1 for r in report if r["band"] == "uncovered")
+    return render_template(
+        'coverage.html',
+        report=report,
+        sites=sites,
+        site_count=len(sites),
+        uncovered_count=uncovered_count,
     )
 
 
