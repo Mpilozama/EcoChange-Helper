@@ -93,6 +93,26 @@
     </section>
     {% endif %}
 
+    {% if airqo_place %}
+    <section class="card">
+        <h2>Ground monitoring near {{ result_city }}</h2>
+        {% if airqo_place.within_range %}
+            <p>Nearest AirQo monitor: <strong>{{ airqo_place.site.name }}</strong>, {{ airqo_place.site.distance_km }} km away{% if airqo_place.site.region %} ({{ airqo_place.site.region }}{% if airqo_place.site.country %}, {{ airqo_place.site.country }}{% endif %}){% endif %}.</p>
+            {% if airqo_place.reading and airqo_place.reading.pm25 is not none %}
+            <p><strong>{{ airqo_place.reading.pm25 | round(1) }} µg/m³</strong> of fine dust measured there{% if airqo_place.reading.hours_old is not none %} ({{ airqo_place.reading.hours_old | round(1) }} h ago){% endif %}. The WHO daily guideline is 15.</p>
+            <p class="badge">Data type: ground measurement (AirQo, µg/m³)</p>
+            {% else %}
+            <p>That monitor has no recent reading available.</p>
+            {% endif %}
+            {% if airqo_place.coverage != 'nearby' %}
+            <p class="hint">That monitor is not in your immediate neighbourhood, so treat it as an indication of the wider area, not your street.</p>
+            {% endif %}
+        {% else %}
+            <p class="callout">The nearest AirQo monitor is <strong>{{ airqo_place.site.distance_km }} km</strong> away ({{ airqo_place.site.name }}{% if airqo_place.site.country %}, {{ airqo_place.site.country }}{% endif %}). Nobody on this network is measuring the air here, so the numbers above are model estimates for people who aren't being counted.</p>
+        {% endif %}
+    </section>
+    {% endif %}
+
     {% if station is defined %}
     <section class="card">
         <h2>Is the air here actually being measured?</h2>
@@ -149,7 +169,7 @@
     {% endif %}
 
     <p class="footnote">Air data from Open-Meteo. The two sections above are written by an AI (Gemini) and are dramatic estimates, not scientific forecasts.</p>
-    <p class="footnote">Ground-monitor data: World Air Quality Index Project (aqicn.org).</p>
+    <p class="footnote">Ground-monitor data: World Air Quality Index Project (aqicn.org) and AirQo.</p>
 </main>
 </body>
 </html>
