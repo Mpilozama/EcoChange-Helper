@@ -1,0 +1,22 @@
+[
+  {
+    "id": "johannesburg-soweto-sandton",
+    "aliases": ["soweto", "sandton", "johannesburg"],
+    "areas": [
+      {
+        "name": "Soweto",
+        "lat": -26.2485,
+        "lon": 27.8540,
+        "context": "lower-income township area",
+        "context_source": "TODO: cite census or Stats SA data"
+      },
+      {
+        "name": "Sandton",
+        "lat": -26.1076,
+        "lon": 28.0567,
+        "context": "higher-income suburb",
+        "context_source": "TODO: cite census or Stats SA data"
+      }
+    ]
+  }
+]
