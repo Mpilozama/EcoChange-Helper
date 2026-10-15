@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Who is South Africa's air being measured for?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<main class="page">
+    <a href="/" class="back">&larr; Check your own air</a>
+
+    <h1>Who is South Africa's air being measured for?</h1>
+    <p class="lead">Air pollution can only be managed where it is measured. This map shows where the AirQo monitoring network actually has sensors, and how far major cities are from the nearest one.</p>
+
+    <section class="card">
+        <p><strong>{{ site_count }}</strong> AirQo monitors across South Africa. Of the <strong>{{ report | length }}</strong> cities checked, <strong>{{ uncovered_count }}</strong> have no monitor within 50 km.</p>
+        <p class="hint">This shows the AirQo network only. Government and other networks may measure some of these places, and adding them is a planned next step, so read "uncovered" as "uncovered by this network", not "nobody is measuring".</p>
+    </section>
+
+    <div id="map" role="img" aria-label="Map of South Africa showing air quality monitors and how well each major city is covered"></div>
+    <p class="hint">Dark dots are monitors. Rings are cities: green is within 15 km of a monitor, amber is 15–50 km, red is more than 50 km.</p>
+
+    <section class="card table-wrap">
+        <table>
+            <thead>
+                <tr><th>City</th><th>Province</th><th>Nearest monitor</th><th>Distance</th><th>Coverage</th></tr>
+            </thead>
+            <tbody>
+            {% for r in report %}
+                <tr>
+                    <td>{{ r.city }}</td>
+                    <td>{{ r.province or '' }}</td>
+                    <td>{{ r.nearest_monitor or 'none found' }}</td>
+                    <td>{{ r.distance_km if r.distance_km is not none else 'n/a' }} km</td>
+                    <td class="band-{{ r.band }}">
+                        {% if r.band == 'covered' %}Covered{% elif r.band == 'distant' %}Distant{% else %}Uncovered{% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    <p class="footnote">Monitor data: AirQo. Map: &copy; OpenStreetMap contributors. City positions from the Open-Meteo geocoder.</p>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    const sites = {{ sites | tojson }};
+    const cities = {{ report | tojson }};
+    const esc = s => String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+
+    const map = L.map('map').setView([-29, 25], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 12,
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const colours = {covered: '#2e8f5f', distant: '#b98200', uncovered: '#b3261e'};
+
+    sites.forEach(s => {
+        L.circleMarker([s.lat, s.lon], {radius: 5, color: '#14232b', fillColor: '#14232b', fillOpacity: 0.9})
+            .bindTooltip('Monitor: ' + esc(s.name)).addTo(map);
+    });
+
+    cities.forEach(c => {
+        if (c.lat == null) return;
+        L.circleMarker([c.lat, c.lon], {radius: 11, color: colours[c.band], fillColor: colours[c.band], fillOpacity: 0.3, weight: 3})
+            .bindTooltip(esc(c.city) + ': nearest monitor ' + esc(c.distance_km) + ' km away').addTo(map);
+    });
+</script>
+</body>
+</html>
