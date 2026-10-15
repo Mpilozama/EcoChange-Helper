@@ -180,3 +180,38 @@ def get_airqo_reading(site_id, debug=False):
         }
     except (requests.RequestException, ValueError, TypeError, AttributeError):
         return None
+
+
+SITES_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "airqo_sites.json")
+AIRQO_MAX_KM = 50  # beyond this, a monitor says nothing about the place
+
+
+def _load_airqo_sites():
+    try:
+        with open(SITES_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def get_nearest_airqo_site(lat, lon):
+    best = None
+    for s in _load_airqo_sites():
+        d = haversine_km(lat, lon, s["lat"], s["lon"])
+        if best is None or d < best["distance_km"]:
+            best = {**s, "distance_km": d}
+    return best
+
+
+def get_airqo_for_place(lat, lon):
+    """For ANY coordinates: nearest AirQo monitor, how far, and its latest reading."""
+    site = get_nearest_airqo_site(lat, lon)
+    if not site:
+        return None
+    within = site["distance_km"] <= AIRQO_MAX_KM
+    return {
+        "site": site,
+        "within_range": within,
+        "coverage": coverage_label(site["distance_km"]),
+        "reading": get_airqo_reading(site["id"]) if within else None,
+    }
