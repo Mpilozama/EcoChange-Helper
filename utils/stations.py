@@ -77,7 +77,9 @@ def get_stations_nearby(lat, lon, radius_km=15):
     That difference matters: 'no monitors' is a finding, 'lookup failed' is not.
     Note: WAQI's bounds endpoint is not a complete inventory of every monitor
     in a region — [] means 'WAQI's map returned none for this box', not
-    'no monitors exist here'. Treat both findings with appropriate caution."""
+    'no monitors exist here'. Treat both findings with appropriate caution.
+    Each station has a 'status' of 'reporting' or 'offline'; offline monitors
+    exist but aren't currently returning a reading, which is a separate finding."""
     token = os.environ.get("WAQI_TOKEN")
     if not token:
         return None
@@ -98,14 +100,24 @@ def get_stations_nearby(lat, lon, radius_km=15):
         stations = []
         for s in resp.get("data", []):
             distance = haversine_km(lat, lon, s["lat"], s["lon"])
-            if distance <= radius_km:
-                info = s.get("station") or {}
-                stations.append({
-                    "name": info.get("name"),
-                    "distance_km": distance,
-                    "aqi": s.get("aqi"),
-                    "last_update": info.get("time"),
-                })
+            if distance > radius_km:
+                continue
+            info = s.get("station") or {}
+            aqi_raw = s.get("aqi")
+            if aqi_raw in (None, "-"):
+                aqi_value, status = None, "offline"
+            else:
+                try:
+                    aqi_value, status = float(aqi_raw), "reporting"
+                except (TypeError, ValueError):
+                    aqi_value, status = None, "offline"
+            stations.append({
+                "name": info.get("name"),
+                "distance_km": distance,
+                "aqi": aqi_value,
+                "status": status,
+                "last_update": info.get("time"),
+            })
         return sorted(stations, key=lambda x: x["distance_km"])
     except (requests.RequestException, KeyError, ValueError, TypeError):
         return None
