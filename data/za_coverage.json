@@ -1,19 +1,102 @@
 [
   {
+    "city": "Durban",
+    "province": "KwaZulu-Natal",
+    "lat": -29.8579,
+    "lon": 31.0292,
+    "nearest_monitor": "City Hall - Durban-NAQI",
+    "distance_km": 0.2,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 159.8,
+    "nearest_openaq_km": 0.2
+  },
+  {
+    "city": "Cape Town",
+    "province": "Western Cape",
+    "lat": -33.92584,
+    "lon": 18.42322,
+    "nearest_monitor": "Foreshore-NAQI",
+    "distance_km": 1.3,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 24.9,
+    "nearest_openaq_km": 1.3
+  },
+  {
+    "city": "Kimberley",
+    "province": "Northern Cape",
+    "lat": -28.73226,
+    "lon": 24.76232,
+    "nearest_monitor": "ES_Kimberley",
+    "distance_km": 2.6,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 360.2,
+    "nearest_openaq_km": 2.6
+  },
+  {
     "city": "Pretoria",
     "province": "Gauteng",
     "lat": -25.74486,
     "lon": 28.18783,
     "nearest_monitor": "University of Pretoria",
-    "distance_km": 4.0
+    "distance_km": 4.0,
+    "network": "AirQo",
+    "nearest_airqo_km": 4.0,
+    "nearest_openaq_km": 7.7
+  },
+  {
+    "city": "Polokwane",
+    "province": "Limpopo",
+    "lat": -23.90449,
+    "lon": 29.46885,
+    "nearest_monitor": "Polokwane",
+    "distance_km": 4.1,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 203.1,
+    "nearest_openaq_km": 4.1
+  },
+  {
+    "city": "Pietermaritzburg",
+    "province": "KwaZulu-Natal",
+    "lat": -29.61679,
+    "lon": 30.39278,
+    "nearest_monitor": "ES_Pietermaritzburg",
+    "distance_km": 4.5,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 190.9,
+    "nearest_openaq_km": 4.5
+  },
+  {
+    "city": "Upington",
+    "province": "Northern Cape",
+    "lat": -28.44776,
+    "lon": 21.25612,
+    "nearest_monitor": "ES_Upington",
+    "distance_km": 4.6,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 642.5,
+    "nearest_openaq_km": 4.6
+  },
+  {
+    "city": "East London",
+    "province": "Eastern Cape",
+    "lat": -33.01529,
+    "lon": 27.91162,
+    "nearest_monitor": "Gompo",
+    "distance_km": 5.8,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 618.7,
+    "nearest_openaq_km": 5.8
   },
   {
     "city": "Johannesburg",
     "province": "Gauteng",
     "lat": -26.20227,
     "lon": 28.04363,
-    "nearest_monitor": "Sandton Health department",
-    "distance_km": 11.8
+    "nearest_monitor": "Little John Park ",
+    "distance_km": 10.6,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 11.8,
+    "nearest_openaq_km": 10.6
   },
   {
     "city": "Rustenburg",
@@ -21,15 +104,54 @@
     "lat": -25.66756,
     "lon": 27.24208,
     "nearest_monitor": "Phokeng Water Reservoir AQS",
-    "distance_km": 13.6
+    "distance_km": 13.6,
+    "network": "AirQo",
+    "nearest_airqo_km": 13.6,
+    "nearest_openaq_km": 14.6
   },
   {
-    "city": "Cape Town",
+    "city": "Gqeberha",
+    "province": "Eastern Cape",
+    "lat": -33.96109,
+    "lon": 25.61494,
+    "nearest_monitor": "ES_Motherwell",
+    "distance_km": 19.1,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 638.4,
+    "nearest_openaq_km": 19.1
+  },
+  {
+    "city": "Mbombela",
+    "province": "Mpumalanga",
+    "lat": -25.47512,
+    "lon": 30.96935,
+    "nearest_monitor": "ES_Elandshoek",
+    "distance_km": 26.1,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 239.5,
+    "nearest_openaq_km": 26.1
+  },
+  {
+    "city": "George",
     "province": "Western Cape",
-    "lat": -33.92584,
-    "lon": 18.42322,
-    "nearest_monitor": "Keurboom Park",
-    "distance_km": 24.9
+    "lat": -33.963,
+    "lon": 22.46173,
+    "nearest_monitor": "ES_GRDM ",
+    "distance_km": 110.1,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 347.7,
+    "nearest_openaq_km": 110.1
+  },
+  {
+    "city": "Bloemfontein",
+    "province": "Free State",
+    "lat": -29.12107,
+    "lon": 26.214,
+    "nearest_monitor": "ES_Kimberley",
+    "distance_km": 146.5,
+    "network": "OpenAQ",
+    "nearest_airqo_km": 305.3,
+    "nearest_openaq_km": 146.5
   },
   {
     "city": "Mahikeng",
@@ -37,86 +159,9 @@
     "lat": -25.86522,
     "lon": 25.64421,
     "nearest_monitor": "Phokeng Water Reservoir AQS",
-    "distance_km": 154.3
-  },
-  {
-    "city": "Durban",
-    "province": "KwaZulu-Natal",
-    "lat": -29.8579,
-    "lon": 31.0292,
-    "nearest_monitor": "Meerensee, KZN, ZA.",
-    "distance_km": 159.8
-  },
-  {
-    "city": "Pietermaritzburg",
-    "province": "KwaZulu-Natal",
-    "lat": -29.61679,
-    "lon": 30.39278,
-    "nearest_monitor": "Meerensee, KZN, ZA.",
-    "distance_km": 190.9
-  },
-  {
-    "city": "Polokwane",
-    "province": "Limpopo",
-    "lat": -23.90449,
-    "lon": 29.46885,
-    "nearest_monitor": "Hammanskraal",
-    "distance_km": 203.1
-  },
-  {
-    "city": "Mbombela",
-    "province": "Mpumalanga",
-    "lat": -25.47512,
-    "lon": 30.96935,
-    "nearest_monitor": "Devon municipal offices",
-    "distance_km": 239.5
-  },
-  {
-    "city": "Bloemfontein",
-    "province": "Free State",
-    "lat": -29.12107,
-    "lon": 26.214,
-    "nearest_monitor": "Sasolburg",
-    "distance_km": 305.3
-  },
-  {
-    "city": "George",
-    "province": "Western Cape",
-    "lat": -33.963,
-    "lon": 22.46173,
-    "nearest_monitor": "Keurboom Park",
-    "distance_km": 347.7
-  },
-  {
-    "city": "Kimberley",
-    "province": "Northern Cape",
-    "lat": -28.73226,
-    "lon": 24.76232,
-    "nearest_monitor": "Wedela Library",
-    "distance_km": 360.2
-  },
-  {
-    "city": "East London",
-    "province": "Eastern Cape",
-    "lat": -33.01529,
-    "lon": 27.91162,
-    "nearest_monitor": "Meerensee, KZN, ZA.",
-    "distance_km": 618.7
-  },
-  {
-    "city": "Gqeberha",
-    "province": "Eastern Cape",
-    "lat": -33.96109,
-    "lon": 25.61494,
-    "nearest_monitor": "Keurboom Park",
-    "distance_km": 638.4
-  },
-  {
-    "city": "Upington",
-    "province": "Northern Cape",
-    "lat": -28.44776,
-    "lon": 21.25612,
-    "nearest_monitor": "Wedela Library",
-    "distance_km": 642.5
+    "distance_km": 154.3,
+    "network": "AirQo",
+    "nearest_airqo_km": 154.3,
+    "nearest_openaq_km": 155.5
   }
 ]
