@@ -1,6 +1,7 @@
 import json
 import math
 import os
+from datetime import datetime, timedelta, timezone
 
 import requests
 from dotenv import load_dotenv
@@ -215,3 +216,31 @@ def get_airqo_for_place(lat, lon):
         "coverage": coverage_label(site["distance_km"]),
         "reading": get_airqo_reading(site["id"]) if within else None,
     }
+
+
+OPENAQ_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "openaq_sites.json")
+ACTIVE_DAYS = 30
+
+
+def _load_openaq_sites():
+    try:
+        with open(OPENAQ_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def is_active(site, days=ACTIVE_DAYS):
+    """True if the monitor reported data within the last `days` days."""
+    last = site.get("last_utc")
+    if not last:
+        return False
+    try:
+        when = datetime.fromisoformat(last.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return when >= datetime.now(timezone.utc) - timedelta(days=days)
+
+
+def measures_pm25(site):
+    return "pm25" in (site.get("parameters") or [])
