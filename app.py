@@ -17,6 +17,8 @@ from utils.stations import (
     attach_station_readings,
     get_airqo_for_place,
     get_nearest_station,
+    is_active,
+    measures_pm25,
 )
 
 app = Flask(__name__)
@@ -88,6 +90,11 @@ def coverage():
         for s in _load_json("airqo_sites.json")
         if s.get("country") == "South Africa"
     ]
+    openaq_sites = [
+        {"name": s["name"], "lat": s["lat"], "lon": s["lon"], "provider": s.get("provider")}
+        for s in _load_json("openaq_sites.json")
+        if is_active(s) and measures_pm25(s)
+    ]
 
     # Same distance bands the rest of the app uses
     for r in report:
@@ -105,6 +112,8 @@ def coverage():
         report=report,
         sites=sites,
         site_count=len(sites),
+        openaq_sites=openaq_sites,
+        openaq_count=len(openaq_sites),
         uncovered_count=uncovered_count,
     )
 
