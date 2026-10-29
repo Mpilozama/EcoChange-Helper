@@ -6,6 +6,14 @@
 
 ---
 
+New framing:
+
+    South Africa's air quality monitoring problem isn't about missing monitors. It's about abandoned ones.
+
+    We checked 15 major cities against both the AirQo low-cost network (21 sites, real-time) and the OpenAQ aggregator (271 sites, including 221 government reference-grade monitors).
+
+    Every city had a reference-grade monitor nearby. But many of them haven't reported data in years. George, a city of 200,000 people, has five reference-grade monitors — all silent since 2023. The nearest working monitor is 110 km away.
+
 ## 🚩 The Problem: "Invisible Inequality"
 Climate change is often discussed as a global, distant threat, but its most immediate impact is local and unequal. Most people don't realize that due to poor urban planning and industrial placement, the air in a lower-income neighborhood can be significantly more toxic than in a wealthy suburb just a few kilometers away. This data is usually buried in complex government spreadsheets that the general public cannot access or understand.
 

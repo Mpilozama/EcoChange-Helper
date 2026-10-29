@@ -1,0 +1,4734 @@
+[
+  {
+    "id": 6868,
+    "name": "Brackenham - RBCAA",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.731301,
+    "lon": 32.039016,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 6869,
+    "name": "CBD",
+    "locality": null,
+    "provider": "Richards Bay",
+    "is_monitor": true,
+    "lat": -28.756224,
+    "lon": 32.049242,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2019-04-03T21:45:00Z"
+  },
+  {
+    "id": 6874,
+    "name": "Arboretum",
+    "locality": null,
+    "provider": "Richards Bay",
+    "is_monitor": true,
+    "lat": -28.752435,
+    "lon": 32.062646,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2019-04-03T21:45:00Z"
+  },
+  {
+    "id": 225393,
+    "name": "Damonsville",
+    "locality": "Bojanala Platinum",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.625702,
+    "lon": 27.851825,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-02-29T22:00:00Z"
+  },
+  {
+    "id": 225394,
+    "name": "Middelburg SAWS-NAQI",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.796056,
+    "lon": 29.462823,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225396,
+    "name": "Saltworks-NAQI",
+    "locality": "Eastern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.763778,
+    "lon": 25.683428,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225397,
+    "name": "Middelburg MP",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.773111,
+    "lon": 29.438611,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225398,
+    "name": "Thabazimbi",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.591058,
+    "lon": 27.391605,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225399,
+    "name": "Mokopane",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.155951,
+    "lon": 28.984199,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225400,
+    "name": "Sebokeng",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.587334,
+    "lon": 27.841022,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225401,
+    "name": "Bedfordview-NAQI",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.178666,
+    "lon": 28.13314,
+    "parameters": [
+      "co",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-03-27T16:00:00Z"
+  },
+  {
+    "id": 225402,
+    "name": "Atlantis",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.562325,
+    "lon": 18.480519,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225403,
+    "name": "Wentworth Reservior-NAQI",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.934094,
+    "lon": 30.988622,
+    "parameters": [
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 225404,
+    "name": "Table View-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.819667,
+    "lon": 18.514333,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225405,
+    "name": "Bongani Mabaso Eco Park",
+    "locality": "Fezile Dabi",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.77761,
+    "lon": 27.837328000000003,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225406,
+    "name": "Delmas MP",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.140316,
+    "lon": 28.697015000000004,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-09-11T18:00:00Z"
+  },
+  {
+    "id": 225408,
+    "name": "Lephalale-NAQI",
+    "locality": "Waterberg",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.682068,
+    "lon": 27.722012000000003,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 225409,
+    "name": "Bellville South-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.9155,
+    "lon": 18.643556,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T10:00:00Z"
+  },
+  {
+    "id": 225411,
+    "name": "Standerton - MP Province",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.964112,
+    "lon": 29.2232,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-16T16:00:00Z"
+  },
+  {
+    "id": 225412,
+    "name": "Arboretum \u2013 Water Facility",
+    "locality": "King Cetshwayo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.761003,
+    "lon": 32.07862,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "so2"
+    ],
+    "last_utc": "2023-10-12T08:00:00Z"
+  },
+  {
+    "id": 225413,
+    "name": "Leitrim",
+    "locality": "Fezile Dabi",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.851461,
+    "lon": 27.875845000000005,
+    "parameters": [
+      "co",
+      "no2",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225414,
+    "name": "Edendale",
+    "locality": "uMgungundlovu",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.637968,
+    "lon": 30.344507,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2024-03-07T20:00:00Z"
+  },
+  {
+    "id": 225415,
+    "name": "Marikana CC-NAQI",
+    "locality": "Bojanala Platinum",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.698444000000002,
+    "lon": 27.480111,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225417,
+    "name": "Zamdela-NAQI",
+    "locality": "Free State",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.845083,
+    "lon": 27.855778,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225418,
+    "name": "eMalahleni -MP Province",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.92225,
+    "lon": 29.24163,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225419,
+    "name": "Buccleugh-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.045,
+    "lon": 28.098889,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225420,
+    "name": "Scorpio - RBCAA",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.769692,
+    "lon": 32.034228,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225421,
+    "name": "Lichtenburg",
+    "locality": "Ngaka Modiri Molema",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.178767000000004,
+    "lon": 26.143496,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225422,
+    "name": "Bothasig",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.858139,
+    "lon": 18.541028,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225424,
+    "name": "Kliprivier",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.420222,
+    "lon": 28.084139,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225425,
+    "name": "eMalahleni - SAWS",
+    "locality": "Nkangala",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.877861,
+    "lon": 29.186472,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-02-11T10:00:00Z"
+  },
+  {
+    "id": 225426,
+    "name": "Olifantsfontein-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.973743,
+    "lon": 28.236044000000003,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-08-24T22:00:00Z"
+  },
+  {
+    "id": 225427,
+    "name": "Kanana",
+    "locality": "Dr Kenneth Kaunda",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.95639,
+    "lon": 26.63763,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225428,
+    "name": "Pietermaritzburg Airport - ORIBI",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.637583,
+    "lon": 30.337389,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225429,
+    "name": "AJ Jacobs",
+    "locality": "Fezile Dabi",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.822775,
+    "lon": 27.826179000000003,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225430,
+    "name": "Vanderbijlpark-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.688504,
+    "lon": 27.816736,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-19T16:00:00Z"
+  },
+  {
+    "id": 225431,
+    "name": "Balfour",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.662851,
+    "lon": 28.584703,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225432,
+    "name": "Capricorn",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.884413,
+    "lon": 29.405415,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-30T11:00:00Z"
+  },
+  {
+    "id": 225433,
+    "name": "Bosjesspruit",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.605556,
+    "lon": 29.210833,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225434,
+    "name": "Olievenhoutbosch-NAQI",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.911666999999998,
+    "lon": 28.092939,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225435,
+    "name": "Steelpoort",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.731501,
+    "lon": 30.134383,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225436,
+    "name": "Bodibeng-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.492833,
+    "lon": 28.093733,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225438,
+    "name": "Club-NAQI",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.523518,
+    "lon": 29.189015,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225439,
+    "name": "Diepsloot",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.921853,
+    "lon": 28.018873,
+    "parameters": [
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-27T11:00:00Z"
+  },
+  {
+    "id": 225440,
+    "name": "Ermelo-NAQI",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.493348,
+    "lon": 29.968054,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225441,
+    "name": "eMbalenhle North",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.536389,
+    "lon": 29.0725,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225442,
+    "name": "Settlers-NAQI",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.958742,
+    "lon": 30.978717,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-20T09:00:00Z"
+  },
+  {
+    "id": 225443,
+    "name": "Pelonomi-NAQI",
+    "locality": "Mangaung  Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.138507,
+    "lon": 26.241952,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225444,
+    "name": "Gompo",
+    "locality": "Eastern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.014944,
+    "lon": 27.849248,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225445,
+    "name": "Diepkloof-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.250733,
+    "lon": 27.9564167,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-08-31T07:00:00Z"
+  },
+  {
+    "id": 225446,
+    "name": "Thokoza-NAQI",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.329515,
+    "lon": 28.14299,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 225447,
+    "name": "Worcester-NAQI",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.627489,
+    "lon": 19.468318,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-05-08T06:00:00Z"
+  },
+  {
+    "id": 225448,
+    "name": "Jabavu-NAQI",
+    "locality": "City of Johannesburg",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.252611,
+    "lon": 27.872139,
+    "parameters": [
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225450,
+    "name": "eMbalenhle South",
+    "locality": "Gert Sibande",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.570343,
+    "lon": 29.07457,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-06-21T13:00:00Z"
+  },
+  {
+    "id": 225451,
+    "name": "Three Rivers",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.657017,
+    "lon": 27.999461,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225452,
+    "name": "Jouberton",
+    "locality": "Dr Kenneth Kaunda",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.89605,
+    "lon": 26.6056,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225454,
+    "name": "Molteno",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.937861,
+    "lon": 18.410778,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225455,
+    "name": "Xanadu-NAQI",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.747122,
+    "lon": 27.92461,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T00:00:00Z"
+  },
+  {
+    "id": 225456,
+    "name": "Alexandra-NAQI",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.107035,
+    "lon": 28.110264,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-21T00:00:00Z"
+  },
+  {
+    "id": 225457,
+    "name": "Phalaborwa-NAQI",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.931992,
+    "lon": 31.139652,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225458,
+    "name": "George-NAQI",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.981111,
+    "lon": 22.473111,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-11-01T09:00:00Z"
+  },
+  {
+    "id": 225459,
+    "name": "Lebohang",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.381111,
+    "lon": 28.918333,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225460,
+    "name": "Pietermaritzburg - CBD",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.602056,
+    "lon": 30.380611,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225461,
+    "name": "Rosslyn-NAQI",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.625126,
+    "lon": 28.09474,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225462,
+    "name": "Sharpeville",
+    "locality": "Sedibeng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.689794000000003,
+    "lon": 27.86778,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 225463,
+    "name": "Embalenhle",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.551427,
+    "lon": 29.112381,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225464,
+    "name": "Karoo-NAQI",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -31.398641,
+    "lon": 19.140214,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225465,
+    "name": "eSikhaleni",
+    "locality": "King Cetshwayo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.868871,
+    "lon": 31.909731000000004,
+    "parameters": [
+      "no2",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-11-14T13:00:00Z"
+  },
+  {
+    "id": 225466,
+    "name": "Maitland",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.927546,
+    "lon": 18.482759,
+    "parameters": [
+      "co",
+      "no2",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-05-08T06:00:00Z"
+  },
+  {
+    "id": 225467,
+    "name": "Goodwood-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.9025,
+    "lon": 18.565194,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225473,
+    "name": "eNseleni - RBCAA",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.662989,
+    "lon": 32.017791,
+    "parameters": [
+      "pm10"
+    ],
+    "last_utc": "2022-02-21T03:00:00Z"
+  },
+  {
+    "id": 225487,
+    "name": "CBD RBCAA-NAQI",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.744719,
+    "lon": 32.054805,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225488,
+    "name": "Prospecton",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -30.002861,
+    "lon": 30.928778,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225495,
+    "name": "Walmer-NAQI",
+    "locality": "Nelson Mandela Bay Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.985586,
+    "lon": 25.5885,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-10-31T22:00:00Z"
+  },
+  {
+    "id": 225506,
+    "name": "Motherwell",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.795488,
+    "lon": 25.619657,
+    "parameters": [
+      "no2",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2022-05-15T21:00:00Z"
+  },
+  {
+    "id": 225517,
+    "name": "Southern Works",
+    "locality": "eThekwini Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.95696,
+    "lon": 30.973266,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2022-06-13T10:00:00Z"
+  },
+  {
+    "id": 225521,
+    "name": "Felixton - RBCAA",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.829229,
+    "lon": 31.893536,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225522,
+    "name": "Arboretum - RBCAA",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.752385,
+    "lon": 32.062738,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225526,
+    "name": "City Hall - Durban-NAQI",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.858283,
+    "lon": 31.027286,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225527,
+    "name": "Amanzimtoti",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -30.033225,
+    "lon": 30.890176,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225532,
+    "name": "Warwick",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.854633,
+    "lon": 31.011831,
+    "parameters": [
+      "co"
+    ],
+    "last_utc": "2021-07-20T21:00:00Z"
+  },
+  {
+    "id": 225539,
+    "name": "Grosvenor",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.921786,
+    "lon": 31.00494,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225548,
+    "name": "Esikhawini - RBCAA",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.865244,
+    "lon": 31.911679,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 225550,
+    "name": "Jacobs Balfour",
+    "locality": "eThekwini Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.928859,
+    "lon": 30.973483,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2024-01-12T10:00:00Z"
+  },
+  {
+    "id": 225608,
+    "name": "Cato Ridge",
+    "locality": "eThekwini Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.73575,
+    "lon": 30.587543999999998,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2022-05-11T09:00:00Z"
+  },
+  {
+    "id": 225662,
+    "name": "Secunda",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.550639,
+    "lon": 29.079028,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225670,
+    "name": "Ganges-NAQI",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.948517,
+    "lon": 30.964597,
+    "parameters": [
+      "no2",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2021-10-08T17:00:00Z"
+  },
+  {
+    "id": 225703,
+    "name": "Alverstone",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.776167,
+    "lon": 30.732139,
+    "parameters": [
+      "o3"
+    ],
+    "last_utc": "2021-06-01T00:00:00Z"
+  },
+  {
+    "id": 225717,
+    "name": "Ivory Park",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.992923,
+    "lon": 28.203952,
+    "parameters": [
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-26T21:00:00Z"
+  },
+  {
+    "id": 225816,
+    "name": "Plattekloof",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.865743,
+    "lon": 18.578715,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225817,
+    "name": "Foreshore-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.913833,
+    "lon": 18.425167,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 225829,
+    "name": "Khuma",
+    "locality": "Dr Kenneth Kaunda",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.854713,
+    "lon": 26.846664,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 225890,
+    "name": "Motherwell Day Hospital",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.811066,
+    "lon": 25.597658,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2022-02-08T23:00:00Z"
+  },
+  {
+    "id": 226049,
+    "name": "Paarl",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.695278,
+    "lon": 18.989444,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 226050,
+    "name": "New Germany",
+    "locality": "eThekwini Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.798653,
+    "lon": 30.876572,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 226269,
+    "name": "Uitenhage",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.763778,
+    "lon": 25.417306,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2022-03-02T07:00:00Z"
+  },
+  {
+    "id": 226310,
+    "name": "Mafikeng-NAQI",
+    "locality": "Ngaka Modiri Molema",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.835814,
+    "lon": 25.614534,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 226316,
+    "name": "Mamelodi",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.716573,
+    "lon": 28.3366,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-29T07:00:00Z"
+  },
+  {
+    "id": 226588,
+    "name": "Khayelitsha - WC Province",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.038139,
+    "lon": 18.66965,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 227385,
+    "name": "Wallacedene-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.857194,
+    "lon": 18.725778,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 228956,
+    "name": "Phokeng",
+    "locality": "Bojanala Platinum",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.580525,
+    "lon": 27.148367,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 229039,
+    "name": "Springs-NAQI",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.270361,
+    "lon": 28.416005,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 229192,
+    "name": "North West University Vaal campus",
+    "locality": "Sedibeng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.724689,
+    "lon": 27.884772,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 229203,
+    "name": "Oudtshoorn",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.606267,
+    "lon": 22.238278,
+    "parameters": [
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2022-11-30T12:00:00Z"
+  },
+  {
+    "id": 229479,
+    "name": "Malmesbury",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.4554,
+    "lon": 18.7317,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 230803,
+    "name": "Chicken Farm",
+    "locality": "Nkangala",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.97884,
+    "lon": 28.942852,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-08T06:00:00Z"
+  },
+  {
+    "id": 230805,
+    "name": "Eskom-Sivukile",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.741956,
+    "lon": 29.608826,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T02:00:00Z"
+  },
+  {
+    "id": 230806,
+    "name": "Eskom-Grootvlei",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.764724,
+    "lon": 28.48008099999999,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-12T08:00:00Z"
+  },
+  {
+    "id": 230807,
+    "name": "Eskom-Medupi",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.738521,
+    "lon": 27.540346,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 230808,
+    "name": "Eskom-Kwazamokuhle",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.138269,
+    "lon": 29.7389005,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T03:00:00Z"
+  },
+  {
+    "id": 230809,
+    "name": "Eskom-Komati",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.097418,
+    "lon": 29.450599,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T06:00:00Z"
+  },
+  {
+    "id": 230811,
+    "name": "Eskom-Randwater",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.68674,
+    "lon": 28.008496,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T00:00:00Z"
+  },
+  {
+    "id": 230812,
+    "name": "Ezamokuhle 2",
+    "locality": "Gert Sibande",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.978062,
+    "lon": 29.854091,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2022-09-24T19:00:00Z"
+  },
+  {
+    "id": 230815,
+    "name": "Mogale City",
+    "locality": "West Rand",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.170333,
+    "lon": 27.806556,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2023-12-11T16:00:00Z"
+  },
+  {
+    "id": 230816,
+    "name": "Eskom-Chicken Farm",
+    "locality": "Nkangala",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.97884,
+    "lon": 28.942852,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-02-14T22:00:00Z"
+  },
+  {
+    "id": 230817,
+    "name": "Eskom-Kendal",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.107896,
+    "lon": 28.974458,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 230819,
+    "name": "Eskom-Elandsfontein-NAQI",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.245481,
+    "lon": 29.417328,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 230821,
+    "name": "Eskom-Phola",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.995669,
+    "lon": 29.038164,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 230822,
+    "name": "Eskom-Kriel Village",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.251223,
+    "lon": 29.256391,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 230823,
+    "name": "Eskom-Grootdraai",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.891813000000006,
+    "lon": 29.307828,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-12T08:00:00Z"
+  },
+  {
+    "id": 230993,
+    "name": "Eskom-Marapong",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.656028,
+    "lon": 27.627997,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-18T05:00:00Z"
+  },
+  {
+    "id": 234160,
+    "name": "Tshwane Market",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.740247000000004,
+    "lon": 28.170314999999995,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T09:00:00Z"
+  },
+  {
+    "id": 234237,
+    "name": "PTA West",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.755446999999997,
+    "lon": 28.146093,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-11T07:00:00Z"
+  },
+  {
+    "id": 235851,
+    "name": "Hammanskraal",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.38512,
+    "lon": 28.254542,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 235950,
+    "name": "Randfontein",
+    "locality": "West Rand",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.234889,
+    "lon": 27.698639,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2022-03-15T11:00:00Z"
+  },
+  {
+    "id": 270294,
+    "name": "Meyerton",
+    "locality": "Sedibeng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.580721999999998,
+    "lon": 28.013306,
+    "parameters": [
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-11-14T06:00:00Z"
+  },
+  {
+    "id": 299807,
+    "name": "Athlone",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.955861,
+    "lon": 18.513111,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 315945,
+    "name": "Eskom-Masakhane",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.97255,
+    "lon": 29.313231,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-23T06:00:00Z"
+  },
+  {
+    "id": 339653,
+    "name": "Vredenburg",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -32.901722,
+    "lon": 17.992206,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 351880,
+    "name": "ISAWS Laboratory",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.911128,
+    "lon": 28.210444000000003,
+    "parameters": [
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2022-06-13T08:00:00Z"
+  },
+  {
+    "id": 352781,
+    "name": "Wattville",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.228075,
+    "lon": 28.301298,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-08-19T22:00:00Z"
+  },
+  {
+    "id": 353596,
+    "name": "Grootvlei - Sasol",
+    "locality": "Gert Sibande",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.801032999999997,
+    "lon": 28.495767,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-05-07T08:00:00Z"
+  },
+  {
+    "id": 355533,
+    "name": "Dilokong",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.615222,
+    "lon": 30.171036,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 355884,
+    "name": "Saldanha IDZ",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -32.98312,
+    "lon": 17.98497,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 355886,
+    "name": "Saldana Bay",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.001108,
+    "lon": 17.944911,
+    "parameters": [
+      "no2",
+      "so2"
+    ],
+    "last_utc": "2022-08-09T11:00:00Z"
+  },
+  {
+    "id": 355971,
+    "name": "Ratanang",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.483507788469588,
+    "lon": 27.167539254241067,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 356014,
+    "name": "Lebone",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.595651403591926,
+    "lon": 27.12562972420443,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-17T13:00:00Z"
+  },
+  {
+    "id": 357783,
+    "name": "Saldanha Bay",
+    "locality": "West Coast",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.001294,
+    "lon": 17.94503,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2024-03-08T09:00:00Z"
+  },
+  {
+    "id": 364065,
+    "name": "Station 2 (Molengraaf Street)",
+    "locality": "Mopani",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.960892,
+    "lon": 31.148833,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2020-05-31T22:00:00Z"
+  },
+  {
+    "id": 364066,
+    "name": "Station 9 (HME)",
+    "locality": "Mopani",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.96932,
+    "lon": 31.16473,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2020-05-31T22:00:00Z"
+  },
+  {
+    "id": 364067,
+    "name": "Germiston - Delville",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.227361,
+    "lon": 28.177333,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2021-05-28T17:00:00Z"
+  },
+  {
+    "id": 364068,
+    "name": "Empangeni",
+    "locality": "King Cetshwayo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.775361,
+    "lon": 31.865472,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2018-12-07T08:00:00Z"
+  },
+  {
+    "id": 364069,
+    "name": "Tsakane",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.384935,
+    "lon": 28.378114,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 364072,
+    "name": "Station 6 (Naboom Street)",
+    "locality": "Mopani",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.95302,
+    "lon": 31.13285,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2020-05-31T22:00:00Z"
+  },
+  {
+    "id": 575078,
+    "name": "Ekandustria",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.689975,
+    "lon": 28.713531,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-28T17:00:00Z"
+  },
+  {
+    "id": 612190,
+    "name": "Columbus",
+    "locality": "Alfred Nzo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.809675,
+    "lon": 29.505701999999996,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-11T08:00:00Z"
+  },
+  {
+    "id": 778870,
+    "name": "Somerset West",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.077355,
+    "lon": 18.8318,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 921113,
+    "name": "Eskom Gourikwa",
+    "locality": "Mossel Bay",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.179158,
+    "lon": 22.097439,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2024-03-08T22:00:00Z"
+  },
+  {
+    "id": 921114,
+    "name": "Eskom-Gourikwa",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.179158,
+    "lon": 22.097439,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 921115,
+    "name": "Eskom-Gourikwa",
+    "locality": "Mossel Bay",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.179158,
+    "lon": 22.097439,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "so2"
+    ],
+    "last_utc": "2024-01-27T14:00:00Z"
+  },
+  {
+    "id": 921138,
+    "name": "Luka",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.50776347170753,
+    "lon": 27.183859411912508,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T07:00:00Z"
+  },
+  {
+    "id": 921139,
+    "name": "Maitland",
+    "locality": "None",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.920444,
+    "lon": 18.515947,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-05-11T10:00:00Z"
+  },
+  {
+    "id": 921141,
+    "name": "Maitland",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.920444,
+    "lon": 18.515947,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 921172,
+    "name": "Worcester-NAQI",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.627572,
+    "lon": 19.468172,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925650,
+    "name": "4B Decline",
+    "locality": "Swartklip",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.966431,
+    "lon": 27.125312,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 925653,
+    "name": "Bierspruit",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.91039,
+    "lon": 27.146564,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925656,
+    "name": "Deelkraal",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.073797,
+    "lon": 29.413985,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-09-21T17:00:00Z"
+  },
+  {
+    "id": 925658,
+    "name": "Deelkraal",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.073797,
+    "lon": 29.413985,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925659,
+    "name": "Good Hope School",
+    "locality": "Polokwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.906770000000005,
+    "lon": 29.431096,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-10-18T06:00:00Z"
+  },
+  {
+    "id": 925660,
+    "name": "Good Hope School",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.90677,
+    "lon": 29.431096,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925663,
+    "name": "Hostel",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.978439,
+    "lon": 27.140602,
+    "parameters": [
+      "pm10"
+    ],
+    "last_utc": "2026-08-11T18:00:00Z"
+  },
+  {
+    "id": 925664,
+    "name": "Hostel",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.978439,
+    "lon": 27.140602,
+    "parameters": [
+      "pm10"
+    ],
+    "last_utc": "2026-08-11T18:00:00Z"
+  },
+  {
+    "id": 925665,
+    "name": "North Farm",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.017956,
+    "lon": 29.475521,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925667,
+    "name": "North Farm",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.017956,
+    "lon": 29.475521,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-21T17:00:00Z"
+  },
+  {
+    "id": 925668,
+    "name": "South Farm",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.042678,
+    "lon": 29.452175,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 925669,
+    "name": "South Farm",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.042678,
+    "lon": 29.452175,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-20T20:00:00Z"
+  },
+  {
+    "id": 925670,
+    "name": "South Farm",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.042678,
+    "lon": 29.452175,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-21T17:00:00Z"
+  },
+  {
+    "id": 987328,
+    "name": "ES_Motherwell",
+    "locality": "Eastern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.789662,
+    "lon": 25.618592,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 987329,
+    "name": "ES_Motherwell",
+    "locality": "Eastern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.789662,
+    "lon": 25.618592000000003,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-09-21T16:00:00Z"
+  },
+  {
+    "id": 1038690,
+    "name": "Fridge Plant",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.974809,
+    "lon": 27.165559,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1175102,
+    "name": "Mopani",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.843485,
+    "lon": 30.1529,
+    "parameters": [
+      "co",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1209252,
+    "name": "Mashishing",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.0858,
+    "lon": 30.4204,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1236026,
+    "name": "North-West University Vanderbijilpark Campus",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -26.723,
+    "lon": 27.877,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1236042,
+    "name": "CAP / PLE2, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.43461,
+    "lon": 31.252426,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2024-08-23T05:00:00Z"
+  },
+  {
+    "id": 1236046,
+    "name": "CAP / PLE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.43461,
+    "lon": 31.252426,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1285341,
+    "name": "SPARTAN - CSIR",
+    "locality": "Pretoria",
+    "provider": "SPARTAN Network",
+    "is_monitor": true,
+    "lat": -25.7566,
+    "lon": 28.2797,
+    "parameters": [
+      "pm25"
+    ],
+    "last_utc": "2021-12-04T13:00:00Z"
+  },
+  {
+    "id": 1291735,
+    "name": "Ugu District ",
+    "locality": "Port Shepstone",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -30.727452,
+    "lon": 30.447407,
+    "parameters": [
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2023-07-20T08:00:00Z"
+  },
+  {
+    "id": 1292268,
+    "name": "Ugu District",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -30.752442,
+    "lon": 30.435154,
+    "parameters": [
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2026-10-22T07:00:00Z"
+  },
+  {
+    "id": 1321146,
+    "name": "Glen Austin",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.189028,
+    "lon": 27.928639,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2023-07-26T23:00:00Z"
+  },
+  {
+    "id": 1321147,
+    "name": "Midstream",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.928883,
+    "lon": 28.213478,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1362116,
+    "name": "Glen Austin",
+    "locality": "City of Tshwane",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.963023,
+    "lon": 28.17024,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2024-03-12T10:00:00Z"
+  },
+  {
+    "id": 1371119,
+    "name": "CAP / PGE, KZN, ZA. ",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.339544,
+    "lon": 31.374692,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2025-12-09T01:00:00Z"
+  },
+  {
+    "id": 1371978,
+    "name": "ES_Mantserre",
+    "locality": "Swartklip",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.950600000000005,
+    "lon": 27.093899999999998,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T09:00:00Z"
+  },
+  {
+    "id": 1373118,
+    "name": "CAP / UPS, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.474064086378867,
+    "lon": 31.217175925356035,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-20T17:00:00Z"
+  },
+  {
+    "id": 1375629,
+    "name": "CAP - B005, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.484169132794797,
+    "lon": 31.24191692887497,
+    "parameters": [
+      "pm25",
+      "temperature"
+    ],
+    "last_utc": "2023-09-12T11:00:00Z"
+  },
+  {
+    "id": 1377024,
+    "name": "CAP CR, KZN, ZA. AirGradient",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.738492015644944,
+    "lon": 30.586264733388184,
+    "parameters": [
+      "pm25",
+      "temperature"
+    ],
+    "last_utc": "2023-08-05T09:00:00Z"
+  },
+  {
+    "id": 1378099,
+    "name": "Harbour West, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.78704806067507,
+    "lon": 32.03716133558179,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1378279,
+    "name": "Richardia, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.762681743031106,
+    "lon": 32.066411707931046,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1381631,
+    "name": "CAP / SEE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.511855996782025,
+    "lon": 31.217226783762918,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-08-14T05:00:00Z"
+  },
+  {
+    "id": 1447174,
+    "name": "Mobile-Norplats",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.7910769,
+    "lon": 27.4109836,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1447175,
+    "name": "Smashblock",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.7852692,
+    "lon": 27.2898607,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1511919,
+    "name": "Robertson Outdoor Sensor",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.802199,
+    "lon": 19.88332,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1513344,
+    "name": "Robertson Indoor Sensor",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.802215,
+    "lon": 19.883465,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2024-12-08T07:00:00Z"
+  },
+  {
+    "id": 1516339,
+    "name": "Amsterdamplein",
+    "locality": "Eastern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.769775,
+    "lon": 25.656261,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1523485,
+    "name": "ES_George",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.0556,
+    "lon": 22.214500000000005,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-09-07T05:00:00Z"
+  },
+  {
+    "id": 1527938,
+    "name": "ES_Midstream",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.9393,
+    "lon": 28.1969,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 1541054,
+    "name": "ES_George",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.1625,
+    "lon": 22.003099999999996,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2023-11-28T00:00:00Z"
+  },
+  {
+    "id": 1590755,
+    "name": "CAP / TVI, WC, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.83411879779761,
+    "lon": 18.512733366001964,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-07-01T06:00:00Z"
+  },
+  {
+    "id": 1760677,
+    "name": "Cato Ridge",
+    "locality": "eThekwini Metro",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.723754,
+    "lon": 30.651493,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2022-05-11T09:00:00Z"
+  },
+  {
+    "id": 1821379,
+    "name": "ES_Heidelberg",
+    "locality": "Lesedi Local Municipality",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.5083,
+    "lon": 28.3729,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T09:00:00Z"
+  },
+  {
+    "id": 1869327,
+    "name": "QA_Irene",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.911024,
+    "lon": 28.210681,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 1888337,
+    "name": "AMSA Vanderbijlpark Works",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -26.646617,
+    "lon": 27.787492,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-15T23:00:00Z"
+  },
+  {
+    "id": 1895691,
+    "name": "ES_George",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -33.4893,
+    "lon": 21.267,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-03T00:00:00Z"
+  },
+  {
+    "id": 1895692,
+    "name": "Wonderkop Sibanye",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.670049,
+    "lon": 27.52326,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-13T07:00:00Z"
+  },
+  {
+    "id": 2385060,
+    "name": "Eskom-Balmoral",
+    "locality": "Nkangala",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.859333333,
+    "lon": 28.975833,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2024-02-27T20:00:00Z"
+  },
+  {
+    "id": 2385061,
+    "name": "Eskom-Wilge",
+    "locality": "Nkangala",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.975444444,
+    "lon": 28.985611,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2024-03-08T06:00:00Z"
+  },
+  {
+    "id": 2389721,
+    "name": "Tembisa",
+    "locality": "City  of  Ekurhuleni",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.994563,
+    "lon": 28.223292000000004,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T11:00:00Z"
+  },
+  {
+    "id": 2483823,
+    "name": "CAP / ECE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.475638811890466,
+    "lon": 31.24527600950233,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-09-18T02:00:00Z"
+  },
+  {
+    "id": 2505175,
+    "name": "ES_George",
+    "locality": "Garden Route",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.05169999999999,
+    "lon": 22.208699999999997,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2024-03-12T09:00:00Z"
+  },
+  {
+    "id": 2506086,
+    "name": "ES_Irene",
+    "locality": "Gauteng",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.9109,
+    "lon": 28.2105,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 2847325,
+    "name": "North-West University Vanderbijilpark Campus",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -26.723,
+    "lon": 27.877,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2847326,
+    "name": "North-West University Vanderbijilpark Campus",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -26.724689,
+    "lon": 27.884772,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2949269,
+    "name": "Glen Anil",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.753690394713278,
+    "lon": 31.04000846462295,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2025-12-15T08:00:00Z"
+  },
+  {
+    "id": 2959203,
+    "name": "Brackenham, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.731301,
+    "lon": 32.039016,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2959824,
+    "name": "CBD, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.744719,
+    "lon": 32.054805,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2960156,
+    "name": "Felixton, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.829229,
+    "lon": 31.893536,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2960311,
+    "name": "Brackenham, KZN, ZA",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.731301,
+    "lon": 32.039016,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2024-07-19T05:00:00Z"
+  },
+  {
+    "id": 2962304,
+    "name": "eSikhaleni, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.865244,
+    "lon": 31.911679,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 2996395,
+    "name": "Northmead Industrial ",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.763495128515,
+    "lon": 31.02616268366882,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-04-30T18:00:00Z"
+  },
+  {
+    "id": 2999471,
+    "name": "La Lucia ",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.7565448,
+    "lon": 31.0567579,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 3021125,
+    "name": "PTA-NORTH",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -25.68150602774,
+    "lon": 28.156085321723886,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 3025461,
+    "name": "La Mercy",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.638539,
+    "lon": 31.132576,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-09-07T23:00:00Z"
+  },
+  {
+    "id": 3029499,
+    "name": "CAP / FE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.46476924673476,
+    "lon": 31.173598041006166,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 3139864,
+    "name": "CAP / DOC TSM NE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.543162476917118,
+    "lon": 31.136469099223913,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 3140021,
+    "name": "DOC / CAP 02, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.473537639840167,
+    "lon": 31.241616148905386,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2024-10-17T06:00:00Z"
+  },
+  {
+    "id": 3265204,
+    "name": "CAP / DOC CE, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.504545739237056,
+    "lon": 31.202218104312124,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 3290366,
+    "name": "CAP / TSM SW, KZN. ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.55722258160617,
+    "lon": 31.119879760604597,
+    "parameters": [
+      "pm1",
+      "pm10",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-22T03:00:00Z"
+  },
+  {
+    "id": 4147111,
+    "name": "Test - Vredenburg, WC, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -32.90875976960108,
+    "lon": 17.987114073016286,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 5428435,
+    "name": "Meerensee, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.771849485709886,
+    "lon": 32.10153359590289,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 5680303,
+    "name": "Mtunzini, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.959079576991233,
+    "lon": 31.743159542329202,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6126817,
+    "name": "Lion Pride 1 - Serengeti",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -25.996484998840593,
+    "lon": 27.926788437058242,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6227956,
+    "name": "Airport, KZN, ZA",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.736782793735262,
+    "lon": 32.09367089245666,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6235414,
+    "name": "Eden Park Primary, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.734837110905787,
+    "lon": 31.896243869836212,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6247682,
+    "name": "Keurboom Park",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.91851,
+    "lon": 18.693088,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6266046,
+    "name": "Hilton",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.5357448551802,
+    "lon": 30.307172554108774,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-03-24T19:00:00Z"
+  },
+  {
+    "id": 6266716,
+    "name": "CAP / DOC Traffic 1, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.52925129044637,
+    "lon": 31.201504564070138,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-08-10T20:00:00Z"
+  },
+  {
+    "id": 6277329,
+    "name": "CAP / DOC Traffic 2, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.48160230423473,
+    "lon": 31.228974554686953,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6304238,
+    "name": "Central University of Technology",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.122466,
+    "lon": 26.216593,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-08-17T14:00:00Z"
+  },
+  {
+    "id": 6315845,
+    "name": "CAP / DOC FF, KZN, ZA.",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.45068675424418,
+    "lon": 31.241126000000005,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6473660,
+    "name": "Scorpio",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.769694,
+    "lon": 32.034282,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-08-06T07:00:00Z"
+  },
+  {
+    "id": 6475117,
+    "name": "Little John Park ",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -26.1171513,
+    "lon": 27.9953635,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6476514,
+    "name": "Test - Felixton",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.829229,
+    "lon": 31.893536,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-08-06T08:00:00Z"
+  },
+  {
+    "id": 6476696,
+    "name": "Scorpio",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -28.769694,
+    "lon": 32.034282,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6484187,
+    "name": "Bergsig",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.7063889,
+    "lon": 27.22130556,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 6484188,
+    "name": "ES_Elandshoek",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.498889,
+    "lon": 30.710556,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-14T12:00:00Z"
+  },
+  {
+    "id": 6484189,
+    "name": "AS_Newcastle",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -27.734225,
+    "lon": 29.980061,
+    "parameters": [
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-26T07:00:00Z"
+  },
+  {
+    "id": 6484190,
+    "name": "AS_Pietermaritzburg",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.577644,
+    "lon": 30.404036,
+    "parameters": [
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 6484191,
+    "name": "AS_Springbok",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.663358,
+    "lon": 17.8886,
+    "parameters": [
+      "no2",
+      "pm1",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 6484192,
+    "name": "AS_Stanger",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.366628,
+    "lon": 31.288928,
+    "parameters": [
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-22T10:00:00Z"
+  },
+  {
+    "id": 6484193,
+    "name": "AS_Upington",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.4438,
+    "lon": 21.208881,
+    "parameters": [
+      "no2",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-22T15:00:00Z"
+  },
+  {
+    "id": 6484194,
+    "name": "Jacobs Balfour",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.931551,
+    "lon": 30.977113,
+    "parameters": [
+      "co",
+      "so2"
+    ],
+    "last_utc": "2026-10-14T06:00:00Z"
+  },
+  {
+    "id": 6484195,
+    "name": "Modimolle",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -24.717285788833824,
+    "lon": 28.42217206441783,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6484196,
+    "name": "Polokwane",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.87582672054031,
+    "lon": 29.443959023313372,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6484197,
+    "name": "Saldanha Bay",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -32.982,
+    "lon": 17.999,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T08:00:00Z"
+  },
+  {
+    "id": 6484198,
+    "name": "Sibanye BMR",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.686229,
+    "lon": 27.516815,
+    "parameters": [
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6484199,
+    "name": "Thohoyandou",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -22.881013278437052,
+    "lon": 30.45349470967194,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6484437,
+    "name": "Mfidikiwe",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.66380556,
+    "lon": 27.3426667,
+    "parameters": [
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-23T18:00:00Z"
+  },
+  {
+    "id": 6484535,
+    "name": "Bokamoso",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.672466,
+    "lon": 27.346774,
+    "parameters": [
+      "no2",
+      "pm10",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 6485214,
+    "name": "Chatsworth",
+    "locality": "KwaZulu-Natal",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -29.909845,
+    "lon": 30.880627,
+    "parameters": [
+      "no",
+      "no2",
+      "nox",
+      "o3",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 6486012,
+    "name": "Cheltenham Ridge",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.859,
+    "lon": 18.507,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6486743,
+    "name": "AS_KamaQhekeza",
+    "locality": "Mpumalanga",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.671189,
+    "lon": 31.862139,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-26T07:00:00Z"
+  },
+  {
+    "id": 6509855,
+    "name": "ES_GRDM ",
+    "locality": "Western Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -34.133442,
+    "lon": 21.28434,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T12:00:00Z"
+  },
+  {
+    "id": 6509856,
+    "name": "AS_Kimberley",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -28.755131,
+    "lon": 24.768061,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 6509857,
+    "name": "AS_De Aar",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -30.631039,
+    "lon": 24.028842,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T11:00:00Z"
+  },
+  {
+    "id": 6509858,
+    "name": "ES_Sutherland",
+    "locality": "Northern Cape",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -32.393125,
+    "lon": 20.661425,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-14T12:00:00Z"
+  },
+  {
+    "id": 6534992,
+    "name": "ES_Giyani",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.3110155,
+    "lon": 30.6880426,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-20T11:00:00Z"
+  },
+  {
+    "id": 6535048,
+    "name": "AS_Malamulele",
+    "locality": "Limpopo",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -23.0003682,
+    "lon": 30.6904352,
+    "parameters": [
+      "co",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-26T07:00:00Z"
+  },
+  {
+    "id": 6541908,
+    "name": "Communities Against Pollution",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -29.48396,
+    "lon": 31.24195,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6545154,
+    "name": "Lebone",
+    "locality": "North West",
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.559503,
+    "lon": 27.158792,
+    "parameters": [
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6551178,
+    "name": "Oz_Irene",
+    "locality": null,
+    "provider": "South Africa",
+    "is_monitor": true,
+    "lat": -25.911018,
+    "lon": 28.210678,
+    "parameters": [
+      "co",
+      "no",
+      "no2",
+      "o3",
+      "pm1",
+      "pm10",
+      "pm25",
+      "so2"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6551402,
+    "name": "JWX 1",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -26.05873,
+    "lon": 28.02062,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  },
+  {
+    "id": 6551626,
+    "name": "Bray Road, Kenilworth",
+    "locality": null,
+    "provider": "AirGradient",
+    "is_monitor": false,
+    "lat": -33.99917511945727,
+    "lon": 18.476041212529843,
+    "parameters": [
+      "pm1",
+      "pm25",
+      "relativehumidity",
+      "temperature",
+      "um003"
+    ],
+    "last_utc": "2026-10-28T13:00:00Z"
+  }
+]

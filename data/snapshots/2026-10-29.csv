@@ -1,0 +1,26 @@
+fetched_at,area_id,area_name,lat,lon,source,source_type,metric,value,station_name,station_distance_km,observed_at
+2026-10-29T12:16:07+00:00,johannesburg-soweto-sandton,Soweto,-26.2485,27.854,open-meteo,model,pm25_ugm3,25.4,,,
+2026-10-29T12:16:07+00:00,johannesburg-soweto-sandton,Soweto,-26.2485,27.854,waqi,measured,aqi_pm25,62.0,"Kliprivier, City of Johannesburg, South Africa",29.8,2026-10-29T13:00:00+02:00
+2026-10-29T12:16:07+00:00,johannesburg-soweto-sandton,Sandton,-26.1076,28.0567,open-meteo,model,pm25_ugm3,22.2,,,
+2026-10-29T12:16:07+00:00,johannesburg-soweto-sandton,Sandton,-26.1076,28.0567,waqi,measured,aqi_pm25,71.0,"Buccleugh-NAQI, City of Johannesburg, South Africa",8.1,2026-10-29T13:00:00+02:00
+2026-10-29T12:16:07+00:00,airqo-network,University of Pretoria,-25.755768711242784,28.22605261450924,airqo,measured,pm25_ugm3,,University of Pretoria,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,South African Weather Station (SAWS),-25.906411440846647,28.21068378875048,airqo,measured,pm25_ugm3,,South African Weather Station (SAWS),0.0,
+2026-10-29T12:16:07+00:00,airqo-network,Hammanskraal,-25.380490831387757,28.28587513640069,airqo,measured,pm25_ugm3,,Hammanskraal,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,Germiston Clinic,-26.230743912114782,28.190075262984003,airqo,measured,pm25_ugm3,16.739500000000064,Germiston Clinic,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Sandton Health department,-26.09688963842776,28.061259806103568,airqo,measured,pm25_ugm3,8.017900000000019,Sandton Health department,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Copper college,-26.35699179658977,27.979630955688364,airqo,measured,pm25_ugm3,7.731899999999996,Copper college,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Glen Auston,-25.94073265345427,28.148406416912465,airqo,measured,pm25_ugm3,8.467000000000036,Glen Auston,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Phefeni Senior Secondary School,-26.2389533198957,27.905852346193438,airqo,measured,pm25_ugm3,13.949300000000102,Phefeni Senior Secondary School,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Devon municipal offices,-26.352505189096117,28.782295548610055,airqo,measured,pm25_ugm3,,Devon municipal offices,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,Waste Management depot,-26.561032192726017,28.017172216737958,airqo,measured,pm25_ugm3,7.613099999999995,Waste Management depot,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Wedela Library,-26.466703335028747,27.374589878981723,airqo,measured,pm25_ugm3,9.29310000000001,Wedela Library,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Waste Depot Landfield,-26.122128472837048,27.793108951485802,airqo,measured,pm25_ugm3,,Waste Depot Landfield,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,Irene SAWS,-25.895260965105198,28.205908801960785,airqo,measured,pm25_ugm3,36.9930999999999,Irene SAWS,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Vanderbijlpark NWU air quality station,-26.72368274760707,27.879945756757575,airqo,measured,pm25_ugm3,8.791999999999996,Vanderbijlpark NWU air quality station,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Simunye Mine,-26.32018576918007,27.675932171268617,airqo,measured,pm25_ugm3,,Simunye Mine,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,PTA-NORTH,-25.67999278251351,28.151392788455592,airqo,measured,pm25_ugm3,6.3,PTA-NORTH,0.0,2026-10-29T12:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Lion Pride 1 - Serengeti 782,-26.000333780829905,27.929364596156447,airqo,measured,pm25_ugm3,10.5,Lion Pride 1 - Serengeti 782,0.0,2026-10-29T12:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Phokeng Water Reservoir AQS,-25.577293462713115,27.151016325547324,airqo,measured,pm25_ugm3,,Phokeng Water Reservoir AQS,0.0,
+2026-10-29T12:16:07+00:00,airqo-network,Sasolburg,-26.78208101345895,27.841793928018845,airqo,measured,pm25_ugm3,19.303099999999976,Sasolburg,0.0,2026-10-29T10:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,"Meerensee, KZN, ZA.",-28.76738593526526,32.10210534570532,airqo,measured,pm25_ugm3,0.0,"Meerensee, KZN, ZA.",0.0,2026-10-29T12:00:00.000Z
+2026-10-29T12:16:07+00:00,airqo-network,Keurboom Park,-33.91401989395961,18.69322770339021,airqo,measured,pm25_ugm3,0.3,Keurboom Park,0.0,2026-10-29T12:00:00.000Z
