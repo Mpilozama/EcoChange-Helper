@@ -1,5 +1,8 @@
 # EcoChange Helper
 
+WTC verification code   WTC-DYLKTNNV
+
+
 **Exposing the invisible inequality in the air we breathe.**
 
 South Africa has over 200 reference-grade air quality monitors. Yet the public can't easily see what they're measuring. The monitors that exist sit in government networks with delayed publishing, while the low-cost networks that publish live data cover a fraction of the country. This project asks a simple question: **who is actually being measured?**
